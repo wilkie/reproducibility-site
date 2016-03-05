@@ -1,0 +1,15 @@
+<nav>
+  <h1>
+    OCCAM System Documentation
+  </h1>
+  <ul>
+    {% if location != "index.html" %}
+    <li class="back">
+      <a href="{{ "/index.html" | prepend: page.baseurl }}">
+        Main Page
+      </a>
+    </li>
+    {% endif %}
+    {% navtable %}
+  </ul>
+</nav>

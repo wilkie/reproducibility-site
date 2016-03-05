@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class='content'>
+      <div class='header'>
+        <img src="{{ "/images/logo_large.svg" | prepend: site.baseurl }}">
+
+        <div class='video'>
+          <div class='screen'>
+            <img src='/images/yt_placeholder_16_9.png'>
+            <div class='embed'>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='resizer'>
+        <div class='resizer-content'>
+          <img src = "{{ "/images/yt_placeholder_16_9.png" | prepend: site.baseurl }}">
+        </div>
+      </div>
+
+      <div class='pillars'>
+        <ul>
+          <li>Infrastructure</li>
+          <li>Education</li>
+          <li>Community</li>
+        </ul>
+      </div>
+
+      <div class='markdown main'>
+{% markdown %}{% include index/section_0_description.md %}{% endmarkdown %}
+      </div>
+
+      <div class='markdown section'>
+{% markdown %}{% include recent_events.md %}{% endmarkdown %}
+      </div>
+
+      <div class='markdown section'>
+        <h1>Recent Posts</h1>
+      </div>
+
+      <div class='markdown section'>
+        <ul class='post-list'>
+        {% for post in site.posts limit:3 %}
+          <li>
+            <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+
+      <div class='markdown section'>
+        <h1>What is OCCAM</h1>
+      </div>
+
+      <div class='markdown object_curation section'>
+{% markdown %}{% include index/section_object_curation.md %}{% endmarkdown %}
+      </div>
+
+      <div class='markdown workflow_design section'>
+{% markdown %}{% include index/section_workflow_design.md %}{% endmarkdown %}
+      </div>
+
+      <div class='markdown object_building section'>
+{% markdown %}{% include index/section_object_building.md %}{% endmarkdown %}
+      </div>
+
+      <div class='markdown sponsors section'>
+{% markdown %}{% include index/section_sponsors.md %}{% endmarkdown %}
+      </div>
+    </div>
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    <script type = "text/javascript" src = "{{ "/js/jquery/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <script type = "text/javascript">
+      $(function() {
+        $('.embed').one('click', function(event) {
+          $('.embed').append('<video style="width: 100%" controls><source src="{{ "/videos/demo-480.mp4" | prepend: site.baseurl }}" type="video/mp4"></video>');
+        });
+      });
+    </script>
+  </body>
+</html>

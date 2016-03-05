@@ -1,0 +1,59 @@
+h2 {
+  margin-top: 100px;
+}
+
+table {
+  width: 100%;
+}
+
+table thead tr td {
+  border-bottom: 2px solid #888;
+  font-weight: bold;
+}
+
+table.tilt thead tr td {
+  font-weight: normal;
+
+  position: relative;
+}
+
+table.tilt thead tr td div {
+width: 3em; height: 10em;
+}
+
+table.tilt thead tr td div + div {
+  vertical-align: bottom;
+  position: absolute;
+  transform: rotate(-45deg);
+  transform-origin: 0% 50%;
+  left:5px;
+  bottom:0em;
+  width:10em;
+  height:3em;
+  line-height:3em;
+}
+
+table.tilt thead tr td div + div span {
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 1.5em;
+}
+
+table tbody tr td {
+  border-bottom: 1px solid #ccc;
+  padding: 3px;
+}
+
+table thead tr td:first-child ,
+table tbody tr td:first-child {
+  padding-left: 10px;
+}
+
+table thead tr td:last-child ,
+table tbody tr td:last-child {
+  padding-right: 10px;
+}
+
+table tbody tr:nth-child(2n+1) td {
+  background-color: #eee;
+}
