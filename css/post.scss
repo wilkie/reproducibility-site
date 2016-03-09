@@ -1,0 +1,165 @@
+---
+---
+h1 {
+  font: normal 50px "Lato", sans-serif;
+}
+
+h2 {
+  &:not(:first-child) {
+    margin-top: 70px;
+  }
+  font: 300 30px "Lato", sans-serif;
+  color: #A746A7;
+}
+
+h3 {
+  margin-top: 40px;
+  font: normal 20px "Lato", sans-serif;
+
+  color: #5052A9;
+  color: #A578A5;
+  color: #944F94;
+}
+
+li,
+p {
+  font: normal 15px "Roboto", sans-serif;
+  line-height: 1.7em;
+  letter-spacing: 0.05em;
+
+  color: #444;
+}
+
+li:not(:first-child) {
+  margin-top: 0.5em;
+}
+
+blockquote {
+  background-color: #FFF5FF;
+  border-color: #A578A5;
+}
+
+pre {
+  background-color: #FFFAFF;
+  border-color: #E8D1E8;
+}
+
+.image {
+  text-align: center;
+
+  img {
+  }
+
+  .caption {
+    text-align: center;
+  }
+}
+
+table {
+  width: 100%;
+}
+
+table tbody tr td:first-child {
+  width: 200px;
+}
+
+table thead tr th ,
+table thead tr td {
+  border-bottom: 2px solid #A578A5;
+  padding-top: 15px;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+table.tilt thead tr td {
+  font-weight: normal;
+
+  position: relative;
+}
+
+table thead tr td ,
+table thead tr th {
+  position: relative;
+}
+
+table thead tr td.tilt div {
+  width: 3em; height: 10em;
+}
+
+table thead tr td.tilt div + div {
+  vertical-align: bottom;
+  font-weight: normal;
+  position: absolute;
+  transform: rotate(-45deg);
+  transform-origin: 0% 50%;
+  left:5px;
+  bottom:0em;
+  width:10em;
+  height:3em;
+  line-height:3em;
+}
+
+table thead tr td.tilt div + div span {
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 1.5em;
+}
+
+table tbody tr td {
+  border-bottom: 1px solid #DCBCDC;
+  padding: 3px;
+}
+
+table thead tr td:first-child ,
+table tbody tr td:first-child {
+  padding-left: 10px;
+}
+
+table thead tr td:last-child ,
+table tbody tr td:last-child {
+  padding-right: 10px;
+}
+
+table tbody tr:nth-child(2n+1) td {
+  background-color: #FFF3FF;
+}
+
+@font-face {
+  font-family: 'Roboto';
+   font-style: normal;
+  font-weight: normal;
+          src: local('Roboto'),
+               local('Roboto'),
+               url({{ site.baseurl }}/fonts/roboto/Roboto-Regular.woff2) format('woff2'),
+               url({{ site.baseurl }}/fonts/roboto/Roboto-Regular.woff) format('woff')
+}
+
+@font-face {
+  font-family: 'Lato';
+   font-style: normal;
+  font-weight: 300;
+          src: local('Lato Light'),
+               local('Lato-Light'),
+               url({{ site.baseurl }}/fonts/lato/Lato-Light.woff2) format('woff2'),
+               url({{ site.baseurl }}/fonts/lato/Lato-Light.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+   font-style: normal;
+  font-weight: normal;
+          src: local('Lato Regular'),
+               local('Lato-Regular'),
+               url({{ site.baseurl }}/fonts/lato/Lato-Regular.woff2) format('woff2'),
+               url({{ site.baseurl }}/fonts/lato/Lato-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+   font-style: bold;
+  font-weight: bold;
+          src: local('Lato Heavy'),
+               local('Lato-Heavy'),
+               url({{ site.baseurl }}/fonts/lato/Lato-Heavy.woff2) format('woff2'),
+               url({{ site.baseurl }}/fonts/lato/Lato-Heavy.woff) format('woff');
+}
