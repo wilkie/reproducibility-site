@@ -1,11 +1,10 @@
 ---
 ---
+h1 {
+  font: normal 50px "Lato", sans-serif;
+}
 
 article {
-  h1 {
-    font: normal 50px "Lato", sans-serif;
-  }
-
   h2 {
     &:not(:first-child) {
       margin-top: 70px;
