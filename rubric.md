@@ -113,21 +113,21 @@ TODO:
 
 ## Governance
 
-| Name                          | /Open Source               | / Allows Modification and Redistribution | /Has Free-to-Use Package | /Has Student Package | /Has Paid Package | /Institution Structure |
-| ----------------------------- | -------------------------- | --------------------------- | ----------------------------- | ------------------- | ----------------- | ------ | ---------------------- |
-| [DataMill][datamill]          | ✔ | ✔ | ✔ | ✗ | University     |
-| [Occam][occam]                | ✔ | ✔ | ✔ | ✗ | University     |
-| [Collective Knowledge][ck]    | ✔ | ✔ | ✔ | ✗ | Non-Profit     |
-| [RunMyCode][rmc]              | ✗ | ✗ | ✔ | ✗ | Non-For-Profit |
-| [Dataverse][dv]               | ✔ | ✔ | ✔ | ✗ | University     |
-| [Open Science Framework][osf] | ✔ | ✔ | ✔ |   | Non-Profit     |
-| [Apt/emulab][apt]             | ✔ | ✔ | ✔ | ✗ | University     |
-| [Helix Lab Cloud][hlc]        | ✗ | ✗ | ✔ | ✔ | For-Profit     |
-| [JupyterHub][jh]              | ✔ | ✔ | ✔ | ✗ | Non-Profit     |
-| [Code Ocean][co]              | ? | ? | ? | ? | ?              |
-| [TIRA][tira]                  |   |   |   |   |                |
-| [nanoHUB][nanohub]            |   |   |   |   |                |
-| [OLIVE][olive]                | ○ | ○ | ✔ | ✗ | University     |
+| Name                          | /Open Source               | /Allows Modification and Redistribution | /Has Free-to-Use Package | /Has Student Package | /Has Paid Package | /Institution Structure |
+| ----------------------------- | -------------------------- | --------------------------------------- | ------------------------ | -------------------- | ----------------- | ---------------------- |
+| [DataMill][datamill]          | ✔ | ✔ | ✔ |   | ✗ | University     |
+| [Occam][occam]                | ✔ | ✔ | ✔ |   | ✗ | University     |
+| [Collective Knowledge][ck]    | ✔ | ✔ | ✔ |   | ✗ | Non-Profit     |
+| [RunMyCode][rmc]              | ✗ | ✗ | ✔ |   | ✗ | Non-For-Profit |
+| [Dataverse][dv]               | ✔ | ✔ | ✔ |   | ✗ | University     |
+| [Open Science Framework][osf] | ✔ | ✔ | ✔ |   |   | Non-Profit     |
+| [Apt/emulab][apt]             | ✔ | ✔ | ✔ |   | ✗ | University     |
+| [Helix Lab Cloud][hlc]        | ✗ | ✗ | ✔ |   | ✔ | For-Profit     |
+| [JupyterHub][jh]              | ✔ | ✔ | ✔ |   | ✗ | Non-Profit     |
+| [Code Ocean][co]              | ? | ? | ? | ? | ? | ?              |
+| [TIRA][tira]                  |   |   |   |   |   |                |
+| [nanoHUB][nanohub]            |   |   |   |   |   |                |
+| [OLIVE][olive]                | ○ | ○ | ✔ |   | ✗ | University     |
 
 ## Descriptions
 

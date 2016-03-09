@@ -1,68 +1,54 @@
-h1 {
+article h1 {
   font: normal 50px "Lato", sans-serif; }
-
-h2 {
+article h2 {
   font: 300 30px "Lato", sans-serif;
   color: #A746A7; }
-  h2:not(:first-child) {
+  article h2:not(:first-child) {
     margin-top: 70px; }
-
-h3 {
+article h3 {
   margin-top: 40px;
   font: normal 20px "Lato", sans-serif;
   color: #5052A9;
   color: #A578A5;
   color: #944F94; }
-
-li,
-p {
+article li,
+article p {
   font: normal 15px "Roboto", sans-serif;
   line-height: 1.7em;
   letter-spacing: 0.05em;
   color: #444; }
-
-li:not(:first-child) {
+article li:not(:first-child) {
   margin-top: 0.5em; }
-
-blockquote {
+article blockquote {
   background-color: #FFF5FF;
   border-color: #A578A5; }
-
-pre {
+article pre {
   background-color: #FFFAFF;
   border-color: #E8D1E8; }
-
-.image {
+article .image {
   text-align: center; }
-  .image .caption {
+  article .image .caption {
     text-align: center; }
-
-table {
+article table {
   width: 100%; }
-
-table tbody tr td:first-child {
+article table tbody tr td:first-child {
   width: 200px; }
-
-table thead tr th,
-table thead tr td {
+article table thead tr th,
+article table thead tr td {
   border-bottom: 2px solid #A578A5;
   padding-top: 15px;
   font-weight: bold;
   vertical-align: bottom; }
-
-table.tilt thead tr td {
+article table.tilt thead tr td {
   font-weight: normal;
   position: relative; }
-
-table thead tr td,
-table thead tr th {
+article table thead tr td,
+article table thead tr th {
   position: relative; }
-
-table thead tr td.tilt div {
+article table thead tr td.tilt div {
   width: 3em;
   height: 10em; }
-
-table thead tr td.tilt div + div {
+article table thead tr td.tilt div + div {
   vertical-align: bottom;
   font-weight: normal;
   position: absolute;
@@ -73,25 +59,20 @@ table thead tr td.tilt div + div {
   width: 10em;
   height: 3em;
   line-height: 3em; }
-
-table thead tr td.tilt div + div span {
+article table thead tr td.tilt div + div span {
   display: inline-block;
   vertical-align: bottom;
   line-height: 1.5em; }
-
-table tbody tr td {
+article table tbody tr td {
   border-bottom: 1px solid #DCBCDC;
   padding: 3px; }
-
-table thead tr td:first-child,
-table tbody tr td:first-child {
+article table thead tr td:first-child,
+article table tbody tr td:first-child {
   padding-left: 10px; }
-
-table thead tr td:last-child,
-table tbody tr td:last-child {
+article table thead tr td:last-child,
+article table tbody tr td:last-child {
   padding-right: 10px; }
-
-table tbody tr:nth-child(2n+1) td {
+article table tbody tr:nth-child(2n+1) td {
   background-color: #FFF3FF; }
 
 @font-face {
