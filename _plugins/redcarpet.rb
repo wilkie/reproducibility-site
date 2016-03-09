@@ -86,12 +86,29 @@ module Redcarpet
         "<code>#{CGI::escapeHTML(code).gsub(/\-/, "&#8209;")}</code>"
       end
 
+      def table(header, body)
+        "<table><thead>#{header}</thead><tbody>#{body}</tbody></table>"
+      end
+
+      def table_row(content)
+        "<tr>#{content}</tr>"
+      end
+
+      def table_cell(content, alignment)
+        if content.start_with? "/"
+          "<td class='tilt'><div></div><div><span>#{content[1..-1]}</span></div></td>"
+        else
+          "<td>#{content}</td>"
+        end
+      end
+
       # Allow image captions, borders, and youtube embeds.
       def image(link, title, alt_text)
         unless link.match /^http|^\//
           link = "/images/#{@slug}/#{link}"
         end
 
+        alt_text ||= ""
         options = alt_text.match(/^(.*)\|/)
         options = options[1] if options
 
@@ -160,7 +177,6 @@ class Jekyll::Converters::Markdown::CustomRedcarpet
   def extensions
     hash = Hash[ *@config['redcarpet']['extensions'].map {|e| [e.to_sym, true] }.flatten ]
     hash[:fenced_code_blocks] = true
-    hash[:smartypants] = true
     hash
   end
 

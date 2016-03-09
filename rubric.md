@@ -15,589 +15,119 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
   ? - Unknown
 ```
 
+```
+TODO:
+- languages supported
+- split up self-hosting metric
+- has search
+- provenance: break that down maybe an under its own category
+- grainularity (virtual machine vs modularity)
+  / virtualization / isolation
+```
+
 ## Overview
 
-<table>
-<thead>
-<tr>
-<td style="vertical-align: bottom; font-weight: bold">Name</td>
+[rmc]:      {{ site.baseurl }}/projects/runmycode.html
+[olive]:    {{ site.baseurl }}/projects/olive.html
+[tira]:     {{ site.baseurl }}/projects/tira.html
+[co]:       {{ site.baseurl }}/projects/codeocean.html
+[jh]:       {{ site.baseurl }}/projects/jh.html
+[hlc]:      {{ site.baseurl }}/projects/hlc.html
+[osf]:      {{ site.baseurl }}/projects/osf.html
+[apt]:      {{ site.baseurl }}/projects/apt.html
+[datamill]: {{ site.baseurl }}/projects/datamill.html
+[nanohub]:  {{ site.baseurl }}/projects/nanohub.html
+[dv]:       {{ site.baseurl }}/projects/dataverse.html
+[occam]:    {{ site.baseurl }}/projects/occam.html
+[ck]:       {{ site.baseurl }}/projects/collective_knowledge.html
 
-<td style="vertical-align: bottom; font-weight: bold">
-Type
-</td>
-
-<td style="vertical-align: bottom; font-weight: bold">
-License
-</td>
-
-<td style="vertical-align: bottom; font-weight: bold">
-Year
-</td>
-
-<td style="vertical-align: bottom; font-weight: bold">
-Organization
-</td>
-
-<td style="vertical-align: bottom; font-weight: bold">
-Link
-</td>
-
-</tr>
-</thead>
-  <tbody><tr>
-    <td>
-      DataMill
-    </td>
-    <td>
-      Infrastructure Service
-    </td>
-    <td>
-      AGPLv3
-    </td>
-    <td>
-      2013
-    </td>
-    <td>
-      University of Waterloo
-    </td>
-    <td>
-      <a href="https://datamill.uwaterloo.ca/">Link</a>
-    </td>
-</tr>
-<tr>
-    <td>
-      Occam
-    </td>
-    <td>
-      Workflow Builder,<br>
-      Digital Archive
-    </td>
-    <td>
-      AGPLv3
-    </td>
-    <td>
-      2014
-    </td>
-    <td>
-      University of Pittsburgh
-    </td>
-    <td>
-      <a href="https://occam.cs.pitt.edu">Link</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Collective Knowledge
-    </td>
-    <td>
-      Workflow Builder,<br>
-      Digital Archive
-    </td>
-    <td>
-      3c-BSD
-    </td>
-    <td>
-      2014
-    </td>
-    <td>
-      cTuning Foundation
-    </td>
-    <td>
-      <a href="http://cknowledge.ddns.net/">Link</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      RunMyCode
-    </td>
-    <td>
-      Metadata/File Hosting
-    </td>
-    <td>
-      Closed
-    </td>
-    <td>
-      2013
-    </td>
-    <td>
-      RunMyCode Association
-    </td>
-    <td>
-      <a href="http://runmycode.org/">Link</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Dataverse
-    </td>
-    <td>
-      Metadata/File Archive
-    </td>
-    <td>
-      Apache 2.0
-    </td>
-    <td>
-      2012
-    </td>
-    <td>
-      Harvard University
-    </td>
-    <td>
-      <a href="https://dataverse.harvard.edu/">Link</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Open Science Framework
-    </td>
-    <td>
-      Metadata/File Hosting,<br>
-      Digital Archive
-    </td>
-    <td>
-      Apache 2.0
-    </td>
-    <td>
-      2013
-    </td>
-    <td>
-      Center for Open Science
-    </td>
-    <td>
-      <a href="https://osf.io">Link</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Apt/emulab
-    </td>
-    <td>
-      Infrastructure Service,<br>
-      VM Archive
-    </td>
-    <td>
-      AGPLv3
-    </td>
-    <td>
-      2014
-    </td>
-    <td>
-      University of Utah
-    </td>
-    <td>
-      <a href="https://www.aptlab.net/">Link</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Helix Lab Cloud
-    </td>
-    <td>
-      Infrastructure Service,<br>
-      VM Archive
-    </td>
-    <td>
-      Proprietary
-    </td>
-    <td>
-      2015
-    </td>
-    <td>
-      Wind River, Intel Corporation
-    </td>
-    <td>
-      <a href="https://lab.cloud.windriver.com">Link</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      JupyterHub
-    </td>
-    <td>
-      Documentation Tool,
-      Visualization
-    </td>
-    <td>
-      3c-BSD
-    </td>
-    <td>
-      2001, 2015
-    </td>
-    <td>
-      NumFOCUS Foundation
-    </td>
-    <td>
-      <a href="http://jupyter.org/">Link</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Code Ocean
-    </td>
-    <td>
-      ?
-    </td>
-    <td>
-      ?
-    </td>
-    <td>
-      ?
-    </td>
-    <td>
-      ?
-    </td>
-    <td>
-      ?
-    </td>
-  </tr>
-  <tr>
-    <td>
-      TIRA
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      nanoHUB
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      OLIVE
-    </td>
-    <td>
-      Virtual Machine Manager,<br>
-      VM Archive
-    </td>
-    <td>
-      Client: GPLv2<br>Server: Closed
-    </td>
-    <td>
-      2013
-    </td>
-    <td>
-      Carnegie Mellon University
-    </td>
-    <td>
-      <a href="https://olivearchive.org/">Link</a>
-    </td>
-</tr>
-</tbody></table>
+| Name                          | Type | License | Year | Organization | Link |
+| ----------------------------- | ---- | ------- | ---- | ------------ | ---- |
+| [DataMill][datamill]          | Infrastructure Service                 | AGPLv3       | 2013       | University of Waterloo        | [Link](https://datamill.uwaterloo.ca/)   |
+| [Occam][occam]                | Workflow Builder, Digital Archive      | AGPLv3       | 2014       | University of Pittsburgh      | [Link](https://occam.cs.pitt.edu/)       |
+| [Collective Knowledge][ck]    | Workflow Builder, Digital Archive      | AGPLv3       | 2014       | cTuning Foundation            | [Link](http://cknowledge.ddns.net/)      |
+| [RunMyCode][rmc]              | Metadata/File Hosting                  | Closed       | 2013       | RunMyCode Association         | [Link](http://runmycode.org/)            |
+| [Dataverse][dv]               | Metadata/File Archive                  | Apache 2.0   | 2012       | Harvard University            | [Link](https://dataverse.harvard.edu/)   |
+| [Open Science Framework][osf] | Metadata/File Hosting, Digital Archive | Apache 2.0   | 2013       | Center for Open Science       | [Link](https://osf.io/)                  |
+| [Apt/emulab][apt]             | Infrastructure Service, VM Archive     | AGPLv3       | 2014       | University of Utah            | [Link](https://www.aptlab.net/)          |
+| [Helix Lab Cloud][hlc]        | Infrastructure Service, VM Archive     | Proprietary  | 2015       | Wind River, Intel Corporation | [Link](https://lab.cloud.windriver.com/) |
+| [JupyterHub][jh]              | Documentation Tool, Visualization      | 3c-BSD       | 2001, 2015 | NumFOCUS Foundation           | [Link](http://jupyter.org/)              |
+| [Code Ocean][co]              | ?                                      | ?            | ?          | ?                             | ?                                        |
+| [TIRA][tira]                  |                                        |              |            |                               |                                          |
+| [nanoHUB][nanohub]            |                                        |              |            |                               |                                          |
+| [OLIVE][olive]                | Virtual Machine Manager, VM Archive    | GPLv2/Closed | 2013       | Carnegie Mellon University    | [Link](https://olivearchive.org/)        |
 
 ## Infrastructure
 
-<table class="tilt">
-<thead>
-<tr>
-<td style="vertical-align: bottom; font-weight: bold">Name</td>
-
-<td><div></div><div><span>
-Self-hosting
-</span></div></td>
-
-<td><div></div><div><span>
-Provides Metadata
-</span></div></td>
-
-<td><div></div><div><span>
-Provides Hardware Diversity
-</span></div></td>
-
-<td><div></div><div><span>
-Dispatches Work to Cloud Machines
-</span></div></td>
-
-<td><div></div><div><span>
-Provides a Web Portal
-</span></div></td>
-
-<td><div></div><div><span>
-Provides Performance Monitoring
-</span></div></td>
-
-</tr>
-</thead>
-  <tbody><tr>
-    <td>DataMill</td>
-    <td>✗</td><td>✔</td><td>✔</td><td>✗</td><td>✔</td><td>?</td>
-  </tr><tr>
-    <td>Occam</td>
-    <td>✔</td><td>✔</td><td>✗</td><td>✗</td><td>✔</td><td>✗</td>
-  </tr><tr>
-    <td>Collective Knowledge</td>
-    <td>✗</td><td>✔</td><td>✗</td><td>✗</td><td>✔</td><td>✔</td>
-  </tr>
-  <tr>
-    <td>RunMyCode</td>
-    <td>✗</td><td>✔</td><td>·</td><td>·</td><td>✔</td><td>·</td>
-  </tr><tr>
-    <td>Dataverse</td>
-    <td>✗</td><td>✔</td><td>·</td><td>·</td><td>✔</td><td>·</td>
-  </tr><tr>
-    <td>Open Science Framework</td>
-    <td>✗</td><td>✔</td><td>·</td><td>·</td><td>✔</td><td>·</td>
-  </tr><tr>
-    <td>Apt/emulab</td>
-    <td>✗</td><td></td><td>✔</td><td>✗</td><td>✔</td><td>✗</td>
-  </tr><tr>
-    <td>Helix Lab Cloud</td>
-    <td>✗</td><td></td><td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>JupyterHub</td>
-    <td>✗</td><td></td><td>·</td><td>·</td><td>✔</td><td>·</td>
-  </tr><tr>
-    <td>Code Ocean</td>
-    <td>?</td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td>
-  </tr><tr>
-    <td>TIRA</td>
-    <td></td><td></td><td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>nanoHUB</td>
-    <td></td><td></td><td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>OLIVE</td>
-    <td>✗</td><td></td><td>·</td><td>·</td><td>✔</td><td>✗</td>
-</tr>
-</tbody></table>
+| Name                          | /Self-hosting | /Provides Metadata | /Provides Hardware Diversity | /Dispatches Work to Cloud Machines | /Provides a Web Portal | /Provides Performance Monitoring |
+| ----------------------------- | ------------- | ------------------ | ---------------------------- | ---------------------------------- | ---------------------- | -------------------------------- |
+| [DataMill][datamill]          | ✗ | ✔ | ✔ | ✗ | ✔ | ? |
+| [Occam][occam]                | ✔ | ✔ | ✗ | ✗ | ✔ | ✗ |
+| [Collective Knowledge][ck]    | ✗ | ✔ | ✗ | ✗ | ✔ | ✔ |
+| [RunMyCode][rmc]              | ✗ | ✔ | · | · | ✔ | · |
+| [Dataverse][dv]               | ✗ | ✔ | · | · | ✔ | · |
+| [Open Science Framework][osf] | ✗ | ✔ | · | · | ✔ | · |
+| [Apt/emulab][apt]             | ✗ |   | ✔ | ✗ | ✔ | ✗ |
+| [Helix Lab Cloud][hlc]        | ✗ |   |   |   |   |   |
+| [JupyterHub][jh]              | ✗ |   | · | · | ✔ | · |
+| [Code Ocean][co]              | ? | ? | ? | ? | ? | ? |
+| [TIRA][tira]                  |   |   |   |   |   |   |
+| [nanoHUB][nanohub]            |   |   |   |   |   |   |
+| [OLIVE][olive]                | ✗ | < | · | · | ✔ | ✗ |
 
 ## Capabilities
 
-<table class="tilt">
-<thead>
-<tr>
-<td style="vertical-align: bottom; font-weight: bold">Name</td>
-
-<td><div></div><div><span>
-Runs Code
-</span></div></td>
-
-<td><div></div><div><span>
-File Storage
-</span></div></td>
-
-<td><div></div><div><span>
-Collaboration Controls
-</span></div></td>
-
-<td><div></div><div><span>
-Provides Citations
-</span></div></td>
-
-<td><div></div><div><span>
-Interactive Graphs
-</span></div></td>
-
-<td><div></div><div><span>
-Can Combine Objects Interactively
-</span></div></td>
-
-<td><div></div><div><span>
-Can Archive/Run Graphical Tools
-</span></div></td>
-
-<td><div></div><div><span>
-Can Hook to External Cloud Services
-</span></div></td>
-
-</tr>
-</thead>
-  <tbody><tr>
-    <td>DataMill</td>
-    <td>✔</td><td>✔</td><td>·</td><td>·</td><td>·</td><td>·</td><td>·</td><td></td>
-</tr><tr>
-    <td>Occam</td>
-    <td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td></td>
-  </tr><tr>
-    <td>Collective Knowledge</td>
-    <td>✔</td><td>✔</td><td>·</td><td>✔</td><td>✔</td><td>✔</td><td>·</td><td></td>
-  </tr><tr>
-    <td>RunMyCode</td>
-    <td>·</td><td>✔</td><td>·</td><td>✔</td><td>·</td><td>·</td><td>·</td><td></td>
-  </tr><tr>
-    <td>Dataverse</td>
-    <td>✗</td><td>✔</td><td></td><td></td><td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>Open Science Framework</td>
-    <td>✗</td><td>✔</td><td>✔</td><td>✔</td><td>✗</td><td>✗</td><td>✗</td><td>✔</td>
-  </tr><tr>
-    <td>Apt/emulab</td>
-    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>Helix Lab Cloud</td>
-    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>JupyterHub</td>
-    <td>✔</td><td>·</td><td>✔</td><td>·</td><td>✔</td><td>·</td><td>·</td><td></td>
-  </tr><tr>
-    <td>Code Ocean</td>
-    <td>?</td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td>
-  </tr><tr>
-    <td>TIRA</td>
-    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>nanoHUB</td>
-    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>OLIVE</td>
-    <td></td><td></td><td></td><td></td><td></td><td></td><td>✔</td><td></td>
-</tr>
-</tbody></table>
+| Name                          | /Runs Code    | /File Storage      | /Collaboration Controls      | /Provides Citations                | /Interactive Graphing  | /Can Combine Objects Interactively | /Can Hook to External Cloud Services |
+| ----------------------------- | ------------- | ------------------ | ---------------------------- | ---------------------------------- | ---------------------- | ---------------------------------- | ------------------------------------ |
+| [DataMill][datamill]          | ✔ | ✔ | · | · | · | · | · |   |
+| [Occam][occam]                | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |   |
+| [Collective Knowledge][ck]    | ✔ | ✔ | · | ✔ | ✔ | ✔ | · |   |
+| [RunMyCode][rmc]              | · | ✔ | · | ✔ | · | · | · |   |
+| [Dataverse][dv]               | ✗ | ✔ |   |   |   |   |   |   |
+| [Open Science Framework][osf] | ✗ | ✔ | ✔ | ✔ | ✗ | ✗ | ✗ | ✔ |
+| [Apt/emulab][apt]             |   |   |   |   |   |   |   |   |
+| [Helix Lab Cloud][hlc]        |   |   |   |   |   |   |   |   |
+| [JupyterHub][jh]              | ✔ | · | ✔ | · | ✔ | · | · |   |
+| [Code Ocean][co]              | ? | ? | ? | ? | ? | ? | ? | ? |
+| [TIRA][tira]                  |   |   |   |   |   |   |   |   |
+| [nanoHUB][nanohub]            |   |   |   |   |   |   |   |   |
+| [OLIVE][olive]                |   | ✔ |   |   |   |   |   |   |
 
 ## Access
 
-<table class="tilt">
-<thead>
-<tr>
-<td style="vertical-align: bottom; font-weight: bold">Name</td>
-
-<td><div></div><div><span>
-Access Permissions to Edit Metadata
-</span></div></td>
-
-<td><div></div><div><span>
-Access Permissions to View or Download
-</span></div></td>
-
-<td><div></div><div><span>
-Uniquely Identifies Projects
-</span></div></td>
-
-<td><div></div><div><span>
-Can Link to Work
-</span></div></td>
-
-</tr>
-</thead>
-  <tbody><tr>
-    <td>DataMill</td>
-    <td>·</td><td>·</td><td>✔</td><td>✔</td>
-</tr><tr>
-    <td>Occam</td>
-    <td>✔</td><td>✔</td><td>✔</td><td>✔</td>
-</tr><tr>
-    <td>Collective Knowledge</td>
-    <td>✔</td><td></td><td>✔</td><td>✔</td>
-  </tr><tr>
-    <td>RunMyCode</td>
-    <td>✔</td><td>✗</td><td>✔</td><td>✔</td>
-  </tr><tr>
-    <td>Dataverse</td>
-    <td>✗</td><td>✔</td><td></td><td></td>
-  </tr><tr>
-    <td>Open Science Framework</td>
-    <td>✔</td><td>✔</td><td>✔</td><td>✔</td>
-  </tr><tr>
-    <td>Apt/emulab</td>
-    <td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>Helix Lab Cloud</td>
-    <td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>JupyterHub</td>
-    <td>·</td><td>·</td><td>·</td><td>·</td>
-  </tr><tr>
-    <td>Code Ocean</td>
-    <td>?</td><td>?</td><td>?</td><td>?</td>
-  </tr><tr>
-    <td>TIRA</td>
-    <td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>nanoHUB</td>
-    <td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>OLIVE</td>
-    <td></td><td></td><td></td><td></td>
-</tr>
-</tbody></table>
+| Name                          | /Access Permission to Edit | /Access Permissions to Read | /Access Permissions to Review | /Unique Identifiers | /Can Link to Work |
+| ----------------------------- | -------------------------- | --------------------------- | ----------------------------- | ------------------- | ----------------- |
+| [DataMill][datamill]          | · | · | ✔ |   | ✔ |
+| [Occam][occam]                | ✔ | ✔ | ✔ | ✔ | ✔ |
+| [Collective Knowledge][ck]    | ✔ |   | ✔ |   | ✔ |
+| [RunMyCode][rmc]              | ✔ | ✗ | ✔ |   | ✔ |
+| [Dataverse][dv]               | ✗ | ✔ |   |   |   |
+| [Open Science Framework][osf] | ✔ | ✔ | ✔ | ✔ | ✔ |
+| [Apt/emulab][apt]             |   |   |   |   |   |
+| [Helix Lab Cloud][hlc]        |   |   |   |   |   |
+| [JupyterHub][jh]              | · | · | · | · | · |
+| [Code Ocean][co]              | ? | ? | ? | ? | ? |
+| [TIRA][tira]                  |   |   |   |   |   |
+| [nanoHUB][nanohub]            |   |   |   |   |   |
+| [OLIVE][olive]                |   |   |   |   |   |
 
 ## Governance
 
-<table class="tilt">
-<thead>
-<tr>
-<td style="vertical-align: bottom; font-weight: bold">Name</td>
-
-<td><div></div><div><span>
-Open Source
-</span></div></td>
-
-<td><div></div><div><span>
-Allows Modification and Reuse of Code
-</span></div></td>
-
-<td><div></div><div><span>
-Has Free-to-Use Package
-</span></div></td>
-
-<td><div></div><div><span>
-Has Paid Package
-</span></div></td>
-
-<td><div></div><div><span>
-Institution Structure
-</span></div></td>
-
-</tr>
-</thead>
-  <tbody><tr>
-    <td>DataMill</td>
-    <td>✔</td><td>✔</td><td>✔</td><td>✗</td><td>University    </td>
-  </tr><tr>
-    <td>Occam</td>
-    <td>✔</td><td>✔</td><td>✔</td><td>✗</td><td>University</td>
-  </tr><tr>
-    <td>Collective Knowledge</td>
-    <td>✔</td><td>✔</td><td>✔</td><td>✗</td><td>Non-Profit</td>
-  </tr><tr>
-    <td>RunMyCode</td>
-    <td>✗</td><td>✗</td><td>✔</td><td>✗</td><td>Non-For-Profit</td>
-  </tr><tr>
-    <td>Dataverse</td>
-    <td>✔</td><td>✔</td><td>✔</td><td>✗</td><td>University</td>
-  </tr><tr>
-    <td>Open Science Framework</td>
-    <td>✔</td><td>✔</td><td>✔</td><td></td><td>Non-Profit</td>
-  </tr><tr>
-    <td>Apt/emulab</td>
-    <td>✔</td><td>✔</td><td>✔</td><td>✗</td><td>University</td>
-  </tr><tr>
-    <td>Helix Lab Cloud</td>
-    <td>✗</td><td>✗</td><td>✔</td><td>✔</td><td>For-Profit</td>
-  </tr><tr>
-    <td>JupyterHub</td>
-    <td>✔</td><td>✔</td><td>✔</td><td>✗</td><td>Non-Profit</td>
-  </tr><tr>
-    <td>Code Ocean</td>
-    <td>?</td><td>?</td><td>?</td><td>?</td><td>?</td>
-  </tr><tr>
-    <td>TIRA</td>
-    <td></td><td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>nanoHUB</td>
-    <td></td><td></td><td></td><td></td><td></td>
-  </tr><tr>
-    <td>OLIVE</td>
-    <td>○</td><td>○</td><td>✔</td><td>✗</td><td>University</td>
-</tr></tbody></table>
+| Name                          | /Open Source               | / Allows Modification and Redistribution | /Has Free-to-Use Package | /Has Student Package | /Has Paid Package | /Institution Structure |
+| ----------------------------- | -------------------------- | --------------------------- | ----------------------------- | ------------------- | ----------------- | ------ | ---------------------- |
+| [DataMill][datamill]          | ✔ | ✔ | ✔ | ✗ | University     |
+| [Occam][occam]                | ✔ | ✔ | ✔ | ✗ | University     |
+| [Collective Knowledge][ck]    | ✔ | ✔ | ✔ | ✗ | Non-Profit     |
+| [RunMyCode][rmc]              | ✗ | ✗ | ✔ | ✗ | Non-For-Profit |
+| [Dataverse][dv]               | ✔ | ✔ | ✔ | ✗ | University     |
+| [Open Science Framework][osf] | ✔ | ✔ | ✔ |   | Non-Profit     |
+| [Apt/emulab][apt]             | ✔ | ✔ | ✔ | ✗ | University     |
+| [Helix Lab Cloud][hlc]        | ✗ | ✗ | ✔ | ✔ | For-Profit     |
+| [JupyterHub][jh]              | ✔ | ✔ | ✔ | ✗ | Non-Profit     |
+| [Code Ocean][co]              | ? | ? | ? | ? | ?              |
+| [TIRA][tira]                  |   |   |   |   |                |
+| [nanoHUB][nanohub]            |   |   |   |   |                |
+| [OLIVE][olive]                | ○ | ○ | ✔ | ✗ | University     |
 
 ## Descriptions
 
