@@ -22,7 +22,7 @@ module Jekyll
       # Gather all navigation pages
       ret = ""
 
-      ret << parser.documentation_nav
+      ret << parser.documentation_nav(pagetitle)
 
       ret
     end

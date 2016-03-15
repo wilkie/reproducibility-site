@@ -53,20 +53,21 @@ Anton Lokhmotov
 | Collaboration Controls               |  ✔  |            |
 | Provides Citations                   |  ✔  |            |
 | Interactive Graphing                 |  ✔  |            |
-| Can Combine Objects Interactively    |  ✔  |            |
+| Can Combine Objects                  |  ✔  |            |
 | Can Archive/Run GUI Tools            |  ✔  |            |
 | Can Hook to External Services        |  ✔  |            |
 
 | Access                               |     |            |
 | ------------------------------------ | --- | ---------- |
-| Access Permissions for Editing       |  ✔  | ok         |
-| Access Permissions for Reading       |  ✔  |            |
-| Access Permissions for Anon Review   |  ✔  |            |
-| Unique Identifiers for Projects      |  ✔  |            |
-| Provides URL to Project / Data       |  ✔  |            |
+| Public view of object                |  ✔  | Through a webserver, generated pages can be made public. |
+| Access Permissions for Editing       |  ?  | |
+| Access Permissions for Reading       |  ?  | |
+| Access Permissions for Anon Review   |  ?  | |
 
 | Provenance                           |     |            |
 |:------------------------------------ | --- | ---------- |
+| Search                               |  ✔  | |
+| Unique Identifiers for Projects      |  ✔  | |
 | Provides URL to Project / Data       |  ✔  |            |
 
 | Governance                           |     |            |
@@ -74,8 +75,8 @@ Anton Lokhmotov
 | Open Source                          |  ✔  |            |
 | Allows Modification / Redistribution |  ✔  |            |
 | Has a Free-to-Use Package            |  ✔  |            |
-| Has a Student Package                |  .  |            |
-| Has a Paid Package                   |  .  |            |
+| Has a Student Package                |  ·  |            |
+| Has a Paid Package                   |  ·  |            |
 
 ## Motivation
 

@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{{ site.title }} - {{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/js/lightbox2-master/dist/css/lightbox.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/app.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/post.css">
@@ -31,6 +32,9 @@
           <ul class='dropdown-menu'>
             <li><a href="{{ site.baseurl }}/projects/collective_knowledge.html">Collective Knowledge</a></li>
             <li><a href="{{ site.baseurl }}/projects/occam.html">Occam</a></li>
+            <li><a href="{{ site.baseurl }}/projects/datamill.html">DataMill</a></li>
+            <li><a href="{{ site.baseurl }}/projects/dataverse.html">Dataverse</a></li>
+            <li><a href="{{ site.baseurl }}/projects/runmycode.html">RunMyCode</a></li>
           </ul>
         </li>
         <li>
@@ -39,17 +43,6 @@
         <li>
           <a href="https://github.com/wilkie/reproducibility-site">View on GitHub</a>
         </li>
-        <!--
-        <li>
-          <a href="#sec">Edit</a>
-        </li>
-        <li>
-          <a href="#sec">Visualize</a>
-        </li>
-        <li>
-          <a href="#sec">Prototype</a>
-        </li>
-        -->
       </ul>
     </nav>
   </div>
@@ -58,22 +51,26 @@
 <div id="masthead">
   <div class="container">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-5">
           <h1>{{ page.title }}
             <p class="lead">{{ page.subtitle }}</p>
           </h1>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-7">
+          {% if page.description %}
             <div class="well well-lg">
               <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-3">
                   <img src="{{ site.baseurl }}/images/{{ page.logo }}" class="img-responsive">
                 </div>
-                <div class="col-sm-6">
-                  {{ page.description }}
+                <div class="col-sm-9">
+                  {% markdown %}
+{{ page.description | default: ''}}
+                  {% endmarkdown %}
                 </div>
               </div>
             </div>
+          {% endif %}
         </div>
       </div>
   </div><!--/container-->
@@ -89,17 +86,21 @@
 
       <!--right-->
       <div class="col-md-9">
-
-        {{ content }}
-
+        <div class='content'>
+          <article>
+            {{ content }}
+          </article>
+        </div>
+        <div class='clear'></div>
       </div>
   	</div><!--/row-->
 </div><!--/container-->
 
-<footer><img src="{{ site.baseurl }}/images/cc0.png"> This content is licensed: <a href="https://creativecommons.org/about/cc0/">cc-0</a> | <a href="https://github.com/wilkie/reproducibility-site/blob/master{{ page.url | replace: '.html','.md' }}">View this page on GitHub</a>
+<footer><img src="{{ site.baseurl }}/images/cc0.png"> This content is licensed: <a href="https://creativecommons.org/about/cc0/">cc-0</a> | <a href="https://github.com/wilkie/reproducibility-site/blob/master{{ page.url | replace: '.html','.md' }}">View this page on GitHub</a> | <a href="http://www.bootply.com/">Template based on Bootply</a> and built on <a href="http://getbootstrap.com/">Bootstrap</a>.
 </footer>
 
 <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/js/lightbox2-master/dist/js/lightbox.min.js"></script>
 <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
 <script src="{{ site.baseurl }}/js/angular.min.js"></script>
 <script src="{{ site.baseurl }}/js/app.js"></script>

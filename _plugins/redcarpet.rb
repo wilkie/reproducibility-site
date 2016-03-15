@@ -48,6 +48,7 @@ module Redcarpet
         @outline ||= Jekyll::Node.new(:root)
         @last    ||= @outline
         @title   ||= ""
+        @image_count = 0
 
         super *args
       end
@@ -95,10 +96,27 @@ module Redcarpet
       end
 
       def table_cell(content, alignment)
+        table_classes = ""
+        if content.start_with? "✔"
+          table_classes << "feature yes"
+        end
+        if content.start_with? "✗"
+          table_classes << "feature no"
+        end
+        if content.start_with? "·"
+          table_classes << "feature not-available"
+        end
+        if content.start_with? "?"
+          table_classes << "feature unknown"
+        end
+        if content.start_with? "○"
+          table_classes << "feature both"
+        end
+
         if content.start_with? "/"
           "<td class='tilt'><div></div><div><span>#{content[1..-1]}</span></div></td>"
         else
-          "<td>#{content}</td>"
+          "<td class='#{table_classes}'>#{content}</td>"
         end
       end
 
@@ -118,6 +136,7 @@ module Redcarpet
         img_styles  = ""
         classes     = "image"
         img_classes = ""
+        caption_styles = ""
 
         if options
           options.split('|').each do |option|
@@ -141,6 +160,7 @@ module Redcarpet
                 value = value + "px"
               end
               img_styles << "width: #{value};"
+              caption_styles << "width: #{value};"
             when "fullwidth"
               classes << " fullwidth"
             end
@@ -153,8 +173,10 @@ module Redcarpet
 
         caption = Redcarpet::Markdown.new(self.class.new()).render(caption)
         alt_text = Nokogiri::HTML(alt_text).xpath("//text()").remove
+        image_index = @image_count
+        @image_count += 1
 
-        img_source = "<img src='#{link}' class='#{img_classes}' style='#{img_styles}' title='#{title}' alt='#{alt_text}' />"
+        img_source = "<a href='#{link}' data-lightbox='image-#{image_index}'><img src='#{link}' class='#{img_classes}' style='#{img_styles}' title='#{title}' alt='#{alt_text}' /></a>"
 
         if link.match "http[s]?://(www.)?youtube.com"
           # embed the youtube link
@@ -162,7 +184,7 @@ module Redcarpet
           img_source = "<div class='youtube'><div class='youtube_fixture'><img src='/images/youtube_placeholder.png' /><iframe class='youtube_frame' src='http://www.youtube.com/embed/#{youtube_hash}'></iframe></div></div>"
         end
 
-        caption = "<br /><div class='caption'>#{caption}</div>" unless caption == ""
+        caption = "<br /><div class='caption' style='#{caption_styles}'>#{caption}</div>" unless caption == ""
         "</p><div style='#{styles}' class='#{classes}'>#{img_source}#{caption}</div><p>"
       end
     end
@@ -172,6 +194,8 @@ end
 class Jekyll::Converters::Markdown::CustomRedcarpet
   def initialize(config)
     @config = config
+    @renderers = {}
+    @renderer = nil
   end
 
   def extensions
@@ -194,11 +218,20 @@ class Jekyll::Converters::Markdown::CustomRedcarpet
     end
   end
 
-  def documentation_nav
-    "<ul id='sidebar' class='nav nav-stacked'>" + documentation_nav_impl(@renderer.outline.child) + "</ul>"
+  def documentation_nav(content=nil)
+    renderer = @renderer
+    if renderer
+      "<ul id='sidebar' class='nav nav-stacked'>" + documentation_nav_impl(renderer.outline.child) + "</ul>"
+    else
+      ""
+    end
   end
 
   def convert(content)
-    "<div class='content'><article>" + self.markdown.render(content) + "</article></div><div class='clear'></div>"
+    ret = self.markdown.render(content)
+
+    @renderers[content] = @renderer
+
+    ret
   end
 end

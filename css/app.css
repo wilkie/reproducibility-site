@@ -11,7 +11,7 @@ author: bootply.com
 
 body {
  padding-top:50px;
- padding-bottom: 50px;
+ padding-bottom: 80px;
  position: relative;
 }
 
@@ -61,6 +61,10 @@ body {
 #sidebar li.active {
   border:0 #A578A5 solid;
   border-right-width:5px;
+}
+
+.navbar-brand {
+  font-family: "Lato", sans-serif;
 }
 
 footer {

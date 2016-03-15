@@ -1,5 +1,13 @@
 ---
 ---
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
 h1 {
   font: normal 50px "Lato", sans-serif;
 }
@@ -22,9 +30,15 @@ article {
     color: #944F94;
   }
 
+  h4 {
+    margin-top: 20px;
+    color: #944F94;
+    font: Normal 16px "Lato", sans-serif;
+  }
+
   li,
   p {
-    font: normal 15px "Roboto", sans-serif;
+    font: 300 15px "Roboto", sans-serif;
     line-height: 1.7em;
     letter-spacing: 0.05em;
 
@@ -47,83 +61,136 @@ article {
 
   .image {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 100%;
+
+    &.border {
+      img {
+        border: 1px solid #ccc;
+      }
+    }
 
     img {
+      max-width: 100%;
     }
 
     .caption {
       text-align: center;
+      margin: auto;
+
+      p {
+        display: inline-block;
+        font-size: 12px;
+      }
     }
   }
 
   table {
     width: 100%;
-  }
+    margin-top: 20px;
 
-  table tbody tr td:first-child {
-    width: 200px;
-  }
+    td {
+      font: 300 14px "Roboto", sans-serif;
 
-  table thead tr th ,
-  table thead tr td {
-    border-bottom: 2px solid #A578A5;
-    padding-top: 15px;
-    font-weight: bold;
-    vertical-align: bottom;
-  }
+      &.feature {
+        &.yes {
+          color: #399839;
+        }
 
-  table.tilt thead tr td {
-    font-weight: normal;
+        &.no {
+          color: #F37474;
+        }
 
-    position: relative;
-  }
+        &.both {
+          color: #923792;
+        }
 
-  table thead tr td ,
-  table thead tr th {
-    position: relative;
-  }
+        &.not-available {
+        }
 
-  table thead tr td.tilt div {
-    width: 3em; height: 10em;
-  }
+        &.unknown {
+          color: #7D7D7D;
+          font-weight: normal;
+        }
+      }
+    }
 
-  table thead tr td.tilt div + div {
-    vertical-align: bottom;
-    font-weight: normal;
-    position: absolute;
-    transform: rotate(-45deg);
-    transform-origin: 0% 50%;
-    left:5px;
-    bottom:0em;
-    width:10em;
-    height:3em;
-    line-height:3em;
-  }
+    tbody tr td:first-child {
+      width: 200px;
+    }
 
-  table thead tr td.tilt div + div span {
-    display: inline-block;
-    vertical-align: bottom;
-    line-height: 1.5em;
-  }
+    thead tr th ,
+    thead tr td {
+      border-bottom: 2px solid #A578A5;
+      padding-top: 15px;
+      font-weight: bold;
+      vertical-align: bottom;
+    }
 
-  table tbody tr td {
-    border-bottom: 1px solid #DCBCDC;
-    padding: 3px;
-  }
+    &.tilt thead tr td {
+      font-weight: normal;
 
-  table thead tr td:first-child ,
-  table tbody tr td:first-child {
-    padding-left: 10px;
-  }
+      position: relative;
+    }
 
-  table thead tr td:last-child ,
-  table tbody tr td:last-child {
-    padding-right: 10px;
-  }
+    thead tr td ,
+    thead tr th {
+      position: relative;
+    }
 
-  table tbody tr:nth-child(2n+1) td {
-    background-color: #FFF3FF;
+    thead tr td.tilt div {
+      width: 3em; height: 10em;
+    }
+
+    thead tr td.tilt div + div {
+      vertical-align: bottom;
+      font-weight: normal;
+      position: absolute;
+      transform: rotate(-45deg);
+      transform-origin: 0% 50%;
+      left:5px;
+      bottom:0em;
+      width:10em;
+      height:3em;
+      line-height:3em;
+    }
+
+    thead tr td.tilt div + div span {
+      display: inline-block;
+      vertical-align: bottom;
+      line-height: 1.5em;
+    }
+
+    tbody tr td {
+      border-bottom: 1px solid #DCBCDC;
+      padding: 5px 3px;
+    }
+
+    thead tr td:first-child ,
+    tbody tr td:first-child {
+      padding-left: 10px;
+    }
+
+    thead tr td:last-child ,
+    tbody tr td:last-child {
+      padding-right: 10px;
+    }
+
+    tbody tr:nth-child(2n+1) td {
+      background-color: #FFF3FF;
+    }
   }
+}
+
+@font-face {
+  font-family: 'Roboto';
+   font-style: 300;
+  font-weight: 300;
+          src: local('Roboto Light'),
+               local('Roboto-Light'),
+               url({{ site.baseurl }}/fonts/roboto/Roboto-Light.woff2) format('woff2'),
+               url({{ site.baseurl }}/fonts/roboto/Roboto-Light.woff) format('woff')
 }
 
 @font-face {
