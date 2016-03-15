@@ -200,22 +200,37 @@ Furthermore, there is no support for existing job queuing or scheduling tools.
 
 ## Capabilities
 
+OCCAM is a tool that can build and run virtual machines that execute versioned
+artifacts. Each object has metadata that describes how to run the object and
+what type of outputs it produces. It creates new artifacts from old ones while
+keeping track of the provenance along the way.
+
+OCCAM is currently meant to be self-hosted on your own infrastructure. You can
+create workflows (see [walkthrough above](#walkthrough)) to combine various
+objects together such as simulators, trace-generators, and benchmarks.
+The public node that is available does not have a diverse infrastructure. It is
+a single machine.
+
+OCCAM can generate interactive papers and graphs using javascript widgets you
+can embed on the page for a project. These widgets can be custom-made or
+modified.
+
 ## Access
 
 Projects, known as worksets in OCCAM, can be marked as public or private. When marked as private, only authors
 can view or edit the project. There is a distinction between authors and collaborators.
 Collaborators can view a private project but cannot edit.
 
-![border|width=600|Worksets can be marked private where they can only be viewed by authors and collaborators.](/images/projects/occam/access_private_workset.png)
+![border|width=600|Worksets can be marked private where they can only be viewed by authors and collaborators.]({{ site.baseurl }}/images/projects/occam/access_private_workset.png)
 
 For the purpose of review, private worksets can generate a review link for a particular revision.
 When you follow this link, the authorship information will be removed automatically.
 It will not let you fork the content (and thus expose that metadata) nor
 download the object metadata.
 
-![border|width=600|An author can generate a hidden link that gives a view of the work at a particular point in time without authorship information.](/images/projects/occam/access_private_review_link.png)
+![border|width=600|An author can generate a hidden link that gives a view of the work at a particular point in time without authorship information.]({{ site.baseurl }}/images/projects/occam/access_private_review_link.png)
 
-![border|width=600|Here we can see a comparison of a reviewer's view of a project and the author's. History and authorship are removed when anonymized.](/images/projects/occam/access_private_review_link_compare.png)
+![border|width=600|Here we can see a comparison of a reviewer's view of a project and the author's. History and authorship are removed when anonymized.]({{ site.baseurl }}/images/projects/occam/access_private_review_link_compare.png)
 
 ## Provenance
 
@@ -259,7 +274,9 @@ To be discussed.
 
 ## Weaknesses
 
-To be discussed.
+Although it is easy to use existing objects, it is difficult to modify them.
+
+More to be discussed.
 
 ### Breakdown
 
