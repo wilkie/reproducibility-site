@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Reproducibility Breakdown - OCCAM</title>
-  <link rel="stylesheet" href="/js/lightbox2-master/dist/css/lightbox.min.css">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/app.css">
-  <link rel="stylesheet" href="/css/post.css">
+  <link rel="stylesheet" href="/reproducibility-site/js/lightbox2-master/dist/css/lightbox.min.css">
+  <link rel="stylesheet" href="/reproducibility-site/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/reproducibility-site/css/app.css">
+  <link rel="stylesheet" href="/reproducibility-site/css/post.css">
 </head>
 <body>
 
@@ -30,15 +30,15 @@
         <li class='dropdown'>
           <a href="#" class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>Projects <span class='caret'></span></a>
           <ul class='dropdown-menu'>
-            <li><a href="/projects/collective_knowledge.html">Collective Knowledge</a></li>
-            <li><a href="/projects/occam.html">Occam</a></li>
-            <li><a href="/projects/datamill.html">DataMill</a></li>
-            <li><a href="/projects/dataverse.html">Dataverse</a></li>
-            <li><a href="/projects/runmycode.html">RunMyCode</a></li>
+            <li><a href="/reproducibility-site/projects/collective_knowledge.html">Collective Knowledge</a></li>
+            <li><a href="/reproducibility-site/projects/occam.html">Occam</a></li>
+            <li><a href="/reproducibility-site/projects/datamill.html">DataMill</a></li>
+            <li><a href="/reproducibility-site/projects/dataverse.html">Dataverse</a></li>
+            <li><a href="/reproducibility-site/projects/runmycode.html">RunMyCode</a></li>
           </ul>
         </li>
         <li>
-          <a href="/rubric.html">Rubric</a>
+          <a href="/reproducibility-site/rubric.html">Rubric</a>
         </li>
         <li>
           <a href="https://github.com/wilkie/reproducibility-site">View on GitHub</a>
@@ -61,7 +61,7 @@
             <div class="well well-lg">
               <div class="row">
                 <div class="col-sm-3">
-                  <img src="/images/logos/occam/logo5.png" class="img-responsive">
+                  <img src="/reproducibility-site/images/logos/occam/logo5.png" class="img-responsive">
                 </div>
                 <div class="col-sm-9">
                   <p>OCCAM (Open Curation for Computer Architecture Modeling) is a project that will serve as the catalyst for the tools, education, and community-building needed to bring openness, accountability, comparability, and repeatability to computer architecture experimentation.</p>
@@ -120,7 +120,7 @@
 <blockquote>
 <p>Computer architecture researchers must choose a simulator to conduct their research on. Due to the sheer number of simulators, it can be difficult to find an appropriate simulator, potentially forcing researchers to &quot;reinvent the wheel&quot; and develop their own. The following table shows a snapshot of 31 different simulators and their capabilities:</p>
 
-<p></p><div style='' class='image'><a href='/images/projects/occam/simulator-table-comparison.png' data-lightbox='image-0'><img src='/images/projects/occam/simulator-table-comparison.png' class='' style='' title='' alt='' /></a></div><p></p>
+<p></p><div style='' class='image'><a href='/reproducibility-site/images/projects/occam/simulator-table-comparison.png' data-lightbox='image-0'><img src='/reproducibility-site/images/projects/occam/simulator-table-comparison.png' class='' style='' title='' alt='' /></a></div><p></p>
 
 <p>As seen in the table above, it can be difficult for researchers to find appropriate simulators. There is no central repository that lists simulators and their features, and researchers are forced to scour the Internet and published papers looking for simulators. OCCAM aims to make it easy for researchers to find, use and, when appropriate, share newly developed simulators.</p>
 </blockquote>
@@ -162,23 +162,23 @@
 <p>Work is kept inside <strong>Worksets</strong> where one can add file Volumes and <strong>Experiments</strong>. An Experiment contains a workflow where objects
 are connected together. This is an example of such a workflow:</p>
 
-<p></p><div style='' class='image'><a href='/images/projects/occam/workflow_simple_dramsim2.png' data-lightbox='image-1'><img src='/images/projects/occam/workflow_simple_dramsim2.png' class='' style='' title='' alt='A simple workflow where a single object is selected. It generates output data.' /></a><br /><div class='caption' style=''><p>A simple workflow where a single object is selected. It generates output data.</p>
+<p></p><div style='' class='image'><a href='/reproducibility-site/images/projects/occam/workflow_simple_dramsim2.png' data-lightbox='image-1'><img src='/reproducibility-site/images/projects/occam/workflow_simple_dramsim2.png' class='' style='' title='' alt='A simple workflow where a single object is selected. It generates output data.' /></a><br /><div class='caption' style=''><p>A simple workflow where a single object is selected. It generates output data.</p>
 </div></div><p>
-</p><div style='' class='image'><a href='/images/projects/occam/workflow_complex_hmmsim.png' data-lightbox='image-2'><img src='/images/projects/occam/workflow_complex_hmmsim.png' class='' style='' title='' alt='A more complex workflow consisting of several objects. Two benchmark applications attached to trace generators which will create a trace and then use that as input to a simulator. It generates a single object for output data.' /></a><br /><div class='caption' style=''><p>A more complex workflow consisting of several objects. Two benchmark applications attached to trace generators which will create a trace and then use that as input to a simulator. It generates a single object for output data.</p>
+</p><div style='' class='image'><a href='/reproducibility-site/images/projects/occam/workflow_complex_hmmsim.png' data-lightbox='image-2'><img src='/reproducibility-site/images/projects/occam/workflow_complex_hmmsim.png' class='' style='' title='' alt='A more complex workflow consisting of several objects. Two benchmark applications attached to trace generators which will create a trace and then use that as input to a simulator. It generates a single object for output data.' /></a><br /><div class='caption' style=''><p>A more complex workflow consisting of several objects. Two benchmark applications attached to trace generators which will create a trace and then use that as input to a simulator. It generates a single object for output data.</p>
 </div></div><p></p>
 
 <p>For each object, one can configure it within a web browser. Simulators, or researchers who wrap them, can provide a configuration
 script. This generates a form that can do quick validations of inputs. These will warn people immediately when a configuration option
 is wrong.</p>
 
-<p></p><div style='' class='image border'><a href='/images/projects/occam/configuration_simple_dramsim2.png' data-lightbox='image-3'><img src='/images/projects/occam/configuration_simple_dramsim2.png' class='' style='width: 600px;' title='' alt='Validations can be added to simulator configuration input to give immediate feedback when an invalid value is used.' /></a><br /><div class='caption' style='width: 600px;'><p>Validations can be added to simulator configuration input to give immediate feedback when an invalid value is used.</p>
+<p></p><div style='' class='image border'><a href='/reproducibility-site/images/projects/occam/configuration_simple_dramsim2.png' data-lightbox='image-3'><img src='/reproducibility-site/images/projects/occam/configuration_simple_dramsim2.png' class='' style='width: 600px;' title='' alt='Validations can be added to simulator configuration input to give immediate feedback when an invalid value is used.' /></a><br /><div class='caption' style='width: 600px;'><p>Validations can be added to simulator configuration input to give immediate feedback when an invalid value is used.</p>
 </div></div><p></p>
 <h3 id='output'>Output</h3>
 <p>When the workflow is ready, one can queue the work on a job scheduler to automatically be executed behind the scenes. One can see
 an indicator of the progress of the work. When the work completes, a simulator script can be specified to run to parse the data into
 some structured output. If that is not available, one can always just use the standard output or download any generated files.</p>
 
-<p></p><div style='' class='image border'><a href='/images/projects/occam/dataview_simple_dramsim2.png' data-lightbox='image-4'><img src='/images/projects/occam/dataview_simple_dramsim2.png' class='' style='width: 600px;' title='' alt='The structured output for a run of DRAMSim2.' /></a><br /><div class='caption' style='width: 600px;'><p>The structured output for a run of DRAMSim2.</p>
+<p></p><div style='' class='image border'><a href='/reproducibility-site/images/projects/occam/dataview_simple_dramsim2.png' data-lightbox='image-4'><img src='/reproducibility-site/images/projects/occam/dataview_simple_dramsim2.png' class='' style='width: 600px;' title='' alt='The structured output for a run of DRAMSim2.' /></a><br /><div class='caption' style='width: 600px;'><p>The structured output for a run of DRAMSim2.</p>
 </div></div><p></p>
 
 <p>The structured output is provided by the simulator or researcher to specify the various entries that can possibly be in the data.</p>
@@ -206,14 +206,14 @@ some structured output. If that is not available, one can always just use the st
 Paper object within a Workset. Within a paper, you can add text to describe the data and the research. Among the text, you can
 add a widget. The widget can be any object available on the system. In this case, we will look at the plotly.js object:</p>
 
-<p></p><div style='' class='image'><a href='/images/projects/occam/plotter_simple_dramsim2.png' data-lightbox='image-5'><img src='/images/projects/occam/plotter_simple_dramsim2.png' class='' style='width: 600px;' title='' alt='The structured output for a run of DRAMSim2.' /></a><br /><div class='caption' style='width: 600px;'><p>The structured output for a run of DRAMSim2.</p>
+<p></p><div style='' class='image'><a href='/reproducibility-site/images/projects/occam/plotter_simple_dramsim2.png' data-lightbox='image-5'><img src='/reproducibility-site/images/projects/occam/plotter_simple_dramsim2.png' class='' style='width: 600px;' title='' alt='The structured output for a run of DRAMSim2.' /></a><br /><div class='caption' style='width: 600px;'><p>The structured output for a run of DRAMSim2.</p>
 </div></div><p></p>
 
 <p>In order to combat the future problem of having data formats that cannot be viewed by future hardware and software environments,
 OCCAM can build virtual machines from components in a way that resists staleness. To illustrate that, OCCAM discusses how it
 manages to archive DOS games and applications.</p>
 
-<p></p><div style='' class='image'><a href='/images/projects/occam/viewer_pcx_marbles.png' data-lightbox='image-6'><img src='/images/projects/occam/viewer_pcx_marbles.png' class='' style='width: 500px;' title='' alt='Loading an older image format in DOS using old software directly in the browser.' /></a><br /><div class='caption' style='width: 500px;'><p>Loading an older image format in DOS using old software directly in the browser.</p>
+<p></p><div style='' class='image'><a href='/reproducibility-site/images/projects/occam/viewer_pcx_marbles.png' data-lightbox='image-6'><img src='/reproducibility-site/images/projects/occam/viewer_pcx_marbles.png' class='' style='width: 500px;' title='' alt='Loading an older image format in DOS using old software directly in the browser.' /></a><br /><div class='caption' style='width: 500px;'><p>Loading an older image format in DOS using old software directly in the browser.</p>
 </div></div><p></p>
 
 <p>The above image shows the ability to interactively run an old DOS application to view an aged image format. This is
@@ -224,12 +224,27 @@ Currently, to run large experiments, you would self-host your own server.
 There are no mechanisms to push work out to external services that are not
 set up to run an OCCAM node.
 Furthermore, there is no support for existing job queuing or scheduling tools.</p>
-<h2 id='capabilities'>Capabilities</h2><h2 id='access'>Access</h2>
+<h2 id='capabilities'>Capabilities</h2>
+<p>OCCAM is a tool that can build and run virtual machines that execute versioned
+artifacts. Each object has metadata that describes how to run the object and
+what type of outputs it produces. It creates new artifacts from old ones while
+keeping track of the provenance along the way.</p>
+
+<p>OCCAM is currently meant to be self-hosted on your own infrastructure. You can
+create workflows (see <a href='#walkthrough' title=''>walkthrough above</a>) to combine various
+objects together such as simulators, trace-generators, and benchmarks.
+The public node that is available does not have a diverse infrastructure. It is
+a single machine.</p>
+
+<p>OCCAM can generate interactive papers and graphs using javascript widgets you
+can embed on the page for a project. These widgets can be custom-made or
+modified.</p>
+<h2 id='access'>Access</h2>
 <p>Projects, known as worksets in OCCAM, can be marked as public or private. When marked as private, only authors
 can view or edit the project. There is a distinction between authors and collaborators.
 Collaborators can view a private project but cannot edit.</p>
 
-<p></p><div style='' class='image border'><a href='/images/projects/occam/access_private_workset.png' data-lightbox='image-7'><img src='/images/projects/occam/access_private_workset.png' class='' style='width: 600px;' title='' alt='Worksets can be marked private where they can only be viewed by authors and collaborators.' /></a><br /><div class='caption' style='width: 600px;'><p>Worksets can be marked private where they can only be viewed by authors and collaborators.</p>
+<p></p><div style='' class='image border'><a href='/reproducibility-site/images/projects/occam/access_private_workset.png' data-lightbox='image-7'><img src='/reproducibility-site/images/projects/occam/access_private_workset.png' class='' style='width: 600px;' title='' alt='Worksets can be marked private where they can only be viewed by authors and collaborators.' /></a><br /><div class='caption' style='width: 600px;'><p>Worksets can be marked private where they can only be viewed by authors and collaborators.</p>
 </div></div><p></p>
 
 <p>For the purpose of review, private worksets can generate a review link for a particular revision.
@@ -237,10 +252,10 @@ When you follow this link, the authorship information will be removed automatica
 It will not let you fork the content (and thus expose that metadata) nor
 download the object metadata.</p>
 
-<p></p><div style='' class='image border'><a href='/images/projects/occam/access_private_review_link.png' data-lightbox='image-8'><img src='/images/projects/occam/access_private_review_link.png' class='' style='width: 600px;' title='' alt='An author can generate a hidden link that gives a view of the work at a particular point in time without authorship information.' /></a><br /><div class='caption' style='width: 600px;'><p>An author can generate a hidden link that gives a view of the work at a particular point in time without authorship information.</p>
+<p></p><div style='' class='image border'><a href='/reproducibility-site/images/projects/occam/access_private_review_link.png' data-lightbox='image-8'><img src='/reproducibility-site/images/projects/occam/access_private_review_link.png' class='' style='width: 600px;' title='' alt='An author can generate a hidden link that gives a view of the work at a particular point in time without authorship information.' /></a><br /><div class='caption' style='width: 600px;'><p>An author can generate a hidden link that gives a view of the work at a particular point in time without authorship information.</p>
 </div></div><p></p>
 
-<p></p><div style='' class='image border'><a href='/images/projects/occam/access_private_review_link_compare.png' data-lightbox='image-9'><img src='/images/projects/occam/access_private_review_link_compare.png' class='' style='width: 600px;' title='' alt='Here we can see a comparison of a reviewer's view of a project and the author's. History and authorship are removed when anonymized.' /></a><br /><div class='caption' style='width: 600px;'><p>Here we can see a comparison of a reviewer&#39;s view of a project and the author&#39;s. History and authorship are removed when anonymized.</p>
+<p></p><div style='' class='image border'><a href='/reproducibility-site/images/projects/occam/access_private_review_link_compare.png' data-lightbox='image-9'><img src='/reproducibility-site/images/projects/occam/access_private_review_link_compare.png' class='' style='width: 600px;' title='' alt='Here we can see a comparison of a reviewer's view of a project and the author's. History and authorship are removed when anonymized.' /></a><br /><div class='caption' style='width: 600px;'><p>Here we can see a comparison of a reviewer&#39;s view of a project and the author&#39;s. History and authorship are removed when anonymized.</p>
 </div></div><p></p>
 <h2 id='provenance'>Provenance</h2>
 <p>Each object archived within OCCAM contains enough information to accurately represent its creation. If the object was
@@ -249,14 +264,14 @@ it tags the virtual machine it was run in and the actual object (simulator) that
 
 <p>Here is the provenance listed for the output:</p>
 
-<p></p><div style='' class='image'><a href='/images/projects/occam/provenance_simple_dramsim2.png' data-lightbox='image-10'><img src='/images/projects/occam/provenance_simple_dramsim2.png' class='' style='width: 500px;' title='' alt='The provenance of DRAMSim2 output lists the experiment and the virtual machine and the simulator.' /></a><br /><div class='caption' style='width: 500px;'><p>The provenance of DRAMSim2 output lists the experiment and the virtual machine and the simulator.</p>
+<p></p><div style='' class='image'><a href='/reproducibility-site/images/projects/occam/provenance_simple_dramsim2.png' data-lightbox='image-10'><img src='/reproducibility-site/images/projects/occam/provenance_simple_dramsim2.png' class='' style='width: 500px;' title='' alt='The provenance of DRAMSim2 output lists the experiment and the virtual machine and the simulator.' /></a><br /><div class='caption' style='width: 500px;'><p>The provenance of DRAMSim2 output lists the experiment and the virtual machine and the simulator.</p>
 </div></div><p></p>
 
 <p>From here, you can click on those nodes and bring up those objects. Clicking on the experiment
 will bring up the configurations used and allow you to clone that experiment. Clicking on the VM
 object will show you which objects (tagged with their revisions) were placed within the VM:</p>
 
-<p></p><div style='' class='image'><a href='/images/projects/occam/provenance_simple_dramsim2_vm.png' data-lightbox='image-11'><img src='/images/projects/occam/provenance_simple_dramsim2_vm.png' class='' style='width: 500px;' title='' alt='The provenance of the Virtual Machine that produced the DRAMSim2 output. It is running DRAMSim2 on ubuntu 14.04.' /></a><br /><div class='caption' style='width: 500px;'><p>The provenance of the Virtual Machine that produced the DRAMSim2 output. It is running DRAMSim2 on ubuntu 14.04.</p>
+<p></p><div style='' class='image'><a href='/reproducibility-site/images/projects/occam/provenance_simple_dramsim2_vm.png' data-lightbox='image-11'><img src='/reproducibility-site/images/projects/occam/provenance_simple_dramsim2_vm.png' class='' style='width: 500px;' title='' alt='The provenance of the Virtual Machine that produced the DRAMSim2 output. It is running DRAMSim2 on ubuntu 14.04.' /></a><br /><div class='caption' style='width: 500px;'><p>The provenance of the Virtual Machine that produced the DRAMSim2 output. It is running DRAMSim2 on ubuntu 14.04.</p>
 </div></div><p></p>
 
 <p>When you inspect an object in this provenance view, you will go to page for that object <strong>at the time
@@ -277,7 +292,9 @@ develop new tools which will be archived along with any produced data.</p>
 <h2 id='strengths'>Strengths</h2>
 <p>To be discussed.</p>
 <h3 id='breakdown'>Breakdown</h3><h2 id='weaknesses'>Weaknesses</h2>
-<p>To be discussed.</p>
+<p>Although it is easy to use existing objects, it is difficult to modify them.</p>
+
+<p>More to be discussed.</p>
 <h3 id='breakdown'>Breakdown</h3><h2 id='unique_features'>Unique Features</h2>
 <ul>
 <li>Ability to create Virtual Machines arbitrarily.</li>
@@ -298,14 +315,14 @@ develop new tools which will be archived along with any produced data.</p>
   	</div><!--/row-->
 </div><!--/container-->
 
-<footer><img src="/images/cc0.png"> This content is licensed: <a href="https://creativecommons.org/about/cc0/">cc-0</a> | <a href="https://github.com/wilkie/reproducibility-site/blob/master/projects/occam.md">View this page on GitHub</a> | <a href="http://www.bootply.com/">Template based on Bootply</a> and built on <a href="http://getbootstrap.com/">Bootstrap</a>.
+<footer><img src="/reproducibility-site/images/cc0.png"> This content is licensed: <a href="https://creativecommons.org/about/cc0/">cc-0</a> | <a href="https://github.com/wilkie/reproducibility-site/blob/master/projects/occam.md">View this page on GitHub</a> | <a href="http://www.bootply.com/">Template based on Bootply</a> and built on <a href="http://getbootstrap.com/">Bootstrap</a>.
 </footer>
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/lightbox2-master/dist/js/lightbox.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/angular.min.js"></script>
-<script src="/js/app.js"></script>
+<script src="/reproducibility-site/js/jquery.min.js"></script>
+<script src="/reproducibility-site/js/lightbox2-master/dist/js/lightbox.min.js"></script>
+<script src="/reproducibility-site/js/bootstrap.min.js"></script>
+<script src="/reproducibility-site/js/angular.min.js"></script>
+<script src="/reproducibility-site/js/app.js"></script>
 
 </body>
 </html>
