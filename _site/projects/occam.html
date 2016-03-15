@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Reproducibility Breakdown - OCCAM</title>
+  <link rel="stylesheet" href="/js/lightbox2-master/dist/css/lightbox.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="/css/post.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">Reproducibility Breakdown: OCCAM</a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li class='dropdown'>
+          <a href="#" class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>Projects <span class='caret'></span></a>
+          <ul class='dropdown-menu'>
+            <li><a href="/projects/collective_knowledge.html">Collective Knowledge</a></li>
+            <li><a href="/projects/occam.html">Occam</a></li>
+            <li><a href="/projects/datamill.html">DataMill</a></li>
+            <li><a href="/projects/dataverse.html">Dataverse</a></li>
+            <li><a href="/projects/runmycode.html">RunMyCode</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="/rubric.html">Rubric</a>
+        </li>
+        <li>
+          <a href="https://github.com/wilkie/reproducibility-site">View on GitHub</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</nav>
+
+<div id="masthead">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h1>OCCAM
+            <p class="lead"></p>
+          </h1>
+        </div>
+        <div class="col-md-7">
+          
+            <div class="well well-lg">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="/images/logos/occam/logo5.png" class="img-responsive">
+                </div>
+                <div class="col-sm-9">
+                  <p>OCCAM (Open Curation for Computer Architecture Modeling) is a project that will serve as the catalyst for the tools, education, and community-building needed to bring openness, accountability, comparability, and repeatability to computer architecture experimentation.</p>
+<div class='clear'></div>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+  </div><!--/container-->
+</div><!--/masthead-->
+
+<!--main-->
+<div class="container">
+	<div class="row">
+      <!--left-->
+      <div class="col-md-3" id="leftCol">
+        <ul id='sidebar' class='nav nav-stacked'><li><a href='#about'>About</a></li><li><a href='#rubric'>Rubric</a></li><li><a href='#motivation'>Motivation</a></li><li><a href='#walkthrough'>Walkthrough</a></li><li><a href='#infrastructure'>Infrastructure</a></li><li><a href='#capabilities'>Capabilities</a></li><li><a href='#access'>Access</a></li><li><a href='#provenance'>Provenance</a></li><li><a href='#governance'>Governance</a></li><li><a href='#strengths'>Strengths</a></li><li><a href='#weaknesses'>Weaknesses</a></li><li><a href='#unique_features'>Unique Features</a></li><li><a href='#best_practice_influences'>Best-Practice Influences</a></li><li><a href='#digital_library_incorporation_issues'>Digital Library Incorporation Issues</a></li><li><a href='#applied_use_cases'>Applied Use-cases</a></li></ul>
+      </div><!--/left-->
+
+      <!--right-->
+      <div class="col-md-9">
+        <div class='content'>
+          <article>
+            <h2 id='about'>About</h2><h3 id='authors'>Authors</h3>
+<p><a href='http://wilkie.io' title=''>wilkie</a> - Lead Designer and Curator</p>
+
+<p><a href='http://people.cs.pitt.edu/~childers/' title=''>Bruce Childers</a></p>
+
+<p><a href='http://people.cs.pitt.edu/~mosse/' title=''>Daniel Mossé</a></p>
+<h3 id='information'>Information</h3>
+<p><strong>Type</strong>: Workflow Builder, Automation Tool, Metadata Library, Digital Archive</p>
+
+<p><strong>License</strong>: AGPLv3</p>
+
+<p><strong>Timeline</strong>: 2014-present</p>
+
+<p><strong>Institution</strong>: University of Pittsburgh</p>
+<h3 id='links'>Links</h3>
+<ul>
+<li><a href='https://occam.cs.pitt.edu' title=''>Public OCCAM Server</a></li>
+<li><a href='http://occamportal.org' title=''>OCCAM Portal and Blog</a></li>
+<li><a href='http://docs.occamportal.org' title=''>OCCAM Documentation</a></li>
+</ul>
+<h2 id='rubric'>Rubric</h2>
+<pre><code>  ✔ - Yes
+  ✗ - No
+  ○ - Yes, but with concession
+  · - Inapplicable
+  ? - Unknown
+</code></pre>
+<table><thead><tr><td class=''>Infrastructure</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Self-Hosting</td><td class='feature yes'>✔</td><td class=''>One can run a complete node on their own systems and connect them to other nodes for the purposes of pulling and replicating artifacts.</td></tr><tr><td class=''>Provides Metadata</td><td class='feature yes'>✔</td><td class=''>Metadata is stored and versioned per object. There is also separate metadata that records performance and usage info for artifacts.</td></tr><tr><td class=''>Provides Hardware Diversity</td><td class='feature no'>✗</td><td class=''>The public OCCAM node is a single server.</td></tr><tr><td class=''>Dispatches Work to Cloud Machines</td><td class='feature no'>✗</td><td class=''>Currently, OCCAM cannot push out work to an external server.</td></tr><tr><td class=''>Provides a Web Portal</td><td class='feature yes'>✔</td><td class=''>OCCAM provides full functionality and can run interactive widgets and interactive terminals within the browser.</td></tr><tr><td class=''>Provides Performance Monitoring</td><td class='feature no'>✗</td><td class=''>OCCAM does not do any performance monitoring or hardware monitoring</td></tr></tbody></table><table><thead><tr><td class=''>Capabilities</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Runs Code</td><td class='feature yes'>✔</td><td class=''>General Purpose: Can run anything once it has been wrapped within some metadata that describes how to invoke it. Can run older applications through emulators.</td></tr><tr><td class=''>File Storage</td><td class='feature yes'>✔</td><td class=''>OCCAM stores raw file data and can replicate/archive git repositories from github etc</td></tr><tr><td class=''>Collaboration Controls</td><td class='feature yes'>✔</td><td class=''>Accounts can be added read-only and read-write to a project.</td></tr><tr><td class=''>Provides Citations</td><td class='feature yes'>✔</td><td class=''>OCCAM can store and generate BibTeX citations.</td></tr><tr><td class=''>Interactive Graphing</td><td class='feature yes'>✔</td><td class=''>Interactive widgets and plotting libraries can be created or wrapped to work with OCCAM to create interactive papers.</td></tr><tr><td class=''>Can Combine Objects</td><td class='feature yes'>✔</td><td class=''>Workflows can be created that connect many otherwise disparate objects such as simulators and trace generators and datasets</td></tr><tr><td class=''>Can Archive/Run GUI Tools</td><td class='feature yes'>✔</td><td class=''>Can run an interactive video stream of a GUI application.</td></tr><tr><td class=''>Can Hook to External Services</td><td class='feature no'>✗</td><td class=''></td></tr></tbody></table><table><thead><tr><td class=''>Access</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Public view of object</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Access Permissions for Editing</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Access Permissions for Reading</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Access Permissions for Anon Review</td><td class='feature yes'>✔</td><td class=''>Review links can be generated and revoked for a single revision of a project. Yields a link that you can give out that removes authorship information. Future changes to the project after the link was generated are not seen.</td></tr></tbody></table><table><thead><tr><td class=''>Provenance</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Search</td><td class='feature yes'>✔</td><td class=''>Basic Search: Can search by uuid, name, or object type. Cannot search among federated OCCAM nodes.</td></tr><tr><td class=''>Unique Identifiers for Projects</td><td class='feature yes'>✔</td><td class=''>Standard UUIDs</td></tr><tr><td class=''>Provides URL to Project / Data</td><td class='feature yes'>✔</td><td class=''></td></tr></tbody></table><table><thead><tr><td class=''>Governance</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Open Source</td><td class='feature yes'>✔</td><td class=''>AGPLv3</td></tr><tr><td class=''>Allows Modification / Redistribution</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Has a Free-to-Use Package</td><td class='feature yes'>✔</td><td class=''>There is no pricing scheme. This is a public service.</td></tr><tr><td class=''>Has a Student Package</td><td class='feature not-available'>·</td><td class=''></td></tr><tr><td class=''>Has a Paid Package</td><td class='feature not-available'>·</td><td class=''></td></tr></tbody></table><h2 id='motivation'>Motivation</h2>
+<p>From their portal <a href='http://www.occamportal.org/infrastructure/overview.html' title=''>here</a>:</p>
+
+<blockquote>
+<p>Computer architecture researchers must choose a simulator to conduct their research on. Due to the sheer number of simulators, it can be difficult to find an appropriate simulator, potentially forcing researchers to &quot;reinvent the wheel&quot; and develop their own. The following table shows a snapshot of 31 different simulators and their capabilities:</p>
+
+<p></p><div style='' class='image'><a href='/images/projects/occam/simulator-table-comparison.png' data-lightbox='image-0'><img src='/images/projects/occam/simulator-table-comparison.png' class='' style='' title='' alt='' /></a></div><p></p>
+
+<p>As seen in the table above, it can be difficult for researchers to find appropriate simulators. There is no central repository that lists simulators and their features, and researchers are forced to scour the Internet and published papers looking for simulators. OCCAM aims to make it easy for researchers to find, use and, when appropriate, share newly developed simulators.</p>
+</blockquote>
+<h2 id='walkthrough'>Walkthrough</h2>
+<p>General computational objects, such as simulators, are wrapped within metadata that describes how to install, build, and run them.</p>
+
+<!-- object metadata -->
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">{</span>
+  <span class="s2">"name"</span><span class="err">:</span> <span class="s2">"DRAMSim2"</span><span class="p">,</span>
+  <span class="s2">"type"</span><span class="err">:</span> <span class="s2">"simulator"</span><span class="p">,</span>
+  <span class="s2">"id"</span><span class="err">:</span>   <span class="s2">"2223413a-92c6-11e4-b64f-001fd05bb228"</span><span class="p">,</span>
+
+  <span class="s2">"install"</span><span class="err">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="s2">"name"</span><span class="p">:</span>     <span class="s2">"DRAMSim2 Source"</span><span class="p">,</span>
+      <span class="s2">"type"</span><span class="p">:</span>     <span class="s2">"git"</span><span class="p">,</span>
+      <span class="s2">"id"</span><span class="p">:</span>       <span class="s2">"ecd72604-ce75-11e4-9e9b-001fd05bb228"</span><span class="p">,</span>
+      <span class="s2">"revision"</span><span class="p">:</span> <span class="s2">"2fa5ab55dbb639fa5991218f7b959061f19f590c"</span><span class="p">,</span>
+      <span class="s2">"source"</span><span class="p">:</span>   <span class="s2">"git://github.com/dramninjasUMD/DRAMSim2.git"</span><span class="p">,</span>
+      <span class="s2">"to"</span><span class="p">:</span>       <span class="s2">"package"</span>
+    <span class="p">}</span>
+  <span class="p">],</span>
+
+  <span class="s2">"build"</span><span class="err">:</span> <span class="p">{</span>
+    <span class="s2">"language"</span><span class="err">:</span> <span class="s2">"bash"</span><span class="p">,</span>
+    <span class="s2">"script"</span><span class="err">:</span> <span class="s2">"build.sh"</span>
+  <span class="p">},</span>
+
+  <span class="s2">"run"</span><span class="err">:</span> <span class="p">{</span>
+    <span class="s2">"script"</span><span class="err">:</span> <span class="s2">"launch.py"</span><span class="p">,</span>
+    <span class="s2">"version"</span><span class="err">:</span> <span class="s2">"3.3.0"</span><span class="p">,</span>
+    <span class="s2">"language"</span><span class="err">:</span> <span class="s2">"python"</span>
+  <span class="p">}</span>
+
+  <span class="p">...</span>
+<span class="p">}</span></code></pre></figure>
+<h3 id='workflows'>Workflows</h3>
+<p>Work is kept inside <strong>Worksets</strong> where one can add file Volumes and <strong>Experiments</strong>. An Experiment contains a workflow where objects
+are connected together. This is an example of such a workflow:</p>
+
+<p></p><div style='' class='image'><a href='/images/projects/occam/workflow_simple_dramsim2.png' data-lightbox='image-1'><img src='/images/projects/occam/workflow_simple_dramsim2.png' class='' style='' title='' alt='A simple workflow where a single object is selected. It generates output data.' /></a><br /><div class='caption' style=''><p>A simple workflow where a single object is selected. It generates output data.</p>
+</div></div><p>
+</p><div style='' class='image'><a href='/images/projects/occam/workflow_complex_hmmsim.png' data-lightbox='image-2'><img src='/images/projects/occam/workflow_complex_hmmsim.png' class='' style='' title='' alt='A more complex workflow consisting of several objects. Two benchmark applications attached to trace generators which will create a trace and then use that as input to a simulator. It generates a single object for output data.' /></a><br /><div class='caption' style=''><p>A more complex workflow consisting of several objects. Two benchmark applications attached to trace generators which will create a trace and then use that as input to a simulator. It generates a single object for output data.</p>
+</div></div><p></p>
+
+<p>For each object, one can configure it within a web browser. Simulators, or researchers who wrap them, can provide a configuration
+script. This generates a form that can do quick validations of inputs. These will warn people immediately when a configuration option
+is wrong.</p>
+
+<p></p><div style='' class='image border'><a href='/images/projects/occam/configuration_simple_dramsim2.png' data-lightbox='image-3'><img src='/images/projects/occam/configuration_simple_dramsim2.png' class='' style='width: 600px;' title='' alt='Validations can be added to simulator configuration input to give immediate feedback when an invalid value is used.' /></a><br /><div class='caption' style='width: 600px;'><p>Validations can be added to simulator configuration input to give immediate feedback when an invalid value is used.</p>
+</div></div><p></p>
+<h3 id='output'>Output</h3>
+<p>When the workflow is ready, one can queue the work on a job scheduler to automatically be executed behind the scenes. One can see
+an indicator of the progress of the work. When the work completes, a simulator script can be specified to run to parse the data into
+some structured output. If that is not available, one can always just use the standard output or download any generated files.</p>
+
+<p></p><div style='' class='image border'><a href='/images/projects/occam/dataview_simple_dramsim2.png' data-lightbox='image-4'><img src='/images/projects/occam/dataview_simple_dramsim2.png' class='' style='width: 600px;' title='' alt='The structured output for a run of DRAMSim2.' /></a><br /><div class='caption' style='width: 600px;'><p>The structured output for a run of DRAMSim2.</p>
+</div></div><p></p>
+
+<p>The structured output is provided by the simulator or researcher to specify the various entries that can possibly be in the data.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">{</span>
+  <span class="p">...</span>
+
+  <span class="s2">"banks"</span><span class="err">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="s2">"bandwidth"</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">"type"</span><span class="p">:</span>  <span class="s2">"float"</span><span class="p">,</span>
+        <span class="s2">"units:  "</span><span class="nx">GB</span><span class="o">/</span><span class="nx">s</span><span class="s2">"
+      },
+      "</span><span class="nx">latency</span><span class="s2">": {
+        "</span><span class="nx">type</span><span class="s2">": "</span><span class="kr">float</span><span class="s2">",
+        "</span><span class="nx">units</span><span class="s2">": "</span><span class="nx">nanoseconds</span><span class="err">"</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">],</span>
+
+  <span class="p">...</span>
+<span class="p">}</span></code></pre></figure>
+<h3 id='data_interactivity'>Data Interactivity</h3>
+<p>When you have some data after running a workflow, OCCAM provides a means of plotting that data interactively. You can create a
+Paper object within a Workset. Within a paper, you can add text to describe the data and the research. Among the text, you can
+add a widget. The widget can be any object available on the system. In this case, we will look at the plotly.js object:</p>
+
+<p></p><div style='' class='image'><a href='/images/projects/occam/plotter_simple_dramsim2.png' data-lightbox='image-5'><img src='/images/projects/occam/plotter_simple_dramsim2.png' class='' style='width: 600px;' title='' alt='The structured output for a run of DRAMSim2.' /></a><br /><div class='caption' style='width: 600px;'><p>The structured output for a run of DRAMSim2.</p>
+</div></div><p></p>
+
+<p>In order to combat the future problem of having data formats that cannot be viewed by future hardware and software environments,
+OCCAM can build virtual machines from components in a way that resists staleness. To illustrate that, OCCAM discusses how it
+manages to archive DOS games and applications.</p>
+
+<p></p><div style='' class='image'><a href='/images/projects/occam/viewer_pcx_marbles.png' data-lightbox='image-6'><img src='/images/projects/occam/viewer_pcx_marbles.png' class='' style='width: 500px;' title='' alt='Loading an older image format in DOS using old software directly in the browser.' /></a><br /><div class='caption' style='width: 500px;'><p>Loading an older image format in DOS using old software directly in the browser.</p>
+</div></div><p></p>
+
+<p>The above image shows the ability to interactively run an old DOS application to view an aged image format. This is
+a practical way of dealing with simulator visualization data and tooling.</p>
+<h2 id='infrastructure'>Infrastructure</h2>
+<p>The public OCCAM server provides very limited hardware support.
+Currently, to run large experiments, you would self-host your own server.
+There are no mechanisms to push work out to external services that are not
+set up to run an OCCAM node.
+Furthermore, there is no support for existing job queuing or scheduling tools.</p>
+<h2 id='capabilities'>Capabilities</h2><h2 id='access'>Access</h2>
+<p>Projects, known as worksets in OCCAM, can be marked as public or private. When marked as private, only authors
+can view or edit the project. There is a distinction between authors and collaborators.
+Collaborators can view a private project but cannot edit.</p>
+
+<p></p><div style='' class='image border'><a href='/images/projects/occam/access_private_workset.png' data-lightbox='image-7'><img src='/images/projects/occam/access_private_workset.png' class='' style='width: 600px;' title='' alt='Worksets can be marked private where they can only be viewed by authors and collaborators.' /></a><br /><div class='caption' style='width: 600px;'><p>Worksets can be marked private where they can only be viewed by authors and collaborators.</p>
+</div></div><p></p>
+
+<p>For the purpose of review, private worksets can generate a review link for a particular revision.
+When you follow this link, the authorship information will be removed automatically.
+It will not let you fork the content (and thus expose that metadata) nor
+download the object metadata.</p>
+
+<p></p><div style='' class='image border'><a href='/images/projects/occam/access_private_review_link.png' data-lightbox='image-8'><img src='/images/projects/occam/access_private_review_link.png' class='' style='width: 600px;' title='' alt='An author can generate a hidden link that gives a view of the work at a particular point in time without authorship information.' /></a><br /><div class='caption' style='width: 600px;'><p>An author can generate a hidden link that gives a view of the work at a particular point in time without authorship information.</p>
+</div></div><p></p>
+
+<p></p><div style='' class='image border'><a href='/images/projects/occam/access_private_review_link_compare.png' data-lightbox='image-9'><img src='/images/projects/occam/access_private_review_link_compare.png' class='' style='width: 600px;' title='' alt='Here we can see a comparison of a reviewer's view of a project and the author's. History and authorship are removed when anonymized.' /></a><br /><div class='caption' style='width: 600px;'><p>Here we can see a comparison of a reviewer&#39;s view of a project and the author&#39;s. History and authorship are removed when anonymized.</p>
+</div></div><p></p>
+<h2 id='provenance'>Provenance</h2>
+<p>Each object archived within OCCAM contains enough information to accurately represent its creation. If the object was
+generated (such as the output data above) by an object, it will tag the revision and uuid of those objects. Generally
+it tags the virtual machine it was run in and the actual object (simulator) that generated the output.</p>
+
+<p>Here is the provenance listed for the output:</p>
+
+<p></p><div style='' class='image'><a href='/images/projects/occam/provenance_simple_dramsim2.png' data-lightbox='image-10'><img src='/images/projects/occam/provenance_simple_dramsim2.png' class='' style='width: 500px;' title='' alt='The provenance of DRAMSim2 output lists the experiment and the virtual machine and the simulator.' /></a><br /><div class='caption' style='width: 500px;'><p>The provenance of DRAMSim2 output lists the experiment and the virtual machine and the simulator.</p>
+</div></div><p></p>
+
+<p>From here, you can click on those nodes and bring up those objects. Clicking on the experiment
+will bring up the configurations used and allow you to clone that experiment. Clicking on the VM
+object will show you which objects (tagged with their revisions) were placed within the VM:</p>
+
+<p></p><div style='' class='image'><a href='/images/projects/occam/provenance_simple_dramsim2_vm.png' data-lightbox='image-11'><img src='/images/projects/occam/provenance_simple_dramsim2_vm.png' class='' style='width: 500px;' title='' alt='The provenance of the Virtual Machine that produced the DRAMSim2 output. It is running DRAMSim2 on ubuntu 14.04.' /></a><br /><div class='caption' style='width: 500px;'><p>The provenance of the Virtual Machine that produced the DRAMSim2 output. It is running DRAMSim2 on ubuntu 14.04.</p>
+</div></div><p></p>
+
+<p>When you inspect an object in this provenance view, you will go to page for that object <strong>at the time
+it was used</strong>. It keeps track of version histories of every object and keeps track of revisions when
+it creates objects or virtual machines.</p>
+<h2 id='governance'>Governance</h2>
+<p>OCCAM is completely open-source and licensed under free-software licenses.
+The backend code is licensed under the AGPLv3 license which ensures that
+improvements will always be open and the source code available in the future.
+This speaks to longevity. If any public OCCAM node disappears, another one
+can be made available to take its place. OCCAM artifacts can be shared and
+imported among nodes further strengthening its availability and longevity.</p>
+
+<p>The public nodes, and potentially any node set up by an institution, is free
+to use. You may host your own work and run any of the existing tools already
+available on the public node. By running your own node, you may run or
+develop new tools which will be archived along with any produced data.</p>
+<h2 id='strengths'>Strengths</h2>
+<p>To be discussed.</p>
+<h3 id='breakdown'>Breakdown</h3><h2 id='weaknesses'>Weaknesses</h2>
+<p>To be discussed.</p>
+<h3 id='breakdown'>Breakdown</h3><h2 id='unique_features'>Unique Features</h2>
+<ul>
+<li>Ability to create Virtual Machines arbitrarily.</li>
+<li>Can run any arbitrary and custom-made interactive javascript widget.</li>
+<li>The ability to run many graphical tools interactively within the browser.</li>
+</ul>
+<h2 id='best_practice_influences'>Best-Practice Influences</h2>
+<p>To be discussed.</p>
+<h2 id='digital_library_incorporation_issues'>Digital Library Incorporation Issues</h2>
+<p>To be discussed.</p>
+<h2 id='applied_use_cases'>Applied Use-cases</h2>
+<p>To be discussed.</p>
+
+          </article>
+        </div>
+        <div class='clear'></div>
+      </div>
+  	</div><!--/row-->
+</div><!--/container-->
+
+<footer><img src="/images/cc0.png"> This content is licensed: <a href="https://creativecommons.org/about/cc0/">cc-0</a> | <a href="https://github.com/wilkie/reproducibility-site/blob/master/projects/occam.md">View this page on GitHub</a> | <a href="http://www.bootply.com/">Template based on Bootply</a> and built on <a href="http://getbootstrap.com/">Bootstrap</a>.
+</footer>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/lightbox2-master/dist/js/lightbox.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/angular.min.js"></script>
+<script src="/js/app.js"></script>
+
+</body>
+</html>
