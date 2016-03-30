@@ -104,9 +104,9 @@ From their [about page](http://www.uni-weimar.de/en/media/chairs/webis/research/
 
 | Governance                           |     |            |
 | ------------------------------------ | --- | ---------- |
-| Open Source                          |  ?  | |
-| Allows Modification / Redistribution |  ?  |            |
-| Has a Free-to-Use Package            |  ?  | |
+| Open Source                          |  ✗  | No source code has been linked. |
+| Allows Modification / Redistribution |  ✗  |            |
+| Has a Free-to-Use Package            |  ✔  | |
 | Has a Student Package                |  ?  |            |
 | Has a Paid Package                   |  ?  |            |
 
