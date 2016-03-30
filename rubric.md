@@ -43,7 +43,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [Apt/emulab][apt]             | ✔ | ✔ | ✗ | ✗ | ✗ | AGPLv3       | 2014       | University of Utah            | [Link](https://www.aptlab.net/)          |
 | [Helix Lab Cloud][hlc]        | ✔ | ✔ | ✗ | ✗ | ✔ | Proprietary  | 2015       | Wind River, Intel Corporation | [Link](https://lab.cloud.windriver.com/) |
 | [JupyterHub][jh]              | ✗ | ✗ | ✗ | ✗ | ✔ | 3c-BSD       | 2001, 2015 | NumFOCUS Foundation           | [Link](http://jupyter.org/)              |
-| [TIRA][tira]                  | ✔ | ✗ | ✔ | ✗ | ✗ |              |            |                               |                                          |
+| [TIRA][tira]                  | ✔ | ✗ | ✔ | ✗ | ✗ | Closed       | 2014       | Bauhaus-Universität Weimar    | [Link](http://tira.io)                   |
 | [HUBzero][hubzero]            | ✔ | ✗ | ✔ | ✔ | ✔ | LGPLv3       |            | HUBzero Foundation            | [Link](https://hubzero.org/)             |
 | [OLIVE][olive]                | ✗ | ✔ | ✔ | ✗ | ✔ | GPLv2/Closed | 2013       | Carnegie Mellon University    | [Link](https://olivearchive.org/)        |
 | [ResearchCompendia][rc]       | ✗ | ✗ | ✔ | ✔ | ✗ | MIT          | 2013       | Columbia University           | [Link](http://researchcompendia.org/)    |
@@ -138,7 +138,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [Apt/emulab][apt]             | ✔ | ✔ | ✔ | · | · | University     |
 | [Helix Lab Cloud][hlc]        | ✗ | ✗ | ✔ | ✗ | ✔ | For-Profit     |
 | [JupyterHub][jh]              | ✔ | ✔ | ✔ | · | · | Non-Profit     |
-| [TIRA][tira]                  | ? | ? | ✔ | · | · | University     |
+| [TIRA][tira]                  | ✗ | ✗ | ✔ | · | · | University     |
 | [HUBzero][hubzero]            | ✗ | ✔ | ✔ | ✔ | ✔ | Non-Profit     |
 | [OLIVE][olive]                | ○ | ○ | ✔ | · | · | University     |
 | [ResearchCompendia][rc]       | ✔ | ✔ | ✔ | · | · | University     |
