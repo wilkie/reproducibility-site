@@ -32,22 +32,22 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 [ck]:       {{ site.baseurl }}/projects/collective_knowledge.html
 [rc]:       {{ site.baseurl }}/projects/researchcompendia.html
 
-| Name                          | /Infrastructure Service | /VM Builder | /Digital Library | /File Hosting | /Interactive Tool | License | Year | Organization | Link |
-| ----------------------------- | --- | --- | --- | --- | --- | ------- | ---- | ------------ | ---- |
-| [DataMill][datamill]          | ✔ | ✗ | ✗ | ✔ | ✗ | AGPLv3       | 2013       | University of Waterloo        | [Link](https://datamill.uwaterloo.ca/)   |
-| [Occam][occam]                | ✗ | ✔ | ✔ | ✔ | ✔ | AGPLv3       | 2014       | University of Pittsburgh      | [Link](https://occam.cs.pitt.edu/)       |
-| [Collective Knowledge][ck]    | ✗ | ✗ | ✔ | ✗ | ✔ | AGPLv3       | 2014       | cTuning Foundation            | [Link](http://cknowledge.ddns.net/)      |
-| [RunMyCode][rmc]              | ✗ | ✗ | ✔ | ✔ | ✗ | Closed       | 2013       | RunMyCode Association         | [Link](http://runmycode.org/)            |
-| [Dataverse][dv]               | ✗ | ✗ | ✔ | ✔ | ✗ | Apache 2.0   | 2012       | Harvard University            | [Link](https://dataverse.harvard.edu/)   |
-| [Open Science Framework][osf] | ✗ | ✗ | ✔ | ✔ | ✗ | Apache 2.0   | 2013       | Center for Open Science       | [Link](https://osf.io/)                  |
-| [Apt/emulab][apt]             | ✔ | ✔ | ✗ | ✗ | ✗ | AGPLv3       | 2014       | University of Utah            | [Link](https://www.aptlab.net/)          |
-| [Helix Lab Cloud][hlc]        | ✔ | ✔ | ✗ | ✗ | ✔ | Proprietary  | 2015       | Wind River, Intel Corporation | [Link](https://lab.cloud.windriver.com/) |
-| [JupyterHub][jh]              | ✗ | ✗ | ✗ | ✗ | ✔ | 3c-BSD       | 2001, 2015 | NumFOCUS Foundation           | [Link](http://jupyter.org/)              |
-| [TIRA][tira]                  | ✔ | ✗ | ✔ | ✗ | ✗ | Closed       | 2014       | Bauhaus-Universität Weimar    | [Link](http://tira.io)                   |
-| [HUBzero][hubzero]            | ✔ | ✗ | ✔ | ✔ | ✔ | LGPLv3       |            | HUBzero Foundation            | [Link](https://hubzero.org/)             |
-| [OLIVE][olive]                | ✗ | ✔ | ✔ | ✗ | ✔ | GPLv2/Closed | 2013       | Carnegie Mellon University    | [Link](https://olivearchive.org/)        |
-| [ResearchCompendia][rc]       | ✗ | ✗ | ✔ | ✔ | ✗ | MIT          | 2013       | Columbia University           | [Link](http://researchcompendia.org/)    |
-| [Code Ocean][co]              | ? | ? | ? | ? | ? | ?            | ?          | ?                             | ?                                        |
+| Name                          | /Infrastructure Service | /VM Builder | /Digital Library | /File Hosting | /Interactive Tool | /Records Relational Provenance | License | Year | Organization | Link |
+| ----------------------------- | --- | --- | --- | --- | --- | --- | ------- | ---- | ------------ | ---- |
+| [DataMill][datamill]          | ✔ | ✗ | ✗ | ✔ | ✗ | ✗ | AGPLv3       | 2013       | University of Waterloo        | [Link](https://datamill.uwaterloo.ca/)   |
+| [Occam][occam]                | ✗ | ✔ | ✔ | ✔ | ✔ | ✔ | AGPLv3       | 2014       | University of Pittsburgh      | [Link](https://occam.cs.pitt.edu/)       |
+| [Collective Knowledge][ck]    | ✗ | ✗ | ✔ | ✗ | ✔ | ✔ | 3c-BSD       | 2014       | cTuning Foundation            | [Link](http://cknowledge.ddns.net/)      |
+| [RunMyCode][rmc]              | ✗ | ✗ | ✔ | ✔ | ✗ | ✗ | Closed       | 2013       | RunMyCode Association         | [Link](http://runmycode.org/)            |
+| [Dataverse][dv]               | ✗ | ✗ | ✔ | ✔ | ✗ | ✗ | Apache 2.0   | 2012       | Harvard University            | [Link](https://dataverse.harvard.edu/)   |
+| [Open Science Framework][osf] | ✗ | ✗ | ✔ | ✔ | ✗ | ✗ | Apache 2.0   | 2013       | Center for Open Science       | [Link](https://osf.io/)                  |
+| [Apt/emulab][apt]             | ✔ | ✔ | ✗ | ✗ | ✗ | ✗ | Apache 2.0   | 2014       | University of Utah            | [Link](https://www.aptlab.net/)          |
+| [Helix Lab Cloud][hlc]        | ✔ | ✔ | ✗ | ✗ | ✔ | ✗ | Proprietary  | 2015       | Wind River, Intel Corporation | [Link](https://lab.cloud.windriver.com/) |
+| [JupyterHub][jh]              | ✗ | ✗ | ✗ | ✗ | ✔ | ✗ | 3c-BSD       | 2001, 2015 | NumFOCUS Foundation           | [Link](http://jupyter.org/)              |
+| [TIRA][tira]                  | ✔ | ✗ | ✔ | ✗ | ✗ | ✗ | Closed       | 2014       | Bauhaus-Universität Weimar    | [Link](http://tira.io)                   |
+| [HUBzero][hubzero]            | ✔ | ✗ | ✔ | ✔ | ✔ | ✗ | LGPLv3       | 2013       | HUBzero Foundation            | [Link](https://hubzero.org/)             |
+| [OLIVE][olive]                | ✗ | ✔ | ✔ | ✗ | ✔ | ✗ | GPLv2/Closed | 2013       | Carnegie Mellon University    | [Link](https://olivearchive.org/)        |
+| [ResearchCompendia][rc]       | ✗ | ✗ | ✔ | ✔ | ✗ | ✗ | MIT          | 2013       | Columbia University           | [Link](http://researchcompendia.org/)    |
+| [Code Ocean][co]              | ? | ? | ? | ? | ? | ? | ?            | ?          | ?                             | ?                                        |
 
 ## Infrastructure
 
@@ -199,6 +199,22 @@ with others.
 If you can see code execute, if you can interact with data and create new data
 through that interaction, or if you can simply run archived interactive programs,
 then you qualify as an interactive tool.
+
+#### Records Relational Provenance
+
+Tools that record relational provenance will go through the effort to ensure that when
+objects are created, they are linked to the version of the object that created
+them. If an environment must be used to run code within, a tool that encapsulates
+provenance will note the specifics of that environment (the VM tool used, the
+hardware it was executed upon, the packages that were installed, etc)
+
+When provenance is recorded, tools can better understand how to replicate the
+context that matters and reproduce results in a way that can control for
+environmental effects. Tools that are on the better end of this mark will
+preserve the original tools and virtualization technology that are linked.
+The best tools will be able to use the provenance as a guide to replication
+and, although not necessarily replicating the exact environment, is able to
+use provenance to replicate a similar environment.
 
 ### Infrastructure
 
