@@ -119,11 +119,11 @@ article table {
     left: 5px;
     bottom: 0em;
     width: 10em;
-    height: 3em;
+    height: 2.6em;
     line-height: 3em; }
   article table thead tr td.tilt div + div span {
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
     line-height: 1.2em; }
   article table tbody tr td {
     border-bottom: 1px solid #DCBCDC;
