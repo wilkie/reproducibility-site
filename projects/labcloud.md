@@ -55,9 +55,9 @@ easy to run and share in Lab Cloud.
 | Infrastructure                       |     |            |
 | ------------------------------------ | --- | ---------- |
 | Self-Hosting                         |  ✗  | |
-| Provides Metadata                    |  ?  | |
+| Provides Metadata                    |  ✗  | |
 | Provides Hardware Diversity          |  ✔  | |
-| Dispatches Work to Cloud Machines    |  ?  | |
+| Dispatches Work to Cloud Machines    |  ✗  | |
 | Provides a Web Portal                |  ✔  | |
 | Provides Performance Monitoring      |  ✔  | |
 
@@ -66,24 +66,24 @@ easy to run and share in Lab Cloud.
 | Runs Code                            |  ✔  | |
 | File Storage                         |  ✔  | |
 | Collaboration Controls               |  ✔  | |
-| Provides Citations                   |  ?  | |
-| Interactive Graphing                 |  ?  | |
-| Can Combine Objects Interactively    |  ?  | |
+| Provides Citations                   |  ✗  | |
+| Interactive Graphing                 |  ✗  | |
+| Can Combine Objects Interactively    |  ✗  | |
 | Can Archive/Run GUI Tools            |  ✗  | |
-| Can Hook to External Services        |  ?  | |
+| Can Hook to External Services        |  ✗  | |
 
 | Access                               |     |            |
 | ------------------------------------ | --- | ---------- |
-| Public view of object                |  ?  | |
-| Access Permissions for Editing       |  ?  | |
-| Access Permissions for Reading       |  ?  | |
-| Access Permissions for Anon Review   |  ?  | |
+| Public view of object                |  ✗  | This is a private service meant for development, not publishing. |
+| Access Permissions for Editing       |  ✔  | You can share interactive sessions where both participants can interact and mutate the session. |
+| Access Permissions for Reading       |  ✔  | |
+| Access Permissions for Anon Review   |  ✗  | |
 
 | Provenance                               |     |            |
 | ---------------------------------------- | --- | ---------- |
-| Search                                   |  ✗  | This is a testing/debugging and staging tool, not a library. |
-| Globally Unique Identifiers for Projects |  ✗  | |
-| Provides URL to Project / Data           |  ✗  | |
+| Search                                   | ✗ | This is a testing/debugging and staging tool, not a library. |
+| Globally Unique Identifiers for Projects | ✔ | Sessions get a UUID |
+| Provides URL to Project / Data           | ✗ | |
 
 | Governance                           |     |            |
 | ------------------------------------ | --- | ---------- |

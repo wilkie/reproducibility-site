@@ -39,7 +39,12 @@ article {
   }
 
   h3 {
-    margin-top: 40px;
+    margin-top: 0;
+
+    &:not(:first-child) {
+      margin-top: 40px;
+    }
+
     font: normal 20px "Lato", sans-serif;
 
     color: #5052A9;

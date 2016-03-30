@@ -19,7 +19,19 @@ description: "HUBzero® is an open source software platform for building powerfu
 
 **Institution**: HUBzero Foundation (non-profit), Purdue University
 
+### Links
+
+[Example Project](https://nanohub.org/projects/ccammodel) - nanohub.org
+
+[Associated Publication](https://nanohub.org/publications/62/2) - nanohub.org
+
 ## Motivation
+
+From their [about page](https://hubzero.org/about):
+
+> ### Just Another Web Site? Why Not Use a WordPress Blog?
+>
+> HUBzero includes a powerful content management system built to support scientific activities. Sure, users on a hub can write blog entries and participate in discussion groups, but they can do so much more. They can work together in projects, publish datasets and computational tools with Digital Object Identifiers (DOIs), and make these publications available for others to use—not as dusty downloads, but as live, interactive digital resources. Simulation/modeling tools published on a hub can be accessed with the click of a button. They run on cloud computing resources, campus clusters, and other national high-performance computing (HPC) facilities and serve up compelling visualizations.
 
 ## Rubric
 
@@ -35,10 +47,10 @@ description: "HUBzero® is an open source software platform for building powerfu
 | ------------------------------------ | --- | ---------- |
 | Self-Hosting                         |  ✔  | You are expected to create hubs for your own institution or subfield. |
 | Provides Metadata                    |  ✔  | |
-| Provides Hardware Diversity          |  ?  | |
+| Provides Hardware Diversity          |  ✗  | The infrastructure is mostly just either file hosting or a strictly Linux environment. There is no driven effort toward offering hardware resources. |
 | Dispatches Work to Cloud Machines    |  ?  | |
 | Provides a Web Portal                |  ✔  | |
-| Provides Performance Monitoring      |  ?  | |
+| Provides Performance Monitoring      |  ✗  | |
 
 | Capabilities                         |     |            |
 | ------------------------------------ | --- | ---------- |
@@ -61,8 +73,8 @@ description: "HUBzero® is an open source software platform for building powerfu
 | Provenance                               |     |            |
 | ---------------------------------------- | --- | ---------- |
 | Search                                   |  ✔  | |
-| Globally Unique Identifiers for Projects |  ✔  | DOIs. Interactive tools are also assigned DOIs. |
-| Provides URL to Project / Data           |  ?  | |
+| Globally Unique Identifiers for Projects |  ✔  | DOIs. Interactive tools are also assigned DOIs. DOIs only assigned when published, however. Projects are only locally unique. |
+| Provides URL to Project / Data           |  ✔  | |
 
 | Governance                           |     |            |
 | ------------------------------------ | --- | ---------- |

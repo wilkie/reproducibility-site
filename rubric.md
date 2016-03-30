@@ -15,13 +15,6 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
   ? - Unknown
 ```
 
-```
-TODO:
-- split up self-hosting metric
-- grainularity (virtual machine vs modularity)
-  / virtualization / isolation
-```
-
 ## Overview
 
 [rmc]:      {{ site.baseurl }}/projects/runmycode.html
@@ -51,7 +44,7 @@ TODO:
 | [Helix Lab Cloud][hlc]        | ✔ | ✔ | ✗ | ✗ | ✔ | Proprietary  | 2015       | Wind River, Intel Corporation | [Link](https://lab.cloud.windriver.com/) |
 | [JupyterHub][jh]              | ✗ | ✗ | ✗ | ✗ | ✔ | 3c-BSD       | 2001, 2015 | NumFOCUS Foundation           | [Link](http://jupyter.org/)              |
 | [TIRA][tira]                  | ✔ | ✗ | ✔ | ✗ | ✗ |              |            |                               |                                          |
-| [HUBzero][hubzero]            | ✔ | ✗ | ✔ | ✔ | ✔ | LGPLv3       |            |                               |                                          |
+| [HUBzero][hubzero]            | ✔ | ✗ | ✔ | ✔ | ✔ | LGPLv3       |            | HUBzero Foundation            | [Link](https://hubzero.org/)             |
 | [OLIVE][olive]                | ✗ | ✔ | ✔ | ✗ | ✔ | GPLv2/Closed | 2013       | Carnegie Mellon University    | [Link](https://olivearchive.org/)        |
 | [ResearchCompendia][rc]       | ✗ | ✗ | ✔ | ✔ | ✗ | MIT          | 2013       | Columbia University           | [Link](http://researchcompendia.org/)    |
 | [Code Ocean][co]              | ? | ? | ? | ? | ? | ?            | ?          | ?                             | ?                                        |
@@ -67,10 +60,10 @@ TODO:
 | [Dataverse][dv]               | ✔ | ✔ | ✗ | ✗ | ✔ | ✗ |
 | [Open Science Framework][osf] | ? | ✔ | ✗ | ✗ | ✔ | ✗ |
 | [Apt/emulab][apt]             | ? | ? | ✔ | ✗ | ✔ | ✗ |
-| [Helix Lab Cloud][hlc]        | ✗ | ? | ✔ | ? | ✔ | ✔ |
+| [Helix Lab Cloud][hlc]        | ✗ | ✗ | ✔ | ✗ | ✔ | ✔ |
 | [JupyterHub][jh]              | ✔ | ✔ | ✗ | ✗ | ✔ | ✗ |
 | [TIRA][tira]                  | ? | ? | ? | ? | ? | ? |
-| [HUBzero][hubzero]            | ✔ | ✔ | ? | ? | ✔ | ? |
+| [HUBzero][hubzero]            | ✔ | ✔ | ✗ | ? | ✔ | ✗ |
 | [OLIVE][olive]                | ✗ | ? | ? | ? | ✔ | ✗ |
 | [ResearchCompendia][rc]       | ? | ✔ | ✗ | ✗ | ✔ | ✗ |
 | [Code Ocean][co]              | ? | ? | ? | ? | ? | ? |
@@ -86,7 +79,7 @@ TODO:
 | [Dataverse][dv]               | ✗ | ✔ | ✔ | ✔ | ✗ | ✗ | ✗ | ✔ |
 | [Open Science Framework][osf] | ✗ | ✔ | ✔ | ✔ | ✗ | ✗ | ✗ | ✔ |
 | [Apt/emulab][apt]             | ? | ? | ? | ? | ? | ? | ? | ? |
-| [Helix Lab Cloud][hlc]        | ✔ | ✔ | ✔ | ? | ? | ? | ✗ | ? |
+| [Helix Lab Cloud][hlc]        | ✔ | ✔ | ✔ | ✗ | ✗ | ✗ | ✗ | ✗ |
 | [JupyterHub][jh]              | ✔ | ✗ | ✗ | ✗ | ✔ | ✗ | ✗ | ✗ |
 | [TIRA][tira]                  | ? | ? | ? | ? | ? | ? | ? | ? |
 | [HUBzero][hubzero]            | ✔ | ✔ | ✔ | ✔ | ✔ | ? | ✔ | ? |
@@ -105,7 +98,7 @@ TODO:
 | [Dataverse][dv]               | ✔ | ✔ | ✔ | ✗ |
 | [Open Science Framework][osf] | ✔ | ✔ | ✔ | ✔ |
 | [Apt/emulab][apt]             | ? | ? | ? | ? |
-| [Helix Lab Cloud][hlc]        | ? | ? | ? | ? |
+| [Helix Lab Cloud][hlc]        | ✗ | ✔ | ✔ | ✗ |
 | [JupyterHub][jh]              | ✔ | ✗ | ✗ | ✗ |
 | [TIRA][tira]                  | ? | ? | ? | ? |
 | [HUBzero][hubzero]            | ✔ | ✔ | ✗ | ✗ |
@@ -194,6 +187,18 @@ storing files or larger datasets. Many digital libraries are also file stores.
 However, file stores (for instance, Amazon S3 or GitHub) are not necessarily
 digital libraries as they may not adequately describe metadata to promote
 being discoverable.
+
+#### Interactive Tool
+
+These tools offer some form of interactive component to either help explore
+results or have some means of running interactive tools in an extensible way.
+Some examples are interactive sessions that give you a terminal. Maybe it
+captures the interactions. It may allow you to share that interactive session
+with others.
+
+If you can see code execute, if you can interact with data and create new data
+through that interaction, or if you can simply run archived interactive programs,
+then you qualify as an interactive tool.
 
 ### Infrastructure
 

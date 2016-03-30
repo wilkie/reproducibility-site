@@ -26,11 +26,13 @@ article h2 {
   article h2:not(:first-child) {
     margin-top: 70px; }
 article h3 {
-  margin-top: 40px;
+  margin-top: 0;
   font: normal 20px "Lato", sans-serif;
   color: #5052A9;
   color: #A578A5;
   color: #944F94; }
+  article h3:not(:first-child) {
+    margin-top: 40px; }
 article h4 {
   margin-top: 20px;
   color: #944F94;
