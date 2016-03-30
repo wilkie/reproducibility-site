@@ -62,7 +62,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [Apt/emulab][apt]             | ? | ? | ✔ | ✗ | ✔ | ✗ |
 | [Helix Lab Cloud][hlc]        | ✗ | ✗ | ✔ | ✗ | ✔ | ✔ |
 | [JupyterHub][jh]              | ✔ | ✔ | ✗ | ✗ | ✔ | ✗ |
-| [TIRA][tira]                  | ? | ? | ? | ? | ? | ? |
+| [TIRA][tira]                  | ✗ | ✔ | ? | ✗ | ✔ | ? |
 | [HUBzero][hubzero]            | ✔ | ✔ | ✗ | ? | ✔ | ✗ |
 | [OLIVE][olive]                | ✗ | ? | ? | ? | ✔ | ✗ |
 | [ResearchCompendia][rc]       | ? | ✔ | ✗ | ✗ | ✔ | ✗ |
@@ -81,7 +81,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [Apt/emulab][apt]             | ? | ? | ? | ? | ? | ? | ? | ? |
 | [Helix Lab Cloud][hlc]        | ✔ | ✔ | ✔ | ✗ | ✗ | ✗ | ✗ | ✗ |
 | [JupyterHub][jh]              | ✔ | ✗ | ✗ | ✗ | ✔ | ✗ | ✗ | ✗ |
-| [TIRA][tira]                  | ? | ? | ? | ? | ? | ? | ? | ? |
+| [TIRA][tira]                  | ✔ | ✔ | ? | ? | ? | ✗ | ✗ | ✗ |
 | [HUBzero][hubzero]            | ✔ | ✔ | ✔ | ✔ | ✔ | ? | ✔ | ? |
 | [OLIVE][olive]                | ? | ✔ | ? | ? | ? | ? | ? | ? |
 | [ResearchCompendia][rc]       | ✗ | ✔ | ✗ | ✔ | ✗ | ✗ | ✗ | ✗ |
@@ -100,7 +100,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [Apt/emulab][apt]             | ? | ? | ? | ? |
 | [Helix Lab Cloud][hlc]        | ✗ | ✔ | ✔ | ✗ |
 | [JupyterHub][jh]              | ✔ | ✗ | ✗ | ✗ |
-| [TIRA][tira]                  | ? | ? | ? | ? |
+| [TIRA][tira]                  | ✔ | ? | ? | ? |
 | [HUBzero][hubzero]            | ✔ | ✔ | ✗ | ✗ |
 | [OLIVE][olive]                | ? | ? | ? | ? |
 | [ResearchCompendia][rc]       | ✔ | ✗ | ✗ | ✗ |
@@ -119,7 +119,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [Apt/emulab][apt]             | ? | ? | ? |
 | [Helix Lab Cloud][hlc]        | ✗ | ✗ | ✗ |
 | [JupyterHub][jh]              | ✗ | ✗ | ✗ |
-| [TIRA][tira]                  | ? | ? | ? |
+| [TIRA][tira]                  | ✗ | ✗ | ✔ |
 | [HUBzero][hubzero]            | ✔ | ✔ | ? |
 | [OLIVE][olive]                | ✔ | ? | ? |
 | [ResearchCompendia][rc]       | ✔ | ✗ | ✔ |
@@ -138,7 +138,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [Apt/emulab][apt]             | ✔ | ✔ | ✔ | · | · | University     |
 | [Helix Lab Cloud][hlc]        | ✗ | ✗ | ✔ | ✗ | ✔ | For-Profit     |
 | [JupyterHub][jh]              | ✔ | ✔ | ✔ | · | · | Non-Profit     |
-| [TIRA][tira]                  | ✗ | ✗ | ✔ | · | · | University     |
+| [TIRA][tira]                  | ✗ | ✗ | ✗ | ✔ | · | University     |
 | [HUBzero][hubzero]            | ✗ | ✔ | ✔ | ✔ | ✔ | Non-Profit     |
 | [OLIVE][olive]                | ○ | ○ | ✔ | · | · | University     |
 | [ResearchCompendia][rc]       | ✔ | ✔ | ✔ | · | · | University     |
