@@ -71,7 +71,7 @@ TODO:
 | [JupyterHub][jh]              | ✔ | ✔ | ✗ | ✗ | ✔ | ✗ |
 | [TIRA][tira]                  | ? | ? | ? | ? | ? | ? |
 | [HUBzero][hubzero]            | ✔ | ✔ | ? | ? | ✔ | ? |
-| [OLIVE][olive]                | ✗ | ? | · | · | ✔ | ✗ |
+| [OLIVE][olive]                | ✗ | ? | ? | ? | ✔ | ✗ |
 | [ResearchCompendia][rc]       | ? | ✔ | ✗ | ✗ | ✔ | ✗ |
 | [Code Ocean][co]              | ? | ? | ? | ? | ? | ? |
 
@@ -85,7 +85,7 @@ TODO:
 | [RunMyCode][rmc]              | ✗ | ✔ | ✗ | ✔ | ✗ | ✗ | ✗ | ✗ |
 | [Dataverse][dv]               | ✗ | ✔ | ✔ | ✔ | ✗ | ✗ | ✗ | ✔ |
 | [Open Science Framework][osf] | ✗ | ✔ | ✔ | ✔ | ✗ | ✗ | ✗ | ✔ |
-| [Apt/emulab][apt]             |   |   |   |   |   |   |   |   |
+| [Apt/emulab][apt]             | ? | ? | ? | ? | ? | ? | ? | ? |
 | [Helix Lab Cloud][hlc]        | ✔ | ✔ | ✔ | ? | ? | ? | ✗ | ? |
 | [JupyterHub][jh]              | ✔ | ✗ | ✗ | ✗ | ✔ | ✗ | ✗ | ✗ |
 | [TIRA][tira]                  | ? | ? | ? | ? | ? | ? | ? | ? |
