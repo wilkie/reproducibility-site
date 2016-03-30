@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   height: 100%; }
 
@@ -6,6 +7,18 @@ body {
 
 h1 {
   font: normal 50px "Lato", sans-serif; }
+
+.container .well {
+  background-color: #975A9C;
+  border-color: #360650;
+  color: white; }
+  .container .well .logo {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #360650; }
+    .container .well .logo.dark {
+      background-color: #333; }
 
 article h2 {
   font: 300 30px "Lato", sans-serif;
@@ -33,9 +46,22 @@ article li:not(:first-child) {
 article blockquote {
   background-color: #FFF5FF;
   border-color: #A578A5; }
+  article blockquote cite {
+    display: block;
+    text-align: right;
+    margin-top: 10px; }
+    article blockquote cite p {
+      color: #888;
+      font-style: italic;
+      margin: 0; }
+    article blockquote cite p:first-child:before {
+      display: inline;
+      content: "—"; }
 article pre {
-  background-color: #FFFAFF;
-  border-color: #E8D1E8; }
+  background-color: #402C40;
+  background-color: #3f3f3f;
+  border-color: #E8D1E8;
+  color: #fff; }
 article .image {
   text-align: center;
   margin-top: 50px;
@@ -96,7 +122,7 @@ article table {
   article table thead tr td.tilt div + div span {
     display: inline-block;
     vertical-align: bottom;
-    line-height: 1.5em; }
+    line-height: 1.2em; }
   article table tbody tr td {
     border-bottom: 1px solid #DCBCDC;
     padding: 5px 3px; }

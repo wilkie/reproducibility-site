@@ -14,6 +14,32 @@ description: "OCCAM (Open Curation for Computer Architecture Modeling) is a proj
 
 [Daniel Mossé](http://people.cs.pitt.edu/~mosse/)
 
+### Contributors
+
+Chelsea Mafrica
+
+Junhui Chen
+
+Jay McAleer
+
+Gennady Martynenko
+
+Brian Dicks
+
+Long Pham
+
+Ben Moncuso
+
+Jim Devine
+
+Nicholas Alberts
+
+Phillip Faust
+
+Cullen Strouse
+
+Christopher Iwaszko
+
 ### Information
 
 **Type**: Workflow Builder, Automation Tool, Metadata Library, Digital Archive
@@ -26,9 +52,23 @@ description: "OCCAM (Open Curation for Computer Architecture Modeling) is a proj
 
 ### Links
 
-* [Public OCCAM Server](https://occam.cs.pitt.edu)
-* [OCCAM Portal and Blog](http://occamportal.org)
-* [OCCAM Documentation](http://docs.occamportal.org)
+[Public OCCAM Server](https://occam.cs.pitt.edu) - occam.cs.pitt.edu
+
+[OCCAM Portal and Blog](http://occamportal.org) - occamportal.org
+
+[OCCAM Documentation](http://docs.occamportal.org) - docs.occamportal.org
+
+[Example Artifact Tool](https://occam.cs.pitt.edu/objects/2223413a-92c6-11e4-b64f-001fd05bb228) - DRAMSim2
+
+[Example Experiment](https://occam.cs.pitt.edu/worksets/bf7b397c-d98f-11e5-9f21-000af7451cc2/064c82cb46195fb922e89a7c61adcbabd029e56e/experiments/c47b7a4a-d98f-11e5-9f21-000af7451cc2/fa452941e86ba4878f51cc93ec0ac48b531f2c09)
+
+[Example Interactive Report](https://occam.cs.pitt.edu/worksets/bf7b397c-d98f-11e5-9f21-000af7451cc2/064c82cb46195fb922e89a7c61adcbabd029e56e/objects/f0f953da-d98f-11e5-9f21-000af7451cc2/5461335ca29293a2bc7a5e9b7405fb7741bf235e/page-0)
+
+[OCCAM Source Code](https://bitbucket.org/occam/) - bitbucket.org
+
+[OCCAM Web Code](https://bitbucket.org/occam/occam-web)
+
+[OCCAM Worker Code](https://bitbucket.org/occam/occam-worker)
 
 ## Rubric
 
@@ -87,7 +127,7 @@ From their portal [here](http://www.occamportal.org/infrastructure/overview.html
 
 > Computer architecture researchers must choose a simulator to conduct their research on. Due to the sheer number of simulators, it can be difficult to find an appropriate simulator, potentially forcing researchers to "reinvent the wheel" and develop their own. The following table shows a snapshot of 31 different simulators and their capabilities:
 >
-> ![]({{ site.baseurl }}/images/projects/occam/simulator-table-comparison.png)
+> ![width=500|border|]({{ site.baseurl }}/images/projects/occam/simulator-table-comparison.png)
 >
 > As seen in the table above, it can be difficult for researchers to find appropriate simulators. There is no central repository that lists simulators and their features, and researchers are forced to scour the Internet and published papers looking for simulators. OCCAM aims to make it easy for researchers to find, use and, when appropriate, share newly developed simulators.
 
@@ -160,7 +200,7 @@ The structured output is provided by the simulator or researcher to specify the 
     {
       "bandwidth": {
         "type":  "float",
-        "units:  "GB/s"
+        "units": "GB/s"
       },
       "latency": {
         "type": "float",

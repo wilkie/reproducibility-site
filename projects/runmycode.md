@@ -27,8 +27,9 @@ Victoria C. Stodden (Columbia University)
 
 ### Links
 
-* [Main Site](http://runmycode.org)
-* [Example Page](http://www.runmycode.org/companion/view/1532) - Has some Java code archived. Upon inspection, it is just the compiled binaries.
+[Main Site](http://runmycode.org)
+
+[Example Page](http://www.runmycode.org/companion/view/1532) - Has some Java code archived. Upon inspection, it is just the compiled binaries.
 
 ## Motivation
 
@@ -143,7 +144,7 @@ That way, any issues can be resolved either through the author responding
 to questions there, or from the community either answering questions or posting
 the issues and how they resolved them.
 
-![border|width=600|There are social community tools that allow for a simple comment system.](/images/projects/runmycode/runmycode_blog.png)
+![border|width=600|There are social community tools that allow for a simple comment system.]({{site.baseurl}}/images/projects/runmycode/runmycode_blog.png)
 
 ## Access
 

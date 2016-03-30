@@ -24,8 +24,11 @@ Anton Lokhmotov
 
 ### Links
 
-* [cTuning website for Collective Knowledge](http://cknowledge.ddns.net/)
-* [Demo "Interactive Paper" for CK Browser](http://cknowledge.ddns.net/repo/web.php?wcid=report:b0779e2a64c22907)
+[cTuning website for Collective Knowledge](http://cknowledge.ddns.net/)
+
+[Demo "Interactive Paper" for CK Browser](http://cknowledge.ddns.net/repo/web.php?wcid=report:b0779e2a64c22907)
+
+[Source Code](https://github.com/ctuning/ck)
 
 ## Rubric
 
@@ -39,23 +42,23 @@ Anton Lokhmotov
 
 | Infrastructure                       |     |            |
 | ------------------------------------ | --- | ---------- |
-| Self-Hosting                         |  ✔  | ok         |
+| Self-Hosting                         |  ✔  |            |
 | Provides Metadata                    |  ✔  |            |
-| Provides Hardware Diversity          |  ✔  |            |
-| Dispatches Work to Cloud Machines    |  ✔  |            |
+| Provides Hardware Diversity          |  ✗  |            |
+| Dispatches Work to Cloud Machines    |  ✗  |            |
 | Provides a Web Portal                |  ✔  |            |
-| Provides Performance Monitoring      |  ✔  |            |
+| Provides Performance Monitoring      |  ✗  |            |
 
 | Capabilities                         |     |            |
 | ------------------------------------ | --- | ---------- |
-| Runs Code                            |  ✔  | ok         |
-| File Storage                         |  ✔  |            |
-| Collaboration Controls               |  ✔  |            |
+| Runs Code                            |  ✔  |            |
+| File Storage                         |  ✗  | You host packages externally using something like github. |
+| Collaboration Controls               |  ?  |            |
 | Provides Citations                   |  ✔  |            |
-| Interactive Graphing                 |  ✔  |            |
-| Can Combine Objects                  |  ✔  |            |
-| Can Archive/Run GUI Tools            |  ✔  |            |
-| Can Hook to External Services        |  ✔  |            |
+| Interactive Graphing                 |  ✔  | You can generate reports that embed javascript widgets. |
+| Can Combine Objects                  |  ✔  | |
+| Can Archive/Run GUI Tools            |  ✗  | |
+| Can Hook to External Services        |  ✗  | |
 
 | Access                               |     |            |
 | ------------------------------------ | --- | ---------- |
@@ -67,7 +70,7 @@ Anton Lokhmotov
 | Provenance                           |     |            |
 |:------------------------------------ | --- | ---------- |
 | Search                               |  ✔  | |
-| Unique Identifiers for Projects      |  ✔  | |
+| Unique Identifiers for Projects      |  ✔  | A type of UUID and use of URIs. |
 | Provides URL to Project / Data       |  ✔  |            |
 
 | Governance                           |     |            |

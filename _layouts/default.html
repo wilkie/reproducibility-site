@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/app.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/post.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/zenburn.css">
 </head>
 <body>
 
@@ -34,7 +35,15 @@
             <li><a href="{{ site.baseurl }}/projects/occam.html">Occam</a></li>
             <li><a href="{{ site.baseurl }}/projects/datamill.html">DataMill</a></li>
             <li><a href="{{ site.baseurl }}/projects/dataverse.html">Dataverse</a></li>
+            <li><a href="{{ site.baseurl }}/projects/researchcompendia.html">ResearchCompendia</a></li>
             <li><a href="{{ site.baseurl }}/projects/runmycode.html">RunMyCode</a></li>
+            <li><a href="{{ site.baseurl }}/projects/osf.html">Open Science Framework</a></li>
+            <li><a href="{{ site.baseurl }}/projects/jupyter.html">Jupyter</a></li>
+            <li><a href="{{ site.baseurl }}/projects/labcloud.html">Helix Lab Cloud</a></li>
+            <li><a href="{{ site.baseurl }}/projects/tira.html">TIRA</a></li>
+            <li><a href="{{ site.baseurl }}/projects/apt.html">Apt</a></li>
+            <li><a href="{{ site.baseurl }}/projects/hubzero.html">HUBzero</a></li>
+            <li><a href="{{ site.baseurl }}/projects/olive.html">OLIVE</a></li>
           </ul>
         </li>
         <li>
@@ -51,27 +60,33 @@
 <div id="masthead">
   <div class="container">
       <div class="row">
+        {% if page.description %}
         <div class="col-md-5">
           <h1>{{ page.title }}
             <p class="lead">{{ page.subtitle }}</p>
           </h1>
         </div>
         <div class="col-md-7">
-          {% if page.description %}
             <div class="well well-lg">
               <div class="row">
-                <div class="col-sm-3">
-                  <img src="{{ site.baseurl }}/images/{{ page.logo }}" class="img-responsive">
+                <div class="col-sm-5">
+                  <img src="{{ site.baseurl }}/images/{{ page.logo }}" class="img-responsive logo {% if page.logo_dark %}dark{% endif %}">
                 </div>
-                <div class="col-sm-9">
+                <div class="col-sm-7">
                   {% markdown %}
 {{ page.description | default: ''}}
                   {% endmarkdown %}
                 </div>
               </div>
             </div>
-          {% endif %}
         </div>
+        {% else %}
+        <div class="col-md-12">
+          <h1>{{ page.title }}
+            <p class="lead">{{ page.subtitle }}</p>
+          </h1>
+        </div>
+        {% endif %}
       </div>
   </div><!--/container-->
 </div><!--/masthead-->

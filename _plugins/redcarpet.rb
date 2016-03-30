@@ -120,6 +120,21 @@ module Redcarpet
         end
       end
 
+      # Render citations
+      def block_quote(content)
+        index = content.rindex("--") || 0
+        index -= 1
+
+        cite    = content[index+3..-1]
+        content = content[0..index]
+
+        if index > 0
+          content = content + "</p><cite><p>" + cite + "</p></cite><p>"
+        end
+
+        "<blockquote>" + content + "</blockquote>"
+      end
+
       # Allow image captions, borders, and youtube embeds.
       def image(link, title, alt_text)
         unless link.match /^http|^\//
@@ -159,8 +174,8 @@ module Redcarpet
               unless value.end_with?("px")
                 value = value + "px"
               end
-              img_styles << "width: #{value};"
-              caption_styles << "width: #{value};"
+              img_styles << "max-width: #{value};"
+              caption_styles << "max-width: #{value};"
             when "fullwidth"
               classes << " fullwidth"
             end

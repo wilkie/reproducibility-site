@@ -12,6 +12,23 @@ h1 {
   font: normal 50px "Lato", sans-serif;
 }
 
+.container .well {
+  background-color: #975A9C;
+  border-color: #360650;
+  color: white;
+
+  .logo {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #360650;
+
+    &.dark {
+      background-color: #333;
+    }
+  }
+}
+
 article {
   h2 {
     &:not(:first-child) {
@@ -52,11 +69,30 @@ article {
   blockquote {
     background-color: #FFF5FF;
     border-color: #A578A5;
+
+    cite {
+      display: block;
+      text-align: right;
+      margin-top: 10px;
+
+      p {
+        color: #888;
+        font-style: italic;
+        margin: 0;
+      }
+
+      p:first-child:before {
+        display: inline;
+        content: "—";
+      }
+    }
   }
 
   pre {
-    background-color: #FFFAFF;
+    background-color: #402C40;
+    background-color: #3f3f3f;
     border-color: #E8D1E8;
+    color: #fff;
   }
 
   .image {
@@ -159,7 +195,7 @@ article {
     thead tr td.tilt div + div span {
       display: inline-block;
       vertical-align: bottom;
-      line-height: 1.5em;
+      line-height: 1.2em;
     }
 
     tbody tr td {

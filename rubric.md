@@ -17,10 +17,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 
 ```
 TODO:
-- languages supported
 - split up self-hosting metric
-- has search
-- provenance: break that down maybe an under its own category
 - grainularity (virtual machine vs modularity)
   / virtualization / isolation
 ```
@@ -31,31 +28,33 @@ TODO:
 [olive]:    {{ site.baseurl }}/projects/olive.html
 [tira]:     {{ site.baseurl }}/projects/tira.html
 [co]:       {{ site.baseurl }}/projects/codeocean.html
-[jh]:       {{ site.baseurl }}/projects/jh.html
-[hlc]:      {{ site.baseurl }}/projects/hlc.html
+[jh]:       {{ site.baseurl }}/projects/jupyter.html
+[hlc]:      {{ site.baseurl }}/projects/labcloud.html
 [osf]:      {{ site.baseurl }}/projects/osf.html
 [apt]:      {{ site.baseurl }}/projects/apt.html
 [datamill]: {{ site.baseurl }}/projects/datamill.html
-[nanohub]:  {{ site.baseurl }}/projects/nanohub.html
+[hubzero]:  {{ site.baseurl }}/projects/hubzero.html
 [dv]:       {{ site.baseurl }}/projects/dataverse.html
 [occam]:    {{ site.baseurl }}/projects/occam.html
 [ck]:       {{ site.baseurl }}/projects/collective_knowledge.html
+[rc]:       {{ site.baseurl }}/projects/researchcompendia.html
 
-| Name                          | Type | License | Year | Organization | Link |
-| ----------------------------- | ---- | ------- | ---- | ------------ | ---- |
-| [DataMill][datamill]          | Infrastructure Service                 | AGPLv3       | 2013       | University of Waterloo        | [Link](https://datamill.uwaterloo.ca/)   |
-| [Occam][occam]                | Workflow Builder, Digital Archive      | AGPLv3       | 2014       | University of Pittsburgh      | [Link](https://occam.cs.pitt.edu/)       |
-| [Collective Knowledge][ck]    | Workflow Builder, Digital Archive      | AGPLv3       | 2014       | cTuning Foundation            | [Link](http://cknowledge.ddns.net/)      |
-| [RunMyCode][rmc]              | Metadata/File Hosting                  | Closed       | 2013       | RunMyCode Association         | [Link](http://runmycode.org/)            |
-| [Dataverse][dv]               | Metadata/File Archive                  | Apache 2.0   | 2012       | Harvard University            | [Link](https://dataverse.harvard.edu/)   |
-| [Open Science Framework][osf] | Metadata/File Hosting, Digital Archive | Apache 2.0   | 2013       | Center for Open Science       | [Link](https://osf.io/)                  |
-| [Apt/emulab][apt]             | Infrastructure Service, VM Archive     | AGPLv3       | 2014       | University of Utah            | [Link](https://www.aptlab.net/)          |
-| [Helix Lab Cloud][hlc]        | Infrastructure Service, VM Archive     | Proprietary  | 2015       | Wind River, Intel Corporation | [Link](https://lab.cloud.windriver.com/) |
-| [JupyterHub][jh]              | Documentation Tool, Visualization      | 3c-BSD       | 2001, 2015 | NumFOCUS Foundation           | [Link](http://jupyter.org/)              |
-| [Code Ocean][co]              | ?                                      | ?            | ?          | ?                             | ?                                        |
-| [TIRA][tira]                  |                                        |              |            |                               |                                          |
-| [nanoHUB][nanohub]            |                                        |              |            |                               |                                          |
-| [OLIVE][olive]                | Virtual Machine Manager, VM Archive    | GPLv2/Closed | 2013       | Carnegie Mellon University    | [Link](https://olivearchive.org/)        |
+| Name                          | /Infrastructure Service | /VM Builder | /Digital Library | /File Hosting | /Interactive Tool | License | Year | Organization | Link |
+| ----------------------------- | --- | --- | --- | --- | --- | ------- | ---- | ------------ | ---- |
+| [DataMill][datamill]          | ✔ | ✗ | ✗ | ✔ | ✗ | AGPLv3       | 2013       | University of Waterloo        | [Link](https://datamill.uwaterloo.ca/)   |
+| [Occam][occam]                | ✗ | ✔ | ✔ | ✔ | ✔ | AGPLv3       | 2014       | University of Pittsburgh      | [Link](https://occam.cs.pitt.edu/)       |
+| [Collective Knowledge][ck]    | ✗ | ✗ | ✔ | ✗ | ✔ | AGPLv3       | 2014       | cTuning Foundation            | [Link](http://cknowledge.ddns.net/)      |
+| [RunMyCode][rmc]              | ✗ | ✗ | ✔ | ✔ | ✗ | Closed       | 2013       | RunMyCode Association         | [Link](http://runmycode.org/)            |
+| [Dataverse][dv]               | ✗ | ✗ | ✔ | ✔ | ✗ | Apache 2.0   | 2012       | Harvard University            | [Link](https://dataverse.harvard.edu/)   |
+| [Open Science Framework][osf] | ✗ | ✗ | ✔ | ✔ | ✗ | Apache 2.0   | 2013       | Center for Open Science       | [Link](https://osf.io/)                  |
+| [Apt/emulab][apt]             | ✔ | ✔ | ✗ | ✗ | ✗ | AGPLv3       | 2014       | University of Utah            | [Link](https://www.aptlab.net/)          |
+| [Helix Lab Cloud][hlc]        | ✔ | ✔ | ✗ | ✗ | ✔ | Proprietary  | 2015       | Wind River, Intel Corporation | [Link](https://lab.cloud.windriver.com/) |
+| [JupyterHub][jh]              | ✗ | ✗ | ✗ | ✗ | ✔ | 3c-BSD       | 2001, 2015 | NumFOCUS Foundation           | [Link](http://jupyter.org/)              |
+| [TIRA][tira]                  | ✔ | ✗ | ✔ | ✗ | ✗ |              |            |                               |                                          |
+| [HUBzero][hubzero]            | ✔ | ✗ | ✔ | ✔ | ✔ | LGPLv3       |            |                               |                                          |
+| [OLIVE][olive]                | ✗ | ✔ | ✔ | ✗ | ✔ | GPLv2/Closed | 2013       | Carnegie Mellon University    | [Link](https://olivearchive.org/)        |
+| [ResearchCompendia][rc]       | ✗ | ✗ | ✔ | ✔ | ✗ | MIT          | 2013       | Columbia University           | [Link](http://researchcompendia.org/)    |
+| [Code Ocean][co]              | ? | ? | ? | ? | ? | ?            | ?          | ?                             | ?                                        |
 
 ## Infrastructure
 
@@ -63,91 +62,138 @@ TODO:
 | ----------------------------- | ------------- | ------------------ | ---------------------------- | ---------------------------------- | ---------------------- | -------------------------------- |
 | [DataMill][datamill]          | ✗ | ✔ | ✔ | ✗ | ✔ | ? |
 | [Occam][occam]                | ✔ | ✔ | ✗ | ✗ | ✔ | ✗ |
-| [Collective Knowledge][ck]    | ✗ | ✔ | ✗ | ✗ | ✔ | ✔ |
-| [RunMyCode][rmc]              | ✗ | ✔ | · | · | ✔ | · |
-| [Dataverse][dv]               | ✔ | ✔ | · | · | ✔ | · |
-| [Open Science Framework][osf] | ? | ✔ | · | · | ✔ | · |
-| [Apt/emulab][apt]             | ? |   | ✔ | ✗ | ✔ | ✗ |
-| [Helix Lab Cloud][hlc]        | ? |   |   |   |   |   |
-| [JupyterHub][jh]              | ✔ |   | · | · | ✔ | · |
+| [Collective Knowledge][ck]    | ✔ | ✔ | ✗ | ✗ | ✔ | ✗ |
+| [RunMyCode][rmc]              | ✗ | ✔ | ✗ | ✗ | ✔ | ✗ |
+| [Dataverse][dv]               | ✔ | ✔ | ✗ | ✗ | ✔ | ✗ |
+| [Open Science Framework][osf] | ? | ✔ | ✗ | ✗ | ✔ | ✗ |
+| [Apt/emulab][apt]             | ? | ? | ✔ | ✗ | ✔ | ✗ |
+| [Helix Lab Cloud][hlc]        | ✗ | ? | ✔ | ? | ✔ | ✔ |
+| [JupyterHub][jh]              | ✔ | ✔ | ✗ | ✗ | ✔ | ✗ |
+| [TIRA][tira]                  | ? | ? | ? | ? | ? | ? |
+| [HUBzero][hubzero]            | ✔ | ✔ | ? | ? | ✔ | ? |
+| [OLIVE][olive]                | ✗ | ? | · | · | ✔ | ✗ |
+| [ResearchCompendia][rc]       | ? | ✔ | ✗ | ✗ | ✔ | ✗ |
 | [Code Ocean][co]              | ? | ? | ? | ? | ? | ? |
-| [TIRA][tira]                  |   |   |   |   |   |   |
-| [nanoHUB][nanohub]            |   |   |   |   |   |   |
-| [OLIVE][olive]                | ✗ | < | · | · | ✔ | ✗ |
 
 ## Capabilities
 
-| Name                          | /Runs Code    | /File Storage      | /Collaboration Controls      | /Provides Citations                | /Interactive Graphing  | /Can Combine Objects | /Can Hook to External Cloud Services |
-| ----------------------------- | ------------- | ------------------ | ---------------------------- | ---------------------------------- | ---------------------- | -------------------- | ------------------------------------ |
-| [DataMill][datamill]          | ✔ | ✔ | · | · | · | · | · |   |
-| [Occam][occam]                | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |   |
-| [Collective Knowledge][ck]    | ✔ | ✔ | · | ✔ | ✔ | ✔ | · |   |
-| [RunMyCode][rmc]              | · | ✔ | · | ✔ | · | · | · |   |
-| [Dataverse][dv]               | ✗ | ✔ |   |   |   |   |   |   |
+| Name                          | /Runs Code    | /File Storage      | /Collaboration Controls      | /Provides Citations                | /Interactive Graphing  | /Can Combine Objects | /Can Archive/Run GUI Tools | /Can Hook to External Cloud Services |
+| ----------------------------- | ------------- | ------------------ | ---------------------------- | ---------------------------------- | ---------------------- | -------------------- | ------------------------------------ | -------------------------- |
+| [DataMill][datamill]          | ✔ | ✔ | ? | ✗ | ✗ | ✗ | ✗ | ✗ |
+| [Occam][occam]                | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✗ |
+| [Collective Knowledge][ck]    | ✔ | ✗ | ? | ✔ | ✔ | ✔ | ✗ | ✗ |
+| [RunMyCode][rmc]              | ✗ | ✔ | ✗ | ✔ | ✗ | ✗ | ✗ | ✗ |
+| [Dataverse][dv]               | ✗ | ✔ | ✔ | ✔ | ✗ | ✗ | ✗ | ✔ |
 | [Open Science Framework][osf] | ✗ | ✔ | ✔ | ✔ | ✗ | ✗ | ✗ | ✔ |
 | [Apt/emulab][apt]             |   |   |   |   |   |   |   |   |
-| [Helix Lab Cloud][hlc]        |   |   |   |   |   |   |   |   |
-| [JupyterHub][jh]              | ✔ | · | ✔ | · | ✔ | · | · |   |
+| [Helix Lab Cloud][hlc]        | ✔ | ✔ | ✔ | ? | ? | ? | ✗ | ? |
+| [JupyterHub][jh]              | ✔ | ✗ | ✗ | ✗ | ✔ | ✗ | ✗ | ✗ |
+| [TIRA][tira]                  | ? | ? | ? | ? | ? | ? | ? | ? |
+| [HUBzero][hubzero]            | ✔ | ✔ | ✔ | ✔ | ✔ | ? | ✔ | ? |
+| [OLIVE][olive]                | ? | ✔ | ? | ? | ? | ? | ? | ? |
+| [ResearchCompendia][rc]       | ✗ | ✔ | ✗ | ✔ | ✗ | ✗ | ✗ | ✗ |
 | [Code Ocean][co]              | ? | ? | ? | ? | ? | ? | ? | ? |
-| [TIRA][tira]                  |   |   |   |   |   |   |   |   |
-| [nanoHUB][nanohub]            |   |   |   |   |   |   |   |   |
-| [OLIVE][olive]                |   | ✔ |   |   |   |   |   |   |
 
 ## Access
 
 | Name                          | /Public View of Artifact | /Access Permission to Edit | /Access Permissions to Read | /Access Permissions to Review |
 | ----------------------------- | ------------------------ | --------------------------- | ----------------------------- | -------------------------- |
-| [DataMill][datamill]          | ? | ? | ? | ? | ✗ | ✔ |
-| [Occam][occam]                | ? | ✔ | ✔ | ✔ | ✔ | ✔ |
-| [Collective Knowledge][ck]    | ? | ✔ |   | ✔ |   | ✔ |
-| [RunMyCode][rmc]              | ? | ✔ | ✗ | ✔ |   | ✔ |
-| [Dataverse][dv]               | ? | ✗ | ✔ |   |   |   |
-| [Open Science Framework][osf] | ? | ✔ | ✔ | ✔ | ✔ | ✔ |
-| [Apt/emulab][apt]             | ? |  |   |   |   |   |
-| [Helix Lab Cloud][hlc]        | ? |  |   |   |   |   |
-| [JupyterHub][jh]              | ? | · | · | · | · | · |
-| [Code Ocean][co]              | ? | ? | ? | ? | ? | ? |
-| [TIRA][tira]                  | ? |   |   |   |   |   |
-| [nanoHUB][nanohub]            | ? |   |   |   |   |   |
-| [OLIVE][olive]                | ? |   |   |   |   |   |
+| [DataMill][datamill]          | ✗ | ? | ? | ? |
+| [Occam][occam]                | ✔ | ✔ | ✔ | ✔ |
+| [Collective Knowledge][ck]    | ✔ | ? | ? | ? |
+| [RunMyCode][rmc]              | ✔ | ✗ | ✗ | ✗ |
+| [Dataverse][dv]               | ✔ | ✔ | ✔ | ✗ |
+| [Open Science Framework][osf] | ✔ | ✔ | ✔ | ✔ |
+| [Apt/emulab][apt]             | ? | ? | ? | ? |
+| [Helix Lab Cloud][hlc]        | ? | ? | ? | ? |
+| [JupyterHub][jh]              | ✔ | ✗ | ✗ | ✗ |
+| [TIRA][tira]                  | ? | ? | ? | ? |
+| [HUBzero][hubzero]            | ✔ | ✔ | ✗ | ✗ |
+| [OLIVE][olive]                | ? | ? | ? | ? |
+| [ResearchCompendia][rc]       | ✔ | ✗ | ✗ | ✗ |
+| [Code Ocean][co]              | ? | ? | ? | ? |
 
 ## Provenance
 
 | Name                          | /Search | /Globally Unique Identifiers | /URL to Project/Data |
 | ----------------------------- | ------- | ------------------- | -------------------- |
-| [DataMill][datamill]          | ? | ✗ | ✔ |
+| [DataMill][datamill]          | ✔ | ✗ | ✔ |
 | [Occam][occam]                | ✔ | ✔ | ✔ |
 | [Collective Knowledge][ck]    | ✔ | ✔ | ✔ |
 | [RunMyCode][rmc]              | ✔ | ✗ | ✔ |
 | [Dataverse][dv]               | ✔ | ✔ | ✔ |
 | [Open Science Framework][osf] | ✔ | ✔ | ✔ |
-| [Apt/emulab][apt]             |   |   |   |
-| [Helix Lab Cloud][hlc]        |   |   |   |
-| [JupyterHub][jh]              | · | · | · |
+| [Apt/emulab][apt]             | ? | ? | ? |
+| [Helix Lab Cloud][hlc]        | ✗ | ✗ | ✗ |
+| [JupyterHub][jh]              | ✗ | ✗ | ✗ |
+| [TIRA][tira]                  | ? | ? | ? |
+| [HUBzero][hubzero]            | ✔ | ✔ | ? |
+| [OLIVE][olive]                | ✔ | ? | ? |
+| [ResearchCompendia][rc]       | ✔ | ✗ | ✔ |
 | [Code Ocean][co]              | ? | ? | ? |
-| [TIRA][tira]                  |   |   |   |
-| [nanoHUB][nanohub]            |   |   |   |
-| [OLIVE][olive]                | ✔ |   |   |
 
 ## Governance
 
 | Name                          | /Open Source               | /Allows Modification and Redistribution | /Has Free-to-Use Package | /Has Student Package | /Has Paid Package | /Institution Structure |
 | ----------------------------- | -------------------------- | --------------------------------------- | ------------------------ | -------------------- | ----------------- | ---------------------- |
-| [DataMill][datamill]          | ✔ | ✔ | ✔ | ✗ | ✗ | University     |
-| [Occam][occam]                | ✔ | ✔ | ✔ | ✗ | ✗ | University     |
-| [Collective Knowledge][ck]    | ✔ | ✔ | ✔ | ✗ | ✗ | Non-Profit     |
-| [RunMyCode][rmc]              | ✗ | ✗ | ✔ | ✗ | ✗ | Non-For-Profit |
-| [Dataverse][dv]               | ✔ | ✔ | ✔ | ✗ | ✗ | University     |
-| [Open Science Framework][osf] | ✔ | ✔ | ✔ | ✗ |   | Non-Profit     |
-| [Apt/emulab][apt]             | ✔ | ✔ | ✔ | ✗ | ✗ | University     |
+| [DataMill][datamill]          | ✔ | ✔ | ✗ | ✔ | · | University     |
+| [Occam][occam]                | ✔ | ✔ | ✔ | · | · | University     |
+| [Collective Knowledge][ck]    | ✔ | ✔ | ✔ | · | · | Non-Profit     |
+| [RunMyCode][rmc]              | ✗ | ✗ | ✔ | · | · | Non-For-Profit |
+| [Dataverse][dv]               | ✔ | ✔ | ✔ | · | · | University     |
+| [Open Science Framework][osf] | ✔ | ✔ | ✔ | · | · | Non-Profit     |
+| [Apt/emulab][apt]             | ✔ | ✔ | ✔ | · | · | University     |
 | [Helix Lab Cloud][hlc]        | ✗ | ✗ | ✔ | ✗ | ✔ | For-Profit     |
-| [JupyterHub][jh]              | ✔ | ✔ | ✔ | ✗ | ✗ | Non-Profit     |
+| [JupyterHub][jh]              | ✔ | ✔ | ✔ | · | · | Non-Profit     |
+| [TIRA][tira]                  | ? | ? | ✔ | · | · | University     |
+| [HUBzero][hubzero]            | ✗ | ✔ | ✔ | ✔ | ✔ | Non-Profit     |
+| [OLIVE][olive]                | ○ | ○ | ✔ | · | · | University     |
+| [ResearchCompendia][rc]       | ✔ | ✔ | ✔ | · | · | University     |
 | [Code Ocean][co]              | ? | ? | ? | ? | ? | ?              |
-| [TIRA][tira]                  | ? | ? | ✔ | ✗ | ✗ | ?              |
-| [nanoHUB][nanohub]            |   |   |   |   |   |                |
-| [OLIVE][olive]                | ○ | ○ | ✔ |   | ✗ | University     |
 
 ## Descriptions
+
+### Overview
+
+#### Infrastructure Service
+
+This is a tool that provides hardware that you can run some set of applications upon.
+Generally, these are sometimes called Platform-as-a-Service or Infrastructure-as-a-Service
+(PaaS and IaaS respectively) in the wider industry. Commercial examples include Amazon EC2,
+Heroku, etc.
+
+For reproducibility, these tools are best suited to replicate an experiment across
+different machines or even architectures to control for the effect of the hardware
+and to test against a wider diversity of platforms.
+
+#### VM Builder
+
+This represents tools which build or otherwise manage virtual machines.
+Virtualization helps to isolate and control for the effect of software environment
+or OS differences and helps fight against software decay. That is, when versions
+of libraries or either hard to build or hard to reliably discover and distribute.
+
+In that way, reproducibility tools will help package all dependencies in a manner
+where they can be executed within a virtual environment.
+
+#### Digital Library
+
+Any tool or service which can host some digital object and provide a description
+and other metadata about that object is a digital library. These services cope
+with the large ecosystem of possible digital objects and their relationships.
+
+Digital libraries provide solutions to discover and reuse digital objects. They
+need to have rather robust search mechanisms and some way of referring to an object
+in a reasonably permanent way. They worry about how objects can be read in the
+future and how to best preserve their provenance and attribution.
+
+#### File Hosting
+
+File hosts are services which give an amount of storage for the purposes of
+storing files or larger datasets. Many digital libraries are also file stores.
+However, file stores (for instance, Amazon S3 or GitHub) are not necessarily
+digital libraries as they may not adequately describe metadata to promote
+being discoverable.
 
 ### Infrastructure
 
@@ -158,6 +204,12 @@ distinct from any other existing version of that system. It may or may not be fe
 or distributed in a way where multiple systems can cooperate. For longevity of the archive, the ability to
 recreate the archive or replicate data will increase the availability and
 probability the artifact will survive.
+
+It is not good enough to simply be open-source to say you allow self-hosting with respect to this review.
+You have to provide some measure of support
+for self-hosting. Such as, documentation about setting up your own instance.
+There should be no assumption about the network or system configuration nor that it
+necessarily match the system that the project is currently hosted upon.
 
 #### Provides Metadata
 
