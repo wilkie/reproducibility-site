@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Reproducibility Breakdown - RunMyCode</title>
+  <link rel="stylesheet" href="/reproducibility-site/js/lightbox2-master/dist/css/lightbox.min.css">
+  <link rel="stylesheet" href="/reproducibility-site/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/reproducibility-site/css/app.css">
+  <link rel="stylesheet" href="/reproducibility-site/css/post.css">
+  <link rel="stylesheet" href="/reproducibility-site/css/zenburn.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">Reproducibility Breakdown: RunMyCode</a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li class='dropdown'>
+          <a href="#" class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>Projects <span class='caret'></span></a>
+          <ul class='dropdown-menu'>
+            <li><a href="/reproducibility-site/projects/collective_knowledge.html">Collective Knowledge</a></li>
+            <li><a href="/reproducibility-site/projects/occam.html">Occam</a></li>
+            <li><a href="/reproducibility-site/projects/datamill.html">DataMill</a></li>
+            <li><a href="/reproducibility-site/projects/dataverse.html">Dataverse</a></li>
+            <li><a href="/reproducibility-site/projects/researchcompendia.html">ResearchCompendia</a></li>
+            <li><a href="/reproducibility-site/projects/runmycode.html">RunMyCode</a></li>
+            <li><a href="/reproducibility-site/projects/osf.html">Open Science Framework</a></li>
+            <li><a href="/reproducibility-site/projects/jupyter.html">Jupyter</a></li>
+            <li><a href="/reproducibility-site/projects/labcloud.html">Helix Lab Cloud</a></li>
+            <li><a href="/reproducibility-site/projects/tira.html">TIRA</a></li>
+            <li><a href="/reproducibility-site/projects/apt.html">Apt</a></li>
+            <li><a href="/reproducibility-site/projects/hubzero.html">HUBzero</a></li>
+            <li><a href="/reproducibility-site/projects/olive.html">OLIVE</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="/reproducibility-site/rubric.html">Rubric</a>
+        </li>
+        <li>
+          <a href="https://github.com/wilkie/reproducibility-site">View on GitHub</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</nav>
+
+<div id="masthead">
+  <div class="container">
+      <div class="row">
+        
+        <div class="col-md-5">
+          <h1>RunMyCode
+            <p class="lead"></p>
+          </h1>
+        </div>
+        <div class="col-md-7">
+            <div class="well well-lg">
+              <div class="row">
+                <div class="col-sm-5">
+                  <img src="/reproducibility-site/images/logos/runmycode/logo.png" class="img-responsive logo ">
+                </div>
+                <div class="col-sm-7">
+                  <p>Welcome to the RunMyCode website. The RunMyCode website is operated by a not-profit making scientific association called the RunMyCode Association (the “RMCA”). The mission of RMCA is to make research in economics and business easier to use and easier to replicate.</p>
+<div class='clear'></div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </div>
+  </div><!--/container-->
+</div><!--/masthead-->
+
+<!--main-->
+<div class="container">
+	<div class="row">
+      <!--left-->
+      <div class="col-md-3" id="leftCol">
+        <ul id='sidebar' class='nav nav-stacked'><li><a href='#about'>About</a></li><li><a href='#motivation'>Motivation</a></li><li><a href='#rubric'>Rubric</a></li><li><a href='#walkthrough'>Walkthrough</a></li><li><a href='#infrastructure'>Infrastructure</a></li><li><a href='#capabilities'>Capabilities</a></li><li><a href='#access'>Access</a></li><li><a href='#provenance'>Provenance</a></li><li><a href='#governance'>Governance</a></li><li><a href='#strengths'>Strengths</a></li><li><a href='#weaknesses'>Weaknesses</a></li><li><a href='#unique_features'>Unique Features</a></li><li><a href='#best_practice_influences'>Best-Practice Influences</a></li><li><a href='#digital_library_incorporation_issues'>Digital Library Incorporation Issues</a></li><li><a href='#applied_use_cases'>Applied Use-cases</a></li></ul>
+      </div><!--/left-->
+
+      <!--right-->
+      <div class="col-md-9">
+        <div class='content'>
+          <article>
+            <h2 id='about'>About</h2><h3 id='authors'>Authors</h3>
+<p>Christophe Hurlin (University of Orleans)</p>
+
+<p>Christophe Perignon (HEC Paris)</p>
+
+<p>Victoria C. Stodden (Columbia University)</p>
+<h3 id='information'>Information</h3>
+<p><strong>Type</strong>: Metadata/File Hosting</p>
+
+<p><strong>License</strong>: Closed-Source</p>
+
+<p><strong>Timeline</strong>: 2013</p>
+
+<p><strong>Institution</strong>: RunMyCode Association</p>
+<h3 id='links'>Links</h3>
+<p><a href='http://runmycode.org' title=''>Main Site</a></p>
+
+<p><a href='http://www.runmycode.org/companion/view/1532' title=''>Example Page</a> - Has some Java code archived. Upon inspection, it is just the compiled binaries.</p>
+<h2 id='motivation'>Motivation</h2>
+<p>From the <a href='http://www.runmycode.org/our-goals.html' title=''>RunMyCode website</a>:</p>
+<blockquote><p>RunMyCode follows three main objectives:</p>
+
+<ul>
+<li>To allow researchers to quickly disseminate the results of their research. This will considerably increase the potential of citations of scientific papers.</li>
+<li>To provide a large community of users with the ability to use the latest scientific methods. This will speed up the process of converting scientific results into productive forces.</li>
+<li>To allow members of the academic community (researchers, editors, referees, etc.) to replicate scientific results and to demonstrate their robustness. This will increase transparency and trust in science.</li>
+</ul>
+</blockquote><h2 id='rubric'>Rubric</h2>
+<pre><code>  ✔ - Yes
+  ✗ - No
+  ○ - Yes, but with concession
+  · - Inapplicable
+  ? - Unknown
+</code></pre>
+<table><thead><tr><td class=''>Infrastructure</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Self-Hosting</td><td class='feature no'>✗</td><td class=''>Closed-source. Cannot replicate website or environment.</td></tr><tr><td class=''>Provides Metadata</td><td class='feature yes'>✔</td><td class=''>Provides: creation date, programming language used, a citation, and an abstract/description.</td></tr><tr><td class=''>Provides Hardware Diversity</td><td class='feature no'>✗</td><td class=''>Provides no infrastructure.</td></tr><tr><td class=''>Dispatches Work to Cloud Machines</td><td class='feature no'>✗</td><td class=''></td></tr><tr><td class=''>Provides a Web Portal</td><td class='feature yes'>✔</td><td class=''><a href='http://runmycode.org' title=''>runmycode.org</a> (however, it is not under HTTPS)</td></tr><tr><td class=''>Provides Performance Monitoring</td><td class='feature no'>✗</td><td class=''></td></tr></tbody></table><table><thead><tr><td class=''>Capabilities</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Runs Code</td><td class='feature no'>✗</td><td class=''>Does not run code.</td></tr><tr><td class=''>File Storage</td><td class='feature yes'>✔</td><td class=''>Can upload 100MB worth of data.</td></tr><tr><td class=''>Collaboration Controls</td><td class='feature no'>✗</td><td class=''>No ability to collaborate through the website. Although there is a forum posting capability. (See discussion <a href='#capabilities' title=''>below</a>)</td></tr><tr><td class=''>Provides Citations</td><td class='feature yes'>✔</td><td class=''>Can manually provide a citation.</td></tr><tr><td class=''>Interactive Graphing</td><td class='feature no'>✗</td><td class=''></td></tr><tr><td class=''>Can Combine Objects</td><td class='feature no'>✗</td><td class=''></td></tr><tr><td class=''>Can Archive/Run GUI Tools</td><td class='feature no'>✗</td><td class=''></td></tr><tr><td class=''>Can Hook to External Services</td><td class='feature no'>✗</td><td class=''></td></tr></tbody></table><table><thead><tr><td class=''>Access</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Public view of object</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Access Permissions for Editing</td><td class='feature no'>✗</td><td class=''>There are no access control options for adding other accounts for read/write/review access.</td></tr><tr><td class=''>Access Permissions for Reading</td><td class='feature no'>✗</td><td class=''></td></tr><tr><td class=''>Access Permissions for Anon Review</td><td class='feature no'>✗</td><td class=''></td></tr></tbody></table><table><thead><tr><td class=''>Provenance</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Search</td><td class='feature yes'>✔</td><td class=''>Basic keyword/tag search.</td></tr><tr><td class=''>Globally Unique Identifiers for Projects</td><td class='feature no'>✗</td><td class=''>Only a local identifier in the URL.</td></tr><tr><td class=''>Provides URL to Project / Data</td><td class='feature yes'>✔</td><td class=''>Example: (<a href="http://www.runmycode.org/companion/view/1532)%5Bhttp://www.runmycode.org/companion/view/1532%5D">http://www.runmycode.org/companion/view/1532)[http://www.runmycode.org/companion/view/1532]</a></td></tr></tbody></table><table><thead><tr><td class=''>Governance</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Open Source</td><td class='feature no'>✗</td><td class=''>Closed-Source</td></tr><tr><td class=''>Allows Modification / Redistribution</td><td class='feature no'>✗</td><td class=''></td></tr><tr><td class=''>Has a Free-to-Use Package</td><td class='feature yes'>✔</td><td class=''>Public and free-to-use.</td></tr><tr><td class=''>Has a Student Package</td><td class='feature not-available'>·</td><td class=''></td></tr><tr><td class=''>Has a Paid Package</td><td class='feature not-available'>·</td><td class=''></td></tr></tbody></table><h2 id='walkthrough'>Walkthrough</h2>
+<p>Once an account is created and someone is logged in, you can quickly create a <strong>companion
+website</strong> through a three-step process.</p>
+
+<p>The first step is to enter in the metadata around your upload. The title and tags that
+categorize the work. You can also put in some citation information and a long-form abstract
+to describe the work.</p>
+
+<p></p><div style='' class='image border'><a href='/reproducibility-site/images/projects/runmycode/runmycode_new_website_0.png' data-lightbox='image-0'><img src='/reproducibility-site/images/projects/runmycode/runmycode_new_website_0.png' class='' style='max-width: 600px;' title='' alt='The first step is to record the metadata.' /></a><br /><div class='caption' style='max-width: 600px;'><p>The first step is to record the metadata.</p>
+</div></div><p></p>
+
+<p>In the second step, you upload your files (up to 100MB) and specify or upload a README document
+to explain how to use the materials your are uploading. You <strong>must</strong> specify the software that
+is within the uploaded materials. You <strong>must</strong> upload a file, but you <strong>may</strong> upload more than one.</p>
+
+<p></p><div style='' class='image border'><a href='/reproducibility-site/images/projects/runmycode/runmycode_new_website_1.png' data-lightbox='image-1'><img src='/reproducibility-site/images/projects/runmycode/runmycode_new_website_1.png' class='' style='max-width: 600px;' title='' alt='The browse button will upload and append a single file. You can add a zip file or a single large file up to 100MB.' /></a><br /><div class='caption' style='max-width: 600px;'><p>The browse button will upload and append a single file. You can add a zip file or a single large file up to 100MB.</p>
+</div></div><p></p>
+
+<p>In the third step, you must agree to the <a href='http://www.runmycode.org/terms-of-use.html' title=''>terms of service</a>.</p>
+
+<p></p><div style='' class='image border'><a href='/reproducibility-site/images/projects/runmycode/runmycode_new_website_2.png' data-lightbox='image-2'><img src='/reproducibility-site/images/projects/runmycode/runmycode_new_website_2.png' class='' style='max-width: 600px;' title='' alt='The terms of service dictate how the RunMyCode association restricts and uses content that is uploaded. You must agree to host files.' /></a><br /><div class='caption' style='max-width: 600px;'><p>The terms of service dictate how the RunMyCode association restricts and uses content that is uploaded. You must agree to host files.</p>
+</div></div><p></p>
+
+<p>However, upon inspection of those usage terms, uploaded files give up their ability to be redistributed:</p>
+
+<p></p><div style='' class='image border'><a href='/reproducibility-site/images/projects/runmycode/runmycode_usage_terms.png' data-lightbox='image-3'><img src='/reproducibility-site/images/projects/runmycode/runmycode_usage_terms.png' class='' style='max-width: 500px;' title='' alt='Usage Terms from the site say: You may not reformat, repost, or redisplay any material from this website for commercial or non-commercial purposes.' /></a></div><p></p>
+
+<p>This may violate the license considerations for source code if uploaded to the site. Therefore,
+free-software or open-source code may not be uploaded to this service legally.</p>
+
+<p>Also, the terms open the possibility that the materials may be removed for any reason:</p>
+
+<p></p><div style='' class='image border'><a href='/reproducibility-site/images/projects/runmycode/runmycode_termination_terms.png' data-lightbox='image-4'><img src='/reproducibility-site/images/projects/runmycode/runmycode_termination_terms.png' class='' style='max-width: 500px;' title='' alt='' /></a></div><p></p>
+
+<p>Given that there is no process for contesting this process and no opportunity to self-host your
+materials, the longevity of the archive is in question.</p>
+<h2 id='infrastructure'>Infrastructure</h2>
+<p>This is a centralized service that hosts file archives and small amounts of metadata.
+The service does not provide any computational capabilities nor does it run any code.
+It can support up to 100MB of uploaded files per <em>companion website</em>. No external service
+can be used to augment the storage capability of the archive.</p>
+<h2 id='capabilities'>Capabilities</h2>
+<p>The infrastructure hosts files up to 100MB. As a viewer, you can see the metadata
+and download the archive.</p>
+
+<p>You can also add comments and participate in a public forum centered around each individual website.
+That way, any issues can be resolved either through the author responding
+to questions there, or from the community either answering questions or posting
+the issues and how they resolved them.</p>
+
+<p></p><div style='' class='image border'><a href='/reproducibility-site/images/projects/runmycode/runmycode_blog.png' data-lightbox='image-5'><img src='/reproducibility-site/images/projects/runmycode/runmycode_blog.png' class='' style='max-width: 600px;' title='' alt='There are social community tools that allow for a simple comment system.' /></a><br /><div class='caption' style='max-width: 600px;'><p>There are social community tools that allow for a simple comment system.</p>
+</div></div><p></p>
+<h2 id='access'>Access</h2>
+<p>Each project is tied to a particular account. There are no methods of adding others to see
+or edit a project&#39;s metadata. There is no ability to make an upload private. Therefore there is
+no method of exposing a private project anonymously for the purpose of artifact or paper review.</p>
+<h2 id='provenance'>Provenance</h2>
+<p>There is no ability to add relationships to artifacts linking to other artifacts.
+The only exception is a citation that can point to a publication related to the artifact.
+There is a citation provided and dating of artifacts which can suggest the environment that
+the artifacts were created.
+The only other source of origin information is the provided space for a README or abstract and any
+user-generated comments.</p>
+<h2 id='governance'>Governance</h2>
+<p>The source code for this service is privately retained. As a closed-source
+project, there is no mechanism to enhance or reuse the code for this site.
+This speaks to longevity. The service, if abandoned, cannot be rehosted.
+Also, new features cannot be reintroduced by others outside of the current
+developers.</p>
+
+<p>The service is free for all. There is no process for validating accounts.
+That is, it is not required to be a university student or researcher to
+participate in this community. There are no paid packages or pay-for-privilege
+opportunities. All accounts are equal.</p>
+<h2 id='strengths'>Strengths</h2>
+<p>This is an easy to use service that will be very good for softer sciences to host their
+datasets and scripts.</p>
+<h3 id='breakdown'>Breakdown</h3>
+<ul>
+<li>Easy</li>
+<li>Free-to-use</li>
+<li>Social Community Tools</li>
+</ul>
+<h2 id='weaknesses'>Weaknesses</h2>
+<p>While great for some sciences, its simplicity may fail to account for the needs
+of more demanding computational experimentation.</p>
+
+<p>This service does not run code nor does it provide any means of ensuring longevity of
+code. That is, the code that is uploaded may not be easily used and may break when
+new versions of libraries or tools are released.</p>
+<h3 id='breakdown'>Breakdown</h3>
+<ul>
+<li>Cannot run code</li>
+<li>Does not archive dependent tools</li>
+<li>No private projects nor anonymous reviewer mode</li>
+</ul>
+<h2 id='unique_features'>Unique Features</h2>
+<p>To be discussed.</p>
+<h2 id='best_practice_influences'>Best-Practice Influences</h2>
+<p>To be discussed.</p>
+<h2 id='digital_library_incorporation_issues'>Digital Library Incorporation Issues</h2>
+<p>To be discussed.</p>
+<h2 id='applied_use_cases'>Applied Use-cases</h2>
+<p>To be discussed.</p>
+
+          </article>
+        </div>
+        <div class='clear'></div>
+      </div>
+  	</div><!--/row-->
+</div><!--/container-->
+
+<footer><img src="/reproducibility-site/images/cc0.png"> This content is licensed: <a href="https://creativecommons.org/about/cc0/">cc-0</a> | <a href="https://github.com/wilkie/reproducibility-site/blob/master/projects/runmycode.md">View this page on GitHub</a> | <a href="http://www.bootply.com/">Template based on Bootply</a> and built on <a href="http://getbootstrap.com/">Bootstrap</a>.
+</footer>
+
+<script src="/reproducibility-site/js/jquery.min.js"></script>
+<script src="/reproducibility-site/js/lightbox2-master/dist/js/lightbox.min.js"></script>
+<script src="/reproducibility-site/js/bootstrap.min.js"></script>
+<script src="/reproducibility-site/js/angular.min.js"></script>
+<script src="/reproducibility-site/js/app.js"></script>
+
+</body>
+</html>

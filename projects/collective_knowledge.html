@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Reproducibility Breakdown - Collective Knowledge</title>
+  <link rel="stylesheet" href="/reproducibility-site/js/lightbox2-master/dist/css/lightbox.min.css">
+  <link rel="stylesheet" href="/reproducibility-site/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/reproducibility-site/css/app.css">
+  <link rel="stylesheet" href="/reproducibility-site/css/post.css">
+  <link rel="stylesheet" href="/reproducibility-site/css/zenburn.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">Reproducibility Breakdown: Collective Knowledge</a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li class='dropdown'>
+          <a href="#" class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>Projects <span class='caret'></span></a>
+          <ul class='dropdown-menu'>
+            <li><a href="/reproducibility-site/projects/collective_knowledge.html">Collective Knowledge</a></li>
+            <li><a href="/reproducibility-site/projects/occam.html">Occam</a></li>
+            <li><a href="/reproducibility-site/projects/datamill.html">DataMill</a></li>
+            <li><a href="/reproducibility-site/projects/dataverse.html">Dataverse</a></li>
+            <li><a href="/reproducibility-site/projects/researchcompendia.html">ResearchCompendia</a></li>
+            <li><a href="/reproducibility-site/projects/runmycode.html">RunMyCode</a></li>
+            <li><a href="/reproducibility-site/projects/osf.html">Open Science Framework</a></li>
+            <li><a href="/reproducibility-site/projects/jupyter.html">Jupyter</a></li>
+            <li><a href="/reproducibility-site/projects/labcloud.html">Helix Lab Cloud</a></li>
+            <li><a href="/reproducibility-site/projects/tira.html">TIRA</a></li>
+            <li><a href="/reproducibility-site/projects/apt.html">Apt</a></li>
+            <li><a href="/reproducibility-site/projects/hubzero.html">HUBzero</a></li>
+            <li><a href="/reproducibility-site/projects/olive.html">OLIVE</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="/reproducibility-site/rubric.html">Rubric</a>
+        </li>
+        <li>
+          <a href="https://github.com/wilkie/reproducibility-site">View on GitHub</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</nav>
+
+<div id="masthead">
+  <div class="container">
+      <div class="row">
+        
+        <div class="col-md-5">
+          <h1>Collective Knowledge
+            <p class="lead"></p>
+          </h1>
+        </div>
+        <div class="col-md-7">
+            <div class="well well-lg">
+              <div class="row">
+                <div class="col-sm-5">
+                  <img src="/reproducibility-site/images/logos/ck-logo.png" class="img-responsive logo ">
+                </div>
+                <div class="col-sm-7">
+                  <p>Collective Knowledge - small, portable and customizable research platform to quickly prototype experimental workflows (such as multi-objective autotuning) from shared components with unified JSON API; crowdsource and reproduce experiments; apply predictive analytics; enable interactive articles. Public crowd-results: http://cknowledge.org/repo</p>
+<div class='clear'></div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </div>
+  </div><!--/container-->
+</div><!--/masthead-->
+
+<!--main-->
+<div class="container">
+	<div class="row">
+      <!--left-->
+      <div class="col-md-3" id="leftCol">
+        <ul id='sidebar' class='nav nav-stacked'><li><a href='#about'>About</a></li><li><a href='#rubric'>Rubric</a></li><li><a href='#motivation'>Motivation</a></li><li><a href='#walkthrough'>Walkthrough</a></li><li><a href='#strengths'>Strengths</a></li><li><a href='#weaknesses'>Weaknesses</a></li><li><a href='#unique_features'>Unique Features</a></li><li><a href='#best_practice_influences'>Best-Practice Influences</a></li><li><a href='#digital_library_incorporation_issues'>Digital Library Incorporation Issues</a></li><li><a href='#applied_use_cases'>Applied Use-cases</a></li></ul>
+      </div><!--/left-->
+
+      <!--right-->
+      <div class="col-md-9">
+        <div class='content'>
+          <article>
+            <h2 id='about'>About</h2><h3 id='authors'>Authors</h3>
+<p><a href='http://fursin.net/research.html' title=''>Grigori Fursin</a> - CTO, <a href='http://dividiti.com/' title=''>dividiti</a>; Chief-Scientist, <a href='http://ctuning.org/' title=''>cTuning Foundation</a></p>
+
+<p>Anton Lokhmotov</p>
+<h3 id='information'>Information</h3>
+<p><strong>Type</strong>: Workflow Builder, Automation Tool, Metadata Library, Digital Archive</p>
+
+<p><strong>License</strong>: 3c-BSD</p>
+
+<p><strong>Timeline</strong>: 2014-present</p>
+
+<p><strong>Institution</strong>: cTuning Foundation (non-profit)</p>
+<h3 id='links'>Links</h3>
+<p><a href='http://cknowledge.ddns.net/' title=''>cTuning website for Collective Knowledge</a></p>
+
+<p><a href='http://cknowledge.ddns.net/repo/web.php?wcid=report:b0779e2a64c22907' title=''>Demo &quot;Interactive Paper&quot; for CK Browser</a></p>
+
+<p><a href='https://github.com/ctuning/ck' title=''>Source Code</a></p>
+<h2 id='rubric'>Rubric</h2>
+<pre><code>  ✔ - Yes
+  ✗ - No
+  ○ - Yes, but with concession
+  · - Inapplicable
+  ? - Unknown
+</code></pre>
+<table><thead><tr><td class=''>Infrastructure</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Self-Hosting</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Provides Metadata</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Provides Hardware Diversity</td><td class='feature no'>✗</td><td class=''></td></tr><tr><td class=''>Dispatches Work to Cloud Machines</td><td class='feature no'>✗</td><td class=''></td></tr><tr><td class=''>Provides a Web Portal</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Provides Performance Monitoring</td><td class='feature no'>✗</td><td class=''></td></tr></tbody></table><table><thead><tr><td class=''>Capabilities</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Runs Code</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>File Storage</td><td class='feature no'>✗</td><td class=''>You host packages externally using something like github.</td></tr><tr><td class=''>Collaboration Controls</td><td class='feature unknown'>?</td><td class=''></td></tr><tr><td class=''>Provides Citations</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Interactive Graphing</td><td class='feature yes'>✔</td><td class=''>You can generate reports that embed javascript widgets.</td></tr><tr><td class=''>Can Combine Objects</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Can Archive/Run GUI Tools</td><td class='feature no'>✗</td><td class=''></td></tr><tr><td class=''>Can Hook to External Services</td><td class='feature no'>✗</td><td class=''></td></tr></tbody></table><table><thead><tr><td class=''>Access</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Public view of object</td><td class='feature yes'>✔</td><td class=''>Through a webserver, generated pages can be made public.</td></tr><tr><td class=''>Access Permissions for Editing</td><td class='feature unknown'>?</td><td class=''></td></tr><tr><td class=''>Access Permissions for Reading</td><td class='feature unknown'>?</td><td class=''></td></tr><tr><td class=''>Access Permissions for Anon Review</td><td class='feature unknown'>?</td><td class=''></td></tr></tbody></table><table><thead><tr><td class=''>Provenance</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Search</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Unique Identifiers for Projects</td><td class='feature yes'>✔</td><td class=''>A type of UUID and use of URIs.</td></tr><tr><td class=''>Provides URL to Project / Data</td><td class='feature yes'>✔</td><td class=''></td></tr></tbody></table><table><thead><tr><td class=''>Governance</td><td class=''></td><td class=''></td></tr></thead><tbody><tr><td class=''>Open Source</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Allows Modification / Redistribution</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Has a Free-to-Use Package</td><td class='feature yes'>✔</td><td class=''></td></tr><tr><td class=''>Has a Student Package</td><td class='feature not-available'>·</td><td class=''></td></tr><tr><td class=''>Has a Paid Package</td><td class='feature not-available'>·</td><td class=''></td></tr></tbody></table><h2 id='motivation'>Motivation</h2>
+<p>From their own page at <a href='http://cknowledge.ddns.net/' title=''>http://cknowledge.ddns.net/</a>:</p>
+<blockquote><p>We have developed Collective Knowledge framework and repository (CK) to help researchers quickly prototype their research ideas, crowdsource experiments and reproduce results using shared CK modules with unified JSON API, while simplifying predictive analytics and knowledge exchange. For example, CK already helped computer systems&#39; researchers (and ourselves):</p>
+
+<ul>
+<li>share realistic programs, benchmarks, and data sets (shared CK repos);</li>
+<li>automate and crowdsource performance analysis, benchmarking and tuning (online crowd results);</li>
+<li>perform automatic multi-objective compile-time and run-time optimizations (e.g. cost vs. performance vs. energy vs. accuracy) achieving 10x speedups and 50% energy reductions with the same accuracy for some real OpenCL/CUDA applications on the latest heterogeneous platforms;</li>
+<li>apply statistical (&quot;machine learning&quot;) techniques (e.g. building performance/energy models, quickly identifying performance bottlenecks, accelerating autotuning);</li>
+<li>simplify optimization knowledge sharing across communities of hardware vendors and software developers;</li>
+<li>stress-test compilers and crowd-tune their optimization heuristics on representative workloads;</li>
+<li>enable interactive graphs and papers (demo).</li>
+</ul>
+</blockquote>
+<p>Collective Knowledge warns about the prevailing model of development and research where software is rapidly developed and released but not organized.
+It becomes hard to understand, discover, and replicate an ever increasing number of software tools.
+Therefore, Collective Knowledge exists to encapsulate tools in a way to give them some consistency in their use to allow for that replication and automation.</p>
+
+<p></p><div style='' class='image'><a href='/reproducibility-site/images/collective_knowledge_path.png' data-lightbox='image-0'><img src='/reproducibility-site/images/collective_knowledge_path.png' class='' style='' title='' alt='http://ctuning.org/' /></a><br /><div class='caption' style=''><p>http://ctuning.org/</p>
+</div></div><p></p>
+<h2 id='walkthrough'>Walkthrough</h2>
+<p>In this section, we will walk through the process of describing and running an experiment. We will focus on
+the methods the framework uses to combine various artifacts (typically datasets) together. There will be
+thorough markup of any metadata along the way. We will emphasize working with an existing artifact.</p>
+
+<p>First, there is a mechanism to pull down existing repositories from their central GitHub organization to your
+local machine:</p>
+
+<pre><code>ck pull repo:ctuning-programs
+</code></pre>
+
+<p>Assuming we have a collection of objects already, we can run an experiment workflow through the command-line.
+Most of the framework is to be used via the command-line. The following will run the given program set <code>cbench&#8209;automotive&#8209;susan</code>
+which is a pre-prepared object:</p>
+
+<pre><code>ck pipeline program:cbench-automotive-susan --speed
+</code></pre>
+
+<p>Which will list the programs we can run:</p>
+
+<pre><code>0) corners ($#BIN_FILE#% $#dataset_path#$$#dataset_filename#$ tmp-output.tmp -c)
+1) edges ($#BIN_FILE#% $#dataset_path#$$#dataset_filename#$ tmp-output.tmp -e)
+2) smoothing ($#BIN_FILE#% $#dataset_path#$$#dataset_filename#$ tmp-output.tmp -s)
+
+Select item (or press Enter for 0): _
+</code></pre>
+
+<p>In this case, the same program has three different invocations. Each is available to run
+through this interactive prompt. They simply switch between three different program commands
+which ultimately are just selecting an input flag among <code>&#8209;c</code>, <code>&#8209;e</code>, and <code>&#8209;s</code>.</p>
+
+<p>I&#39;m not sure how to automatically select the program to avoid the interaction.</p>
+
+<p>After you select the program it will query for any datasets that can be used as input:
+Note the name of the dataset and then the uuid in parens.</p>
+
+<pre><code>0) image-pgm-0001 (b2130844c38e4a56)
+1) image-pgm-clean-gray-square-600-450-8 (c5a378cde441bbb7)
+2) image-pgm-from-pamela-100 (d11ad4b49f2b9f45)
+</code></pre>
+
+<p>Or, you can automatically use a dataset by specifying it as a parameter:</p>
+
+<pre><code>ck pipeline program:cbench-automotive-susan --speed --dataset_uoa=image-pgm-0001
+</code></pre>
+
+<p>After selecting the dataset, it will run the workflow.</p>
+<h3 id='metadata'>Metadata</h3>
+<p>The &quot;cbench-automotive-susan&quot; experiment is described through metadata. The program is located in 
+<code>CK_ROOT_/ctuning&#8209;programs/program/cbench&#8209;automotive&#8209;susan</code> and within the <code>.cm</code> path inside there are three JSON metadata files.</p>
+
+<p>The <code>desc.json</code> seems to describe repetitions and exploration parameters.</p>
+
+<p>The <code>info.json</code> describes the artifact&#39;s name and description. This is descriptive metadata including permissions metadata and some info about where backups are contained. Apparently backups have their own unique uuid.</p>
+
+<p>The <code>meta.json</code> describes how to run the artifact automatically and what datasets it supports. It tells you how to compile it:</p>
+
+<pre><code>{
+  ...
+  &quot;compiler_env&quot;: &quot;CK_CC&quot;,
+  &quot;source_files&quot;: [
+    &quot;susan.c&quot;
+  ],
+  &quot;main_language&quot;: &quot;c&quot;,
+  &quot;extra_ld_vars&quot;: &quot;&quot;,
+  ...
+}
+</code></pre>
+
+<p>And it describes the various ways to invoke the program once it is built:</p>
+
+<pre><code>{
+  ...
+  &quot;run_cmds&quot;: {
+    &quot;corners&quot;: {
+      &quot;dataset_tags&quot;: [
+        &quot;dataset&quot;, &quot;image&quot;, &quot;pgm&quot;
+      ],
+      &quot;hot_functions&quot;: [
+      ],
+      &quot;run_time&quot;: {
+        ... info about how to run and where to put stdout etc ...
+        &quot;run_cmd_main&quot;: &quot;$#BIN_FILE#$ $#dataset_path#$$#dataset_filename#$ tmp-output.tmp -s&quot;
+      }
+    },
+    &quot;edges&quot;: {
+      ...
+    },
+    &quot;smoothing&quot;: {
+      ...
+    }
+  }
+  ...
+}
+</code></pre>
+
+<p>Each key became one of the options listed in the section above where we run the experiment.</p>
+<h3 id='dataset_selection'>Dataset Selection</h3>
+<p>The programs are matched to possible datasets which can be packaged <strong>independently</strong> of the experiment workflow.
+That is, datasets and files can be new included or can be pulled from other experiments for use in otherwise disparate experiments.
+This is done by specifying the tags for the dataset, as is done above, in the <code>dataset_tags</code> section.
+The framework will search for datasets that share those tags and list them interactively.</p>
+
+<p>One dataset that can be used here is located in <code>CK_ROOT/ctuning&#8209;datasets&#8209;min/dataset/image&#8209;pgm&#8209;0001</code> and it has
+its own metadata in <code>meta.json</code>:</p>
+
+<pre><code>{
+  &quot;cm_classes_uoa&quot;: [
+    &quot;62a455f8c8042f90&quot;,
+    ...
+  ],
+  &quot;cm_dissemination&quot;: {
+    &quot;publications&quot;: [
+      &quot;0c44d9a2db3de3c9&quot;,
+      ...
+    ]
+  },
+  &quot;cm_properties&quot;: {
+    &quot;color_depth&quot;: &quot;8&quot;,
+    &quot;gray&quot;: &quot;yes&quot;,
+    &quot;height&quot;: &quot;450&quot;,
+    &quot;image_type&quot;: &quot;computer generated landscape&quot;,
+    &quot;type&quot;: &quot;image&quot;,
+    &quot;width&quot;: &quot;600&quot;
+  },
+  &quot;dataset_files&quot;: [
+    &quot;data.pgm&quot;
+  ],
+  &quot;tags&quot;: [
+    &quot;dataset&quot;,
+    &quot;image&quot;,
+    &quot;pgm&quot;
+  ]
+}
+</code></pre>
+
+<p>As you can see, its tags match those specified in the experiment. The dataset metadata describes several type-dependent properties and a data file <code>data.pgm</code> which is
+a form of raw grayscale image data.</p>
+
+<p>You can compile programs separately with:</p>
+
+<pre><code>ck compile program:cbench-automotive-susan --speed
+</code></pre>
+
+<p>But it seems like it will compile programs to run them within the pipeline if needed.</p>
+<h2 id='strengths'>Strengths</h2>
+<p>The main motivation of Collective Knowledge is to abstract details related to the composition of software such as
+variables that affect how it builds and what inputs it takes. This allows for a greater extensibility of artifacts
+and experiments that are wrapped in the framework. Compiler automation, which seems to be a general focus of the
+authors of the framework, is made possible through this abstraction. Programs and benchmarks can be compiled under
+different conditions and measured against a variety of datasets automatically. This type of automation is
+furthermore done in a way that promotes replication and then reproduction on other machines.
+Their own usecase is to crowd-source those parameters by automatically selecting them across a system of machines and weighing them by performance metrics.</p>
+<h3 id='breakdown'>Breakdown</h3>
+<ul>
+<li>Abstracts Compilation and Input Sources</li>
+<li>Automation of Experiment Workflows</li>
+</ul>
+<h2 id='weaknesses'>Weaknesses</h2>
+<p>For as much as Collective Knowledge can do, there is a vagueness about what it cannot do.</p>
+<h3 id='breakdown'>Breakdown</h3>
+<ul>
+<li>Metadata Complexity</li>
+<li>No Virtualization Features</li>
+</ul>
+<h2 id='unique_features'>Unique Features</h2>
+<p>A generalized method to perform automation with respect to configuring tools or compiling software.</p>
+<h2 id='best_practice_influences'>Best-Practice Influences</h2>
+<p>Collective Knowledge is built around the idea of repeatability and exhibits how good standards behind
+repeatability can mean a faster and more reliable means of performing research. This framework pushes
+people to understand what parts of their system are automatable by rewarding that effort with an
+extensible tool to perhaps, at least with some amount of optimism, crowdsource the best parameters to
+promote the best or most interesting result.</p>
+<h2 id='digital_library_incorporation_issues'>Digital Library Incorporation Issues</h2>
+<p>To capture a Collective Knowledge artifact, it is generally a git repository containing code and
+metadata. A library of Collective Knowledge artifacts will store these repositories at a git server.
+Collective Knowledge artifacts can reference other artifacts either directly or indirectly. To best
+serve the needs of experimentation and reproducibility, all direct relationships must be stored
+together with the same longevity guarantees and there should be some reasonable availability of a
+representative subset of indirectly related artifacts (datasets, etc) which are stored in the same
+fashion (git repo including metadata)</p>
+<h2 id='applied_use_cases'>Applied Use-cases</h2>
+          </article>
+        </div>
+        <div class='clear'></div>
+      </div>
+  	</div><!--/row-->
+</div><!--/container-->
+
+<footer><img src="/reproducibility-site/images/cc0.png"> This content is licensed: <a href="https://creativecommons.org/about/cc0/">cc-0</a> | <a href="https://github.com/wilkie/reproducibility-site/blob/master/projects/collective_knowledge.md">View this page on GitHub</a> | <a href="http://www.bootply.com/">Template based on Bootply</a> and built on <a href="http://getbootstrap.com/">Bootstrap</a>.
+</footer>
+
+<script src="/reproducibility-site/js/jquery.min.js"></script>
+<script src="/reproducibility-site/js/lightbox2-master/dist/js/lightbox.min.js"></script>
+<script src="/reproducibility-site/js/bootstrap.min.js"></script>
+<script src="/reproducibility-site/js/angular.min.js"></script>
+<script src="/reproducibility-site/js/app.js"></script>
+
+</body>
+</html>

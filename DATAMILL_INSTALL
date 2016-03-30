@@ -1,0 +1,9 @@
+Needs glpk installed from source at 4.31.
+
+Using pyenv is easier. Needs python 2.7.6;
+
+Needs django-guardian lib set to 1.3.0 in dependencies.pip
+
+Needed to drop tables after syncdb in order to run migrations to catch up:
+psql -d datamilldb -c "SELECT 'DROP TABLE IF EXISTS \"' || tablename || '\" CASCADE;' FROM pg_tables WHERE NOT tablename='south_migrationhistory' AND NOT tablename LIKE 'django_%' AND NOT tablename LIKE 'auth_%' and schemaname='public'" > foo
+psql -d datamilldb < foo
