@@ -82,16 +82,60 @@ article .image {
 article table {
   width: 100%;
   margin-top: 20px; }
+  article table tbody tr:hover td {
+    background-color: #FFF3FF; }
+    article table tbody tr:hover td span {
+      opacity: 1.0 !important; }
   article table td {
     font: 300 14px "Roboto", sans-serif; }
+    article table td.right {
+      text-align: right;
+      padding-right: 20px; }
+    article table td.left {
+      text-align: left; }
+    article table td.center {
+      text-align: center; }
+    article table td.feature span {
+      width: 18px;
+      height: 18px;
+      line-height: 18px;
+      display: inline-block;
+      vertical-align: middle;
+      border: 1px solid #ddd;
+      border-radius: 1em;
+      text-align: center;
+      font-size: 10px; }
     article table td.feature.yes {
-      color: #399839; }
+      color: #399839;
+      color: #75A275;
+      color: #4A984A; }
+      article table td.feature.yes span {
+        background-color: #C7EFC7;
+        background-color: #D4FFD4;
+        border-color: #7CC582;
+        opacity: 0.7; }
     article table td.feature.no {
-      color: #F37474; }
+      color: #F37474;
+      color: #D69595; }
+      article table td.feature.no span {
+        background-color: #F9E7E7;
+        border-color: #DEBDBD;
+        opacity: 0.5; }
     article table td.feature.both {
-      color: #923792; }
+      color: #923792;
+      color: #C389C3; }
+      article table td.feature.both span {
+        background-color: #FAEAFF;
+        background-color: #f1e9fb;
+        border-color: #E2CDE2;
+        opacity: 0.7; }
+    article table td.feature.not-available {
+      color: #8E8E8E; }
+      article table td.feature.not-available span {
+        background-color: #fafafa;
+        opacity: 0.5; }
     article table td.feature.unknown {
-      color: #7D7D7D;
+      color: #ECBEEC;
       font-weight: normal; }
   article table tbody tr td:first-child {
     width: 200px; }
@@ -125,8 +169,8 @@ article table {
     display: inline-block;
     vertical-align: middle;
     line-height: 1.2em; }
+  article table thead tr td,
   article table tbody tr td {
-    border-bottom: 1px solid #DCBCDC;
     padding: 5px 3px; }
   article table thead tr td:first-child,
   article table tbody tr td:first-child {
@@ -134,8 +178,6 @@ article table {
   article table thead tr td:last-child,
   article table tbody tr td:last-child {
     padding-right: 10px; }
-  article table tbody tr:nth-child(2n+1) td {
-    background-color: #FFF3FF; }
 
 @font-face {
   font-family: 'Roboto';
