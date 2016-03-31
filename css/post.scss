@@ -131,27 +131,94 @@ article {
     width: 100%;
     margin-top: 20px;
 
+    tbody {
+      tr:hover {
+        td {
+          background-color: #FFF3FF;
+
+          span {
+            opacity: 1.0 !important;
+          }
+        }
+      }
+    }
+
     td {
       font: 300 14px "Roboto", sans-serif;
 
+      &.right {
+        text-align: right;
+        padding-right: 20px;
+      }
+
+      &.left {
+        text-align: left;
+      }
+
+      &.center {
+        text-align: center;
+      }
+
       &.feature {
+        span {
+          width:  18px;
+          height: 18px;
+          line-height: 18px;
+          display: inline-block;
+          vertical-align: middle;
+          border: 1px solid #ddd;
+          border-radius: 1em;
+          text-align: center;
+          font-size: 10px;
+        }
+
         &.yes {
           color: #399839;
+          color: #75A275;
+          color: #4A984A;
+
+          span {
+            background-color: #C7EFC7;
+            background-color: #D4FFD4;
+            border-color:     #7CC582;
+            opacity: 0.7;
+          }
         }
 
         &.no {
           color: #F37474;
+          color: #D69595;
+
+          span {
+            background-color: #F9E7E7;
+            border-color:     #DEBDBD;
+            opacity: 0.5;
+          }
         }
 
         &.both {
           color: #923792;
+          color: #C389C3;
+
+          span {
+            background-color: #FAEAFF;
+            background-color: hsla(266,70%,95%,1);
+            border-color:     #E2CDE2;
+            opacity: 0.7;
+          }
         }
 
         &.not-available {
+          color: #8E8E8E;
+
+          span {
+            background-color: hsla(0,0%,98%,1);
+            opacity: 0.5;
+          }
         }
 
         &.unknown {
-          color: #7D7D7D;
+          color: #ECBEEC;
           font-weight: normal;
         }
       }
@@ -203,8 +270,9 @@ article {
       line-height: 1.2em;
     }
 
+    thead tr td ,
     tbody tr td {
-      border-bottom: 1px solid #DCBCDC;
+      //border-bottom: 1px solid #DCBCDC;
       padding: 5px 3px;
     }
 
@@ -219,7 +287,7 @@ article {
     }
 
     tbody tr:nth-child(2n+1) td {
-      background-color: #FFF3FF;
+      //background-color: #FFF3FF;
     }
   }
 }

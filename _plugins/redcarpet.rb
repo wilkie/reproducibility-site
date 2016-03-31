@@ -97,20 +97,26 @@ module Redcarpet
 
       def table_cell(content, alignment)
         table_classes = ""
+        table_classes << "#{alignment} "
         if content.start_with? "✔"
-          table_classes << "feature yes"
+          table_classes << "feature yes "
+          content = "<span>#{content}</span>"
         end
         if content.start_with? "✗"
-          table_classes << "feature no"
+          table_classes << "feature no "
+          content = "<span>#{content}</span>"
         end
         if content.start_with? "·"
-          table_classes << "feature not-available"
+          table_classes << "feature not-available "
+          content = "<span>#{content}</span>"
         end
         if content.start_with? "?"
-          table_classes << "feature unknown"
+          table_classes << "feature unknown "
+          content = "<span>❓</span>"
         end
-        if content.start_with? "○"
+        if content.start_with?("○") or content.start_with?("✚")
           table_classes << "feature both"
+          content = "<span>✚</span>"
         end
 
         if content.start_with? "/"

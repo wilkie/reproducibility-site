@@ -10,7 +10,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 ```
   ✔ - Yes
   ✗ - No
-  ○ - Yes, but with concession
+  ✚ - Yes, but with concession
   · - Inapplicable
   ? - Unknown
 ```
