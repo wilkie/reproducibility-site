@@ -25,7 +25,7 @@ Keith Webster - Dean of University Libraries, Carnegie Mellon University
 
 ### Information
 
-**Type**: VM Archive, Digital Library
+**Type**: VM Archive, Digital Library, Virtual Machine Streamer
 
 **License**: Mixed: Client: GPLv2, Server: Closed (with intention to open-source)
 

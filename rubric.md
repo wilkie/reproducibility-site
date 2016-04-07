@@ -31,6 +31,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 [occam]:    {{ site.baseurl }}/projects/occam.html
 [ck]:       {{ site.baseurl }}/projects/collective_knowledge.html
 [rc]:       {{ site.baseurl }}/projects/researchcompendia.html
+[bwfla]:    {{ site.baseurl }}/projects/bwfla.html
 
 | Name                          | /Infrastructure Service | /VM Builder | /Digital Library | /File Hosting | /Interactive Tool | /Records Relational Provenance | License | Year | Organization | Link |
 | ----------------------------- | --- | --- | --- | --- | --- | --- | ------- | ---- | ------------ | ---- |
@@ -47,7 +48,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [HUBzero][hubzero]            | ✔ | ✗ | ✔ | ✔ | ✔ | ✗ | LGPLv3       | 2013       | HUBzero Foundation            | [Link](https://hubzero.org/)             |
 | [OLIVE][olive]                | ✗ | ✔ | ✔ | ✗ | ✔ | ✗ | GPLv2/Closed | 2013       | Carnegie Mellon University    | [Link](https://olivearchive.org/)        |
 | [ResearchCompendia][rc]       | ✗ | ✗ | ✔ | ✔ | ✗ | ✗ | MIT          | 2013       | Columbia University           | [Link](http://researchcompendia.org/)    |
-| [Code Ocean][co]              | ? | ? | ? | ? | ? | ? | ?            | ?          | ?                             | ?                                        |
+| [bwFLA][bwfla]                | ✗ | ✗ | ✗ | ✗ | ✔ | ✗ | GPL          | 2013       | Albert-Ludwigs University Freiburg | [Link](http://bw-fla.uni-freiburg.de/)   |
 
 ## Infrastructure
 
@@ -66,6 +67,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [HUBzero][hubzero]            | ✔ | ✔ | ✗ | ? | ✔ | ✗ |
 | [OLIVE][olive]                | ✗ | ? | ? | ? | ✔ | ✗ |
 | [ResearchCompendia][rc]       | ? | ✔ | ✗ | ✗ | ✔ | ✗ |
+| [bwFLA][bwfla]                | ? | ? | ? | ? | ? | ? |
 | [Code Ocean][co]              | ? | ? | ? | ? | ? | ? |
 
 ## Capabilities
@@ -85,26 +87,28 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [HUBzero][hubzero]            | ✔ | ✔ | ✔ | ✔ | ✔ | ? | ✔ | ? |
 | [OLIVE][olive]                | ? | ✔ | ? | ? | ? | ? | ? | ? |
 | [ResearchCompendia][rc]       | ✗ | ✔ | ✗ | ✔ | ✗ | ✗ | ✗ | ✗ |
+| [bwFLA][bwfla]                | ✔ | ? | ? | ? | ? | ? | ✔ | ✔ |
 | [Code Ocean][co]              | ? | ? | ? | ? | ? | ? | ? | ? |
 
 ## Access
 
-| Name                          | /Public View of Artifact | /Access Permission to Edit | /Access Permissions to Read | /Access Permissions to Review |
-| ----------------------------- | ------------------------ | --------------------------- | ----------------------------- | -------------------------- |
-| [DataMill][datamill]          | ✗ | ? | ? | ? |
-| [Occam][occam]                | ✔ | ✔ | ✔ | ✔ |
-| [Collective Knowledge][ck]    | ✔ | ? | ? | ? |
-| [RunMyCode][rmc]              | ✔ | ✗ | ✗ | ✗ |
-| [Dataverse][dv]               | ✔ | ✔ | ✔ | ✗ |
-| [Open Science Framework][osf] | ✔ | ✔ | ✔ | ✔ |
-| [Apt/emulab][apt]             | ? | ? | ? | ? |
-| [Helix Lab Cloud][hlc]        | ✗ | ✔ | ✔ | ✗ |
-| [JupyterHub][jh]              | ✔ | ✗ | ✗ | ✗ |
-| [TIRA][tira]                  | ✔ | ? | ? | ? |
-| [HUBzero][hubzero]            | ✔ | ✔ | ✗ | ✗ |
-| [OLIVE][olive]                | ? | ? | ? | ? |
-| [ResearchCompendia][rc]       | ✔ | ✗ | ✗ | ✗ |
-| [Code Ocean][co]              | ? | ? | ? | ? |
+| Name                          | /Public View of Artifact | /Access Permission to Edit | /Access Permissions to Read | /Access Permissions to Review | /Embeddable Access |
+| ----------------------------- | ------------------------ | --------------------------- | ----------------------------- | -------------------------- | ------------------ |
+| [DataMill][datamill]          | ✗ | ? | ? | ? | ? |
+| [Occam][occam]                | ✔ | ✔ | ✔ | ✔ | ✗ |
+| [Collective Knowledge][ck]    | ✔ | ? | ? | ? | ✗ |
+| [RunMyCode][rmc]              | ✔ | ✗ | ✗ | ✗ | ✗ |
+| [Dataverse][dv]               | ✔ | ✔ | ✔ | ✗ | ✗ |
+| [Open Science Framework][osf] | ✔ | ✔ | ✔ | ✔ | ✗ |
+| [Apt/emulab][apt]             | ? | ? | ? | ? | ? |
+| [Helix Lab Cloud][hlc]        | ✗ | ✔ | ✔ | ✗ | ✗ |
+| [JupyterHub][jh]              | ✔ | ✗ | ✗ | ✗ | ? |
+| [TIRA][tira]                  | ✔ | ? | ? | ? | ? |
+| [HUBzero][hubzero]            | ✔ | ✔ | ✗ | ✗ | ? |
+| [OLIVE][olive]                | ? | ? | ? | ? | ? |
+| [ResearchCompendia][rc]       | ✔ | ✗ | ✗ | ✗ | ✗ |
+| [bwFLA][bwfla]                | ? | ? | ? | ? | ✔ |
+| [Code Ocean][co]              | ? | ? | ? | ? | ? |
 
 ## Provenance
 
@@ -123,6 +127,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [HUBzero][hubzero]            | ✔ | ✔ | ? |
 | [OLIVE][olive]                | ✔ | ? | ? |
 | [ResearchCompendia][rc]       | ✔ | ✗ | ✔ |
+| [bwFLA][bwfla]                | ? | ? | ? |
 | [Code Ocean][co]              | ? | ? | ? |
 
 ## Governance
@@ -142,6 +147,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [HUBzero][hubzero]            | ✗ | ✔ | ✔ | ✔ | ✔ | Non-Profit     |
 | [OLIVE][olive]                | ○ | ○ | ✔ | · | · | University     |
 | [ResearchCompendia][rc]       | ✔ | ✔ | ✔ | · | · | University     |
+| [bwFLA][bwfla]                | ✔ | ✔ | ✔ | · | · | University     |
 | [Code Ocean][co]              | ? | ? | ? | ? | ? | ?              |
 
 ## Descriptions
