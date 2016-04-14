@@ -66,6 +66,7 @@ Anton Lokhmotov
 | Access Permissions for Editing       |  ?  | |
 | Access Permissions for Reading       |  ?  | |
 | Access Permissions for Anon Review   |  ?  | |
+| Embeddable Access                    |  ✗  | |
 
 | Provenance                           |     |            |
 |:------------------------------------ | --- | ---------- |
@@ -260,6 +261,30 @@ ck compile program:cbench-automotive-susan --speed
 ```
 
 But it seems like it will compile programs to run them within the pipeline if needed.
+
+## Infrastructure
+
+## Capabilities
+
+Collective Knowledge can run code against arbitrary inputs and datasets.
+Furthermore, code can be abstracted and have variables that can be set or explored allowing for a machine learning or crowd-sourced approach.
+
+## Access
+
+To be discussed.
+
+## Provenance
+
+Collective Knowledge identifies objects using a globally unique identifier.
+These can be used to reference other objects within object and they can be used as a key in a search.
+Objects can also be discovered by a search via tags.
+
+## Governance
+
+Collective Knowledge is an open source project.
+It is licensed under a permissive three-clause BSD license.
+This will allow for modification and redistribution of the source code
+for any reason. This speaks to availability and longevity of the software and people's ability to make use of it in the future.
 
 ## Strengths
 

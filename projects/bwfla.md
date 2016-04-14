@@ -1,7 +1,7 @@
 ---
 layout: default
 title: bwFLA
-logo: "logos/project/logo.png"
+logo: "logos/bwfla/bwfla_logo.png"
 description: ""
 ---
 

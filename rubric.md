@@ -32,6 +32,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 [ck]:       {{ site.baseurl }}/projects/collective_knowledge.html
 [rc]:       {{ site.baseurl }}/projects/researchcompendia.html
 [bwfla]:    {{ site.baseurl }}/projects/bwfla.html
+[am]:       {{ site.baseurl }}/projects/archivematica.html
 
 | Name                          | /Infrastructure Service | /VM Builder | /Digital Library | /File Hosting | /Interactive Tool | /Records Relational Provenance | License | Year | Organization | Link |
 | ----------------------------- | --- | --- | --- | --- | --- | --- | ------- | ---- | ------------ | ---- |
@@ -48,7 +49,8 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [HUBzero][hubzero]            | ✔ | ✗ | ✔ | ✔ | ✔ | ✗ | LGPLv3       | 2013       | HUBzero Foundation            | [Link](https://hubzero.org/)             |
 | [OLIVE][olive]                | ✗ | ✔ | ✔ | ✗ | ✔ | ✗ | GPLv2/Closed | 2013       | Carnegie Mellon University    | [Link](https://olivearchive.org/)        |
 | [ResearchCompendia][rc]       | ✗ | ✗ | ✔ | ✔ | ✗ | ✗ | MIT          | 2013       | Columbia University           | [Link](http://researchcompendia.org/)    |
-| [bwFLA][bwfla]                | ✗ | ✗ | ✗ | ✗ | ✔ | ✗ | GPL          | 2013       | Albert-Ludwigs University Freiburg | [Link](http://bw-fla.uni-freiburg.de/)   |
+| [bwFLA][bwfla]                | ✗ | ✗ | ✗ | ✗ | ✔ | ✗ | GPL          | 2013       | Albert-Ludwigs University Freiburg | [Link](http://bw-fla.uni-freiburg.de/)|
+| [archivematica][am]           | ✗ | ✗ | ✗ | ✗ | ✔ | ✗ | AGPLv3       | 2009       | Artefactual Systems Inc.      | [Link](https://www.archivematica.org)    |
 
 ## Infrastructure
 
@@ -65,9 +67,10 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [JupyterHub][jh]              | ✔ | ✔ | ✗ | ✗ | ✔ | ✗ |
 | [TIRA][tira]                  | ✗ | ✔ | ? | ✗ | ✔ | ? |
 | [HUBzero][hubzero]            | ✔ | ✔ | ✗ | ? | ✔ | ✗ |
-| [OLIVE][olive]                | ✗ | ? | ? | ? | ✔ | ✗ |
+| [OLIVE][olive]                | ✗ | ✔ | · | ✔ | ✔ | ✗ |
 | [ResearchCompendia][rc]       | ? | ✔ | ✗ | ✗ | ✔ | ✗ |
 | [bwFLA][bwfla]                | ? | ? | ? | ? | ? | ? |
+| [archivematica][am]           | ? | ? | ? | ? | ? | ? |
 | [Code Ocean][co]              | ? | ? | ? | ? | ? | ? |
 
 ## Capabilities
@@ -85,9 +88,10 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [JupyterHub][jh]              | ✔ | ✗ | ✗ | ✗ | ✔ | ✗ | ✗ | ✗ |
 | [TIRA][tira]                  | ✔ | ✔ | ? | ? | ? | ✗ | ✗ | ✗ |
 | [HUBzero][hubzero]            | ✔ | ✔ | ✔ | ✔ | ✔ | ? | ✔ | ? |
-| [OLIVE][olive]                | ? | ✔ | ? | ? | ? | ? | ? | ? |
+| [OLIVE][olive]                | ✔ | ✔ | ✗ | ✗ | ✗ | ✗ | ✔ | ✗ |
 | [ResearchCompendia][rc]       | ✗ | ✔ | ✗ | ✔ | ✗ | ✗ | ✗ | ✗ |
 | [bwFLA][bwfla]                | ✔ | ? | ? | ? | ? | ? | ✔ | ✔ |
+| [archivematica][am]           | ? | ? | ? | ? | ? | ? | ? | ? |
 | [Code Ocean][co]              | ? | ? | ? | ? | ? | ? | ? | ? |
 
 ## Access
@@ -105,9 +109,10 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [JupyterHub][jh]              | ✔ | ✗ | ✗ | ✗ | ? |
 | [TIRA][tira]                  | ✔ | ? | ? | ? | ? |
 | [HUBzero][hubzero]            | ✔ | ✔ | ✗ | ✗ | ? |
-| [OLIVE][olive]                | ? | ? | ? | ? | ? |
+| [OLIVE][olive]                | ✗ | ✗ | ✗ | ✗ | ✗ |
 | [ResearchCompendia][rc]       | ✔ | ✗ | ✗ | ✗ | ✗ |
 | [bwFLA][bwfla]                | ? | ? | ? | ? | ✔ |
+| [archivematica][am]           | ? | ? | ? | ? | ? |
 | [Code Ocean][co]              | ? | ? | ? | ? | ? |
 
 ## Provenance
@@ -125,9 +130,10 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [JupyterHub][jh]              | ✗ | ✗ | ✗ |
 | [TIRA][tira]                  | ✗ | ✗ | ✔ |
 | [HUBzero][hubzero]            | ✔ | ✔ | ? |
-| [OLIVE][olive]                | ✔ | ? | ? |
+| [OLIVE][olive]                | ✔ | ✗ | ✔ |
 | [ResearchCompendia][rc]       | ✔ | ✗ | ✔ |
 | [bwFLA][bwfla]                | ? | ? | ? |
+| [archivematica][am]           | ? | ? | ? |
 | [Code Ocean][co]              | ? | ? | ? |
 
 ## Governance
@@ -148,6 +154,7 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [OLIVE][olive]                | ○ | ○ | ✔ | · | · | University     |
 | [ResearchCompendia][rc]       | ✔ | ✔ | ✔ | · | · | University     |
 | [bwFLA][bwfla]                | ✔ | ✔ | ✔ | · | · | University     |
+| [archivematica][am]           | ? | ? | ? | ? | ? | For-Profit     |
 | [Code Ocean][co]              | ? | ? | ? | ? | ? | ?              |
 
 ## Descriptions
