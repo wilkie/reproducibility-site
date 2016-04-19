@@ -106,6 +106,7 @@ Christopher Iwaszko
 | Access Permissions for Editing       |  ✔  |            |
 | Access Permissions for Reading       |  ✔  |            |
 | Access Permissions for Anon Review   |  ✔  | Review links can be generated and revoked for a single revision of a project. Yields a link that you can give out that removes authorship information. Future changes to the project after the link was generated are not seen. |
+| Embeddable Access                    |  ✔  | |
 
 | Provenance                           |     |            |
 | ------------------------------------ | --- | ---------- |
@@ -337,3 +338,5 @@ To be discussed.
 ## Applied Use-cases
 
 To be discussed.
+
+<iframe src="https://occam.cs.pitt.edu/objects/75e0b63a-a21b-11e5-a1a2-001fd05bb228/4b68a5d241c537008e030d7e829c4970a82e2dec/embed" style="height: 800px; width: 1000px; border: 1px solid #888;"></iframe>

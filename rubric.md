@@ -49,8 +49,9 @@ WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this mo
 | [HUBzero][hubzero]            | ✔ | ✗ | ✔ | ✔ | ✔ | ✗ | LGPLv3       | 2013       | HUBzero Foundation            | [Link](https://hubzero.org/)             |
 | [OLIVE][olive]                | ✗ | ✔ | ✔ | ✗ | ✔ | ✗ | GPLv2/Closed | 2013       | Carnegie Mellon University    | [Link](https://olivearchive.org/)        |
 | [ResearchCompendia][rc]       | ✗ | ✗ | ✔ | ✔ | ✗ | ✗ | MIT          | 2013       | Columbia University           | [Link](http://researchcompendia.org/)    |
-| [bwFLA][bwfla]                | ✗ | ✗ | ✗ | ✗ | ✔ | ✗ | GPL          | 2013       | Albert-Ludwigs University Freiburg | [Link](http://bw-fla.uni-freiburg.de/)|
-| [archivematica][am]           | ✗ | ✗ | ✗ | ✗ | ✔ | ✗ | AGPLv3       | 2009       | Artefactual Systems Inc.      | [Link](https://www.archivematica.org)    |
+| [bwFLA][bwfla]                | ✗ | ✗ | ✗ | ✗ | ✔ | ✗ | GPLv3        | 2013       | Albert-Ludwigs University Freiburg | [Link](http://bw-fla.uni-freiburg.de/)|
+| [archivematica][am]           | ✗ | ✗ | ✔ | ✔ | ✗ | ✗ | AGPLv3       | 2009       | Artefactual Systems Inc.      | [Link](https://www.archivematica.org)    |
+| [Code Ocean][co]              | ? | ? | ? | ? | ? | ? | Proprietary  | 2016       | ?                             | ?                                        |
 
 ## Infrastructure
 

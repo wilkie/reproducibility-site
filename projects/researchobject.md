@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Project
-logo: "logos/project/logo.png"
+title: Research Object
+logo: "logos/researchobject/logo.png"
 description: ""
 ---
 
@@ -59,7 +59,6 @@ description: ""
 | Access Permissions for Editing       |  ?  |            |
 | Access Permissions for Reading       |  ?  |            |
 | Access Permissions for Anon Review   |  ?  | |
-| Embeddable Access                    |  ?  | |
 
 | Provenance                               |     |            |
 | ---------------------------------------- | --- | ---------- |

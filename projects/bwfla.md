@@ -29,7 +29,7 @@ Dennis Wehrle
 
 **Type**: Emulation Service, Virtual Machine Streamer, Digital Archive
 
-**License**: GPL
+**License**: GPLv3
 
 **Timeline**: 2013
 
@@ -70,21 +70,22 @@ From their [home page]():
 
 | Capabilities                         |     |            |
 | ------------------------------------ | --- | ---------- |
-| Runs Code                            |  ?  | |
+| Runs Code                            |  ✔  | |
 | File Storage                         |  ?  | |
 | Collaboration Controls               |  ?  | |
 | Provides Citations                   |  ?  | |
 | Interactive Graphing                 |  ?  | |
 | Can Combine Objects Interactively    |  ?  | |
-| Can Archive/Run GUI Tools            |  ?  | |
+| Can Archive/Run GUI Tools            |  ✔  | |
 | Can Hook to External Services        |  ?  | |
 
 | Access                               |     |            |
 | ------------------------------------ | --- | ---------- |
-| Public view of object                |  ?  | |
+| Public view of object                |  ✔  | |
 | Access Permissions for Editing       |  ?  |            |
 | Access Permissions for Reading       |  ?  |            |
 | Access Permissions for Anon Review   |  ?  | |
+| Embeddable Access                    |  ✔  | |
 
 | Provenance                               |     |            |
 | ---------------------------------------- | --- | ---------- |
@@ -94,11 +95,11 @@ From their [home page]():
 
 | Governance                           |     |            |
 | ------------------------------------ | --- | ---------- |
-| Open Source                          |  ?  | |
-| Allows Modification / Redistribution |  ?  |            |
-| Has a Free-to-Use Package            |  ?  | |
-| Has a Student Package                |  ?  |            |
-| Has a Paid Package                   |  ?  |            |
+| Open Source                          |  ✔  | GPLv3, on github |
+| Allows Modification / Redistribution |  ✔  |            |
+| Has a Free-to-Use Package            |  ✔  | |
+| Has a Student Package                |  ·  |            |
+| Has a Paid Package                   |  ·  |            |
 
 ## Walkthrough
 
