@@ -88,6 +88,8 @@ article table {
       opacity: 1.0 !important; }
   article table td {
     font: 300 14px "Roboto", sans-serif; }
+    article table td + td:nth-child(3):last-child {
+      width: 80%; }
     article table td.right {
       text-align: right;
       padding-right: 20px; }
