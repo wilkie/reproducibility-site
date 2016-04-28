@@ -4,10 +4,6 @@ title: Reproducibility Rubric
 ---
 
 ```
-WORK IN PROGRESS: Do not take any of this as set in stone or accurate at this moment.
-```
-
-```
   ✔ - Yes
   ✗ - No
   ✚ - Yes, but with concession

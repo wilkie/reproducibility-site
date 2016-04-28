@@ -23,6 +23,7 @@ description: "A scholarly commons to connect the entire research cycle."
 ### Links
 
 [Main Site](https://osf.io) - osf.io
+
 [Example Project](https://osf.io/ecmz4/) - Various open-access CT Scans
 
 ## Motivation

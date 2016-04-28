@@ -37,7 +37,7 @@ Keith Webster - Dean of University Libraries, Carnegie Mellon University
 
 From their [about page](https://olivearchive.org/about/):
 
-> Today, an increasing fraction of the world’s intellectual output is in the form of executable content. These include simulation models, tutoring systems, expert systems, data visualization tools, and so on. Even content that could be static (such as a company’s product information Web page) is often dynamically generated through execution of code that customizes the content and appearance at runtime... [Olive seeks] to freeze and precisely reproduce the execution state that produced this dynamic content.
+> Today, an increasing fraction of the world's intellectual output is in the form of executable content. These include simulation models, tutoring systems, expert systems, data visualization tools, and so on. Even content that could be static (such as a company's product information Web page) is often dynamically generated through execution of code that customizes the content and appearance at runtime... [Olive seeks] to freeze and precisely reproduce the execution state that produced this dynamic content.
 > -- M. Satyanarayanan
 
 Also included there:
