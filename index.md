@@ -17,6 +17,8 @@ a shrug.
 
 ok
 
+<iframe src="https://occam.cs.pitt.edu/objects/6928574e-113e-11e6-80f6-000af7451cc2?embed" style="border:1px solid #ccc; height: 600px; width: 800px"></iframe>
+
 > After developing SAV, we discovered a "sad fact" about archival repositories:
 Many users do not *want* to deposit their digital objects in an archival repository,
 or in any form of digital library for that matter! They are perfectly happy with
