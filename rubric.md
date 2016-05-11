@@ -47,7 +47,6 @@ title: Reproducibility Rubric
 | [ResearchCompendia][rc]       | ✗ | ✗ | ✔ | ✔ | ✗ | ✗ | MIT          | 2013       | Columbia University           | [Link](http://researchcompendia.org/)    |
 | [bwFLA][bwfla]                | ✗ | ✗ | ✗ | ✗ | ✔ | ✗ | GPLv3        | 2013       | Albert-Ludwigs University Freiburg | [Link](http://bw-fla.uni-freiburg.de/)|
 | [archivematica][am]           | ✗ | ✗ | ✔ | ✔ | ✗ | ✗ | AGPLv3       | 2009       | Artefactual Systems Inc.      | [Link](https://www.archivematica.org)    |
-| [Code Ocean][co]              | ? | ? | ? | ? | ? | ? | Proprietary  | 2016       | ?                             | ?                                        |
 
 ## Infrastructure
 
@@ -68,7 +67,6 @@ title: Reproducibility Rubric
 | [ResearchCompendia][rc]       | ? | ✔ | ✗ | ✗ | ✔ | ✗ |
 | [bwFLA][bwfla]                | ? | ? | ? | ? | ? | ? |
 | [archivematica][am]           | ? | ? | ? | ? | ? | ? |
-| [Code Ocean][co]              | ? | ? | ? | ? | ? | ? |
 
 ## Capabilities
 
@@ -89,7 +87,6 @@ title: Reproducibility Rubric
 | [ResearchCompendia][rc]       | ✗ | ✔ | ✗ | ✔ | ✗ | ✗ | ✗ | ✗ |
 | [bwFLA][bwfla]                | ✔ | ? | ? | ? | ? | ? | ✔ | ✔ |
 | [archivematica][am]           | ? | ? | ? | ? | ? | ? | ? | ? |
-| [Code Ocean][co]              | ? | ? | ? | ? | ? | ? | ? | ? |
 
 ## Access
 
@@ -110,7 +107,6 @@ title: Reproducibility Rubric
 | [ResearchCompendia][rc]       | ✔ | ✗ | ✗ | ✗ | ✗ |
 | [bwFLA][bwfla]                | ? | ? | ? | ? | ✔ |
 | [archivematica][am]           | ? | ? | ? | ? | ? |
-| [Code Ocean][co]              | ? | ? | ? | ? | ? |
 
 ## Provenance
 
@@ -131,7 +127,6 @@ title: Reproducibility Rubric
 | [ResearchCompendia][rc]       | ✔ | ✗ | ✔ |
 | [bwFLA][bwfla]                | ? | ? | ? |
 | [archivematica][am]           | ? | ? | ? |
-| [Code Ocean][co]              | ? | ? | ? |
 
 ## Governance
 
@@ -152,7 +147,6 @@ title: Reproducibility Rubric
 | [ResearchCompendia][rc]       | ✔ | ✔ | ✔ | · | · | University     |
 | [bwFLA][bwfla]                | ✔ | ✔ | ✔ | · | · | University     |
 | [archivematica][am]           | ? | ? | ? | ? | ? | For-Profit     |
-| [Code Ocean][co]              | ? | ? | ? | ? | ? | ?              |
 
 ## Descriptions
 
