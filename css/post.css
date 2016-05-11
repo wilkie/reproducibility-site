@@ -37,6 +37,8 @@ article h4 {
   margin-top: 20px;
   color: #944F94;
   font: Normal 16px "Lato", sans-serif; }
+article ol > li > ol {
+  list-style: lower-alpha; }
 article li,
 article p {
   font: 300 15px "Roboto", sans-serif;
