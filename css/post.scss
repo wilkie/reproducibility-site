@@ -58,6 +58,10 @@ article {
     font: Normal 16px "Lato", sans-serif;
   }
 
+  ol > li > ol {
+    list-style: lower-alpha;
+  }
+
   li,
   p {
     font: 300 15px "Roboto", sans-serif;
