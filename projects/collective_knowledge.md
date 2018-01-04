@@ -24,9 +24,9 @@ Anton Lokhmotov
 
 ### Links
 
-[cTuning website for Collective Knowledge](http://cknowledge.ddns.net/)
+[cTuning website for Collective Knowledge](http://cknowledge.org/)
 
-[Demo "Interactive Paper" for CK Browser](http://cknowledge.ddns.net/repo/web.php?wcid=report:b0779e2a64c22907)
+[Demo "Interactive Paper" for CK Browser](http://cknowledge.org/repo/web.php?wcid=report:b0779e2a64c22907)
 
 [Source Code](https://github.com/ctuning/ck)
 
@@ -84,7 +84,7 @@ Anton Lokhmotov
 
 ## Motivation
 
-From their own page at [http://cknowledge.ddns.net/](http://cknowledge.ddns.net/):
+From their own page at [http://github.com/ctuning/ck](http://github.com/ctuning/ck):
 
 > We have developed Collective Knowledge framework and repository (CK) to help researchers quickly prototype their research ideas, crowdsource experiments and reproduce results using shared CK modules with unified JSON API, while simplifying predictive analytics and knowledge exchange. For example, CK already helped computer systems' researchers (and ourselves):
 >
