@@ -34,7 +34,7 @@ title: Reproducibility Rubric
 | ----------------------------- | --- | --- | --- | --- | --- | --- | ------- | ---- | ------------ | ---- |
 | [DataMill][datamill]          | ✔ | ✗ | ✗ | ✔ | ✗ | ✗ | AGPLv3       | 2013       | University of Waterloo        | [Link](https://datamill.uwaterloo.ca/)   |
 | [Occam][occam]                | ✗ | ✔ | ✔ | ✔ | ✔ | ✔ | AGPLv3       | 2014       | University of Pittsburgh      | [Link](https://occam.cs.pitt.edu/)       |
-| [Collective Knowledge][ck]    | ✗ | ✗ | ✔ | ✗ | ✔ | ✔ | 3c-BSD       | 2014       | cTuning Foundation            | [Link](http://cknowledge.ddns.net/)      |
+| [Collective Knowledge][ck]    | ✗ | ✗ | ✔ | ✗ | ✔ | ✔ | 3c-BSD       | 2014       | cTuning Foundation            | [Link](http://cknowledge.org/)           |
 | [RunMyCode][rmc]              | ✗ | ✗ | ✔ | ✔ | ✗ | ✗ | Closed       | 2013       | RunMyCode Association         | [Link](http://runmycode.org/)            |
 | [Dataverse][dv]               | ✗ | ✗ | ✔ | ✔ | ✗ | ✗ | Apache 2.0   | 2012       | Harvard University            | [Link](https://dataverse.harvard.edu/)   |
 | [Open Science Framework][osf] | ✗ | ✗ | ✔ | ✔ | ✗ | ✗ | Apache 2.0   | 2013       | Center for Open Science       | [Link](https://osf.io/)                  |
